@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Single_Assignment</fullName>
+    <active>true</active>
+    <description>The equipment may only be assigned to a single location at a time.</description>
+    <errorConditionFormula>OR (
+  AND (
+    LEN(TEXT(Charge_Code__c))=0,
+    LEN(Job__c)  = 0,
+    LEN(Location__c)  = 0
+  ),
+  AND (
+    LEN(TEXT(Charge_Code__c))>0,
+    LEN(Job__c) > 0
+  ),
+  AND (
+    LEN(TEXT(Charge_Code__c))>0,
+    LEN(Location__c) > 0
+  ),
+  AND (    
+    LEN(Job__c) > 0,
+    LEN(Location__c) > 0
+  )
+)</errorConditionFormula>
+    <errorDisplayField>Equipment2__c</errorDisplayField>
+    <errorMessage>Please set one and only one field out of Charge Code, Job and Location. Must have a value and only one field value is allowed.</errorMessage>
+</ValidationRule>

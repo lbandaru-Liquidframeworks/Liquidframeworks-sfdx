@@ -1,0 +1,327 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef1"
+            },
+            "FX5QA__Abbreviation__c": "Functional",
+            "FX5QA__Category__c": "Equipment",
+            "Name": "Functional"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef2"
+            },
+            "FX5QA__Abbreviation__c": "ComSen",
+            "FX5QA__Category__c": "Contact",
+            "Name": "Common Sense"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef3"
+            },
+            "FX5QA__Abbreviation__c": "INS-T2",
+            "FX5QA__Category__c": "Equipment",
+            "Name": "Tier 2 Insurance"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef4"
+            },
+            "FX5QA__Abbreviation__c": "INS-T3",
+            "FX5QA__Category__c": "Equipment",
+            "Name": "Tier 3 Insurance"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef5"
+            },
+            "FX5QA__Abbreviation__c": "Entry",
+            "Name": "Entry Level"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef6"
+            },
+            "FX5QA__Abbreviation__c": "App",
+            "Name": "Apprentice"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef7"
+            },
+            "FX5QA__Abbreviation__c": "Helper",
+            "Name": "Helper"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef8"
+            },
+            "FX5QA__Abbreviation__c": "SB",
+            "Name": "Sandblaster"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef9"
+            },
+            "FX5QA__Abbreviation__c": "HB",
+            "Name": "Hydroblaster"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef10"
+            },
+            "FX5QA__Abbreviation__c": "P-I",
+            "Name": "Journeyman Painter Class-I"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef11"
+            },
+            "FX5QA__Abbreviation__c": "P-II",
+            "Name": "Journeyman Painter Class-II"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef12"
+            },
+            "FX5QA__Abbreviation__c": "P-III",
+            "Name": "Journeyman Painter Class-III"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef13"
+            },
+            "FX5QA__Abbreviation__c": "P-IV",
+            "Name": "Journeyman Painter Class-IV"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef14"
+            },
+            "FX5QA__Abbreviation__c": "CDL-B",
+            "Name": "Class-B CDL Driver"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef15"
+            },
+            "FX5QA__Abbreviation__c": "CDL-A",
+            "Name": "Class-A CDL (w/o HazMat endorsement)"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef16"
+            },
+            "FX5QA__Abbreviation__c": "CDL-A (H)",
+            "Name": "Class-A CDL (with HazMat endorsement)"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef17"
+            },
+            "FX5QA__Abbreviation__c": "TM",
+            "Name": "Tower Mechanic"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef18"
+            },
+            "FX5QA__Abbreviation__c": "Vac",
+            "Name": "Vacuum Truck Operator"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef19"
+            },
+            "FX5QA__Abbreviation__c": "AP",
+            "Name": "Air Preheater Technician"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef20"
+            },
+            "FX5QA__Abbreviation__c": "Suction Roll",
+            "Name": "Suction Roll Technician"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef21"
+            },
+            "FX5QA__Abbreviation__c": "Jr",
+            "Name": "Junior Foreman/Hydroblast Operator"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef22"
+            },
+            "FX5QA__Abbreviation__c": "Sr",
+            "Name": "Senior Foreman"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef23"
+            },
+            "FX5QA__Abbreviation__c": "H-X",
+            "Name": "Hydro-x Operator"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef24"
+            },
+            "FX5QA__Abbreviation__c": "Combo",
+            "Name": "Combo Operator"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef25"
+            },
+            "FX5QA__Abbreviation__c": "Super",
+            "Name": "Superintendent"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef26"
+            },
+            "FX5QA__Abbreviation__c": "SL-USA",
+            "Name": "SafeLand-USA"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef27"
+            },
+            "FX5QA__Abbreviation__c": "BP",
+            "FX5QA__Category__c": "Contact",
+            "Name": "BP Orientation"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef28"
+            },
+            "FX5QA__Abbreviation__c": "BP-CoW",
+            "Name": "Ground Disturbance/Hot Work"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef29"
+            },
+            "FX5QA__Abbreviation__c": "CP-Haz",
+            "Name": "Conoco Phillips Hazard Management"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef30"
+            },
+            "FX5QA__Abbreviation__c": "CP-SLS",
+            "Name": "Conoco Phillips Safety Leadership Skills"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef31"
+            },
+            "FX5QA__Abbreviation__c": "CP-SLS II",
+            "Name": "Conoco Phillips Safety Leadership Skills-Level II Supervisor"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef32"
+            },
+            "FX5QA__Abbreviation__c": "Chevron",
+            "Name": "Chevron-Site Specific"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef33"
+            },
+            "FX5QA__Abbreviation__c": "Resolute",
+            "Name": "Resolute Natural Resources"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef34"
+            },
+            "FX5QA__Abbreviation__c": "INS-T1",
+            "FX5QA__Category__c": "Equipment",
+            "Name": "Tier 1 Insurance"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef35"
+            },
+            "FX5QA__Abbreviation__c": "HUET",
+            "FX5QA__Category__c": "Equipment",
+            "Name": "Helicopter Underwater Escape Training"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef36"
+            },
+            "FX5QA__Abbreviation__c": "TC",
+            "FX5QA__Category__c": "Equipment",
+            "Name": "Test Certification"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef37"
+            },
+            "FX5QA__Abbreviation__c": "FLSOP",
+            "FX5QA__Category__c": "Contact",
+            "Name": "Forklift Safety & Operation"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef38"
+            },
+            "FX5QA__Abbreviation__c": "FIT2",
+            "FX5QA__Category__c": "Contact",
+            "Name": "Fit Testing (2 Masks)"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification__c",
+                "referenceId": "FX5QA__Qualification__cRef39"
+            },
+            "FX5QA__Abbreviation__c": "H2S",
+            "FX5QA__Category__c": "Contact",
+            "Name": "H2S - Hydrogen Sulfide Awareness"
+        }
+    ]
+}

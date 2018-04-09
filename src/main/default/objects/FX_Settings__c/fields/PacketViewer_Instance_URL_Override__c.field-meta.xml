@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PacketViewer_Instance_URL_Override__c</fullName>
+    <externalId>false</externalId>
+    <label>PacketViewer Instance URL Override</label>
+    <description>Provides an override property to set the appropriate base/instance url in the case the primary method isn't sufficient.  This should be set to the "domain name" of this page (e.g. https://&lt;host-name>.cloudforce.com ). Setting this is usually only necessary if the sub-domain is "cloudforce.com" and the Packet Viewer is having issues re-running packets.</description>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

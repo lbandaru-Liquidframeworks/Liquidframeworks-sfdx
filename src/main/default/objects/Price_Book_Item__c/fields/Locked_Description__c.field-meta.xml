@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Locked_Description__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If this is checked, the user cannot change the description when the price book item is used on a ticket.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If selected, users cannot changed the description for the price book item when adding a ticket.</inlineHelpText>
+    <label>Locked Description</label>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

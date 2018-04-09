@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Status</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Statuses</value>
+    </caseValues>
+    <layouts>
+        <layout>Job Status Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Ticket Status Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Job --></label>
+        <name>Job</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Ticket --></label>
+        <name>Ticket</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

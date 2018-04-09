@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Override_Fields__c</columns>
+    <columns>Override_Type__c</columns>
+    <columns>Filter_Clause__c</columns>
+    <columns>IsAggregation__c</columns>
+    <columns>Apply_Null__c</columns>
+    <columns>Applies_to_SObject__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

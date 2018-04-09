@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TktItemBldrPBIMaxFlyoutWidth__c</fullName>
+    <description>This is the width for the PriceBookItem picker on the TicketItemBuilder page.
+It can be set at the Profile level, and overridden at the User level.
+It defaults to 80% of the browser's window width. Minimum width of 500px is enforced.</description>
+    <externalId>false</externalId>
+    <label>TktItemBldr PBI MaxFlyoutWidth</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

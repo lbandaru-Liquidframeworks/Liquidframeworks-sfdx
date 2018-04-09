@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>User granted access through the sync assignment.</inlineHelpText>
+    <label>User</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Job Sync Assignments</relationshipLabel>
+    <relationshipName>Sync_Assignment_Contact</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

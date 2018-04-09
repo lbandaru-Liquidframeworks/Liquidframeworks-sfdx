@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PBI_Override_Price_Method__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>PBI Override Price Method</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Override_Config__c.Override_Type__c</field>
+            <operation>equals</operation>
+            <value>Price</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Override_Config__c</referenceTo>
+    <relationshipLabel>Invoice Items (PBI Override Price Method)</relationshipLabel>
+    <relationshipName>Invoice_Items_Override_Price</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

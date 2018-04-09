@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Book__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Price book to which the user is granted access in FieldFX Mobile through the price book assignment.</inlineHelpText>
+    <label>Price Book</label>
+    <referenceTo>Price_Book__c</referenceTo>
+    <relationshipLabel>Price Book Assignments</relationshipLabel>
+    <relationshipName>Price_Book_Assignments</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

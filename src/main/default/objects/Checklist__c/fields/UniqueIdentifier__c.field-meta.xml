@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UniqueIdentifier__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <externalId>false</externalId>
+    <inlineHelpText>Unique identifier for the checklist.</inlineHelpText>
+    <label>UniqueIdentifier</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

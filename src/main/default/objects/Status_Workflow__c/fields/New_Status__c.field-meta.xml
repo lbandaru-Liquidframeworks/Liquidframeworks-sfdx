@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Status__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Final status in the workflow.</inlineHelpText>
+    <label>New Status</label>
+    <referenceTo>Status__c</referenceTo>
+    <relationshipLabel>Status Workflows (New Status)</relationshipLabel>
+    <relationshipName>Transitions_To</relationshipName>
+    <required>true</required>
+    <type>Lookup</type>
+</CustomField>

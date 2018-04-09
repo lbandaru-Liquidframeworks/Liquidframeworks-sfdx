@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Memo</fullName>
+    <active>true</active>
+    <label>Credit Memo</label>
+    <picklistValues>
+        <picklist>Read_Only_Apps__c</picklist>
+        <values>
+            <fullName>Console</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SObject__c</picklist>
+        <values>
+            <fullName>Credit_Memo__c</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is copied down from the price book item for historical purposes when the item is added to the ticket. It cannot and should not be changed by the end user on the ticket item. --></help>
+    <label><!-- Catalog Track Inventory --></label>
+    <name>Catalog_Track_Inventory__c</name>
+</CustomFieldTranslation>

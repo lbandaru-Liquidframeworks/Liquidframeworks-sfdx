@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the catalog item to which this equipment is associated.  when the equipment is added to the ticket instead of adding a price book item to a ticket and then picking the equipment tied to, this catalog item&apos;s price book item is used on the ticket. --></help>
+    <label><!-- Catalog Item --></label>
+    <name>Catalog_Item__c</name>
+    <relationshipLabel><!-- Equipment --></relationshipLabel>
+</CustomFieldTranslation>

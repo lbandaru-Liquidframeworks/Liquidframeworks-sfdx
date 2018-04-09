@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If this is checked, the user cannot change the price/markup when the price book item is used on a ticket regardless of the user&apos;s permissions.  For Cost+ items with this checked, the markup percent or amt are locked down. --></help>
+    <label>Fr Loced Price /Markup</label>
+    <name>Locked_Price_Markup__c</name>
+</CustomFieldTranslation>

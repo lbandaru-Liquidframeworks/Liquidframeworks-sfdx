@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surcharge_Fuel__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>If selected, the price book item has a surcharge for fuel costs. The surcharge is defined in the "Surcharge Rate Fuel" field for the item's price book.</inlineHelpText>
+    <label>Surcharge Fuel</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

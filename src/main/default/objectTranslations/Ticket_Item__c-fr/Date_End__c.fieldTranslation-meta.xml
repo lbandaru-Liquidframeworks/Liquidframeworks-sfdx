@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When this item&apos;s catalog time selector is set to auto-calculate the quantity, the end date minus the start date is used to set the quantity. --></help>
+    <label>Date de fin</label>
+    <name>Date_End__c</name>
+</CustomFieldTranslation>

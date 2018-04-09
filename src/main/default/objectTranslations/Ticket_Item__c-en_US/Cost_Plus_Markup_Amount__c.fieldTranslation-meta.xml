@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is copied down to the ticket item on add from a price book item and can be changed depending on the user&apos;s security access if the item is a catalog record type of cost plus markup amount item. --></help>
+    <label><!-- Cost Plus Markup Amount --></label>
+    <name>Cost_Plus_Markup_Amount__c</name>
+</CustomFieldTranslation>

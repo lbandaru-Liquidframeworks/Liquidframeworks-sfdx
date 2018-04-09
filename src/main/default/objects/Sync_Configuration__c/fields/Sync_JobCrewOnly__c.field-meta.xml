@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sync_JobCrewOnly__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Flag Job for download only for Job Crew</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Controls the jobs that the user sees in FieldFX Mobile by job crew assignment. If selected, the user only sees jobs if they are in the job crew. If not selected, the user sees any job matching the other criteria specified in the sync configuration.</inlineHelpText>
+    <label>Sync - Job Crew Only</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

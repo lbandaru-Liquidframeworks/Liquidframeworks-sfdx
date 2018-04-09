@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the parent ticket item for the respective ticket item.  Only parent-child level relationships are supported - no deeper.  This field should not be editable by the end user ever. --></help>
+    <label><!-- Parent Ticket Item --></label>
+    <name>Parent_Ticket_Item__c</name>
+    <relationshipLabel><!-- Ticket Items --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ticket_Statuses</fullName>
+    <columns>NAME</columns>
+    <columns>Initial_Status_Console__c</columns>
+    <columns>Initial_Status_Mobile__c</columns>
+    <columns>Sync__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>SObject__c</columns>
+    <columns>SObject_Record_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SObject__c</field>
+        <operation>equals</operation>
+        <value>Ticket__c</value>
+    </filters>
+    <label>Ticket Statuses</label>
+    <language>en_US</language>
+</ListView>

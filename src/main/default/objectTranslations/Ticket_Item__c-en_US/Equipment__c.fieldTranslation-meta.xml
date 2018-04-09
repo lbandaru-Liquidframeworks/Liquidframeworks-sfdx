@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If this item has its catalog equipment selector set to optional or required, this field is used to select the associate equipment for this ticket item. --></help>
+    <label><!-- Equipment --></label>
+    <name>Equipment__c</name>
+    <relationshipLabel><!-- Ticket Items --></relationshipLabel>
+</CustomFieldTranslation>

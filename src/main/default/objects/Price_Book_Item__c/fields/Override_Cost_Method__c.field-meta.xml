@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Override_Cost_Method__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Override Cost Method</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Override_Config__c.Override_Type__c</field>
+            <operation>equals</operation>
+            <value>Cost</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Override_Config__c</referenceTo>
+    <relationshipLabel>Price Book Items (Override Cost Method)</relationshipLabel>
+    <relationshipName>Price_Book_Items_OverrideCost</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

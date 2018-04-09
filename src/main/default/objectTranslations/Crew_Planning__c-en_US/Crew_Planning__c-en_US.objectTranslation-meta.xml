@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Crew Planning</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Crew Planning</value>
+    </caseValues>
+    <layouts>
+        <layout>Job Crew Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The start date must be before the end date. --></errorMessage>
+        <name>Basic_Date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You may only select one location value. Please clear the other value. --></errorMessage>
+        <name>Single_Assignment</name>
+    </validationRules>
+</CustomObjectTranslation>

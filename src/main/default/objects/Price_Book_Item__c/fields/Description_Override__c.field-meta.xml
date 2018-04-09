@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description_Override__c</fullName>
+    <description>Complete this field to override the catalog item description within this price book</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Catalog description for the price book item. This description overrides the catalog description inherited from the linked catalog item.</inlineHelpText>
+    <label>Description Override</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

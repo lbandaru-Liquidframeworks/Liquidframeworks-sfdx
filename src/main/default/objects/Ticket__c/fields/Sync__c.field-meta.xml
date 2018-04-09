@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sync__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Sync bit to flag on/off item for download</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If selected, the ticket syncs to FieldFX Mobile.</inlineHelpText>
+    <label>Sync</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

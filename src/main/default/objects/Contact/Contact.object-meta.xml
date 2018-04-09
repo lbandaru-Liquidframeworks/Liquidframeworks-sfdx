@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableFeeds>true</enableFeeds>
+    <namedFilters>
+        <fullName>nf_01IF0000001p7JZMAY_00NF0000008skuwMAA</fullName>
+        <active>true</active>
+        <booleanFilter>1</booleanFilter>
+        <errorMessage>The Contact must have a User login</errorMessage>
+        <field>Sync_Configuration__c.Contact__c</field>
+        <filterItems>
+            <field>Contact.User__c</field>
+            <operation>notEqual</operation>
+            <value/>
+        </filterItems>
+        <isOptional>false</isOptional>
+        <name>Sync Configuration_Contact</name>
+    </namedFilters>
+    <namedFilters>
+        <fullName>nf_01IF0000001vASkMAM_00NF0000008SVYSMA4</fullName>
+        <active>true</active>
+        <field>Job__c.Primary_Job_Contact__c</field>
+        <filterItems>
+            <field>Contact.Account.Id</field>
+            <operation>equals</operation>
+            <valueField>$Source.CustomerAccount__c</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+        <name>Job_Primary Job Contact</name>
+        <sourceObject>Job__c</sourceObject>
+    </namedFilters>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.PHONE1</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE4</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.PHONE1</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+</CustomObject>

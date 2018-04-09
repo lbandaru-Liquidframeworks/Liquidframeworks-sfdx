@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the minimum amount charged when this item is used on a ticket regardless of the quantity selected, or price or discount.  If you put this item on a ticket, you will be charged at minimum this amount. --></help>
+    <label><!-- Minimum Charge --></label>
+    <name>Minimum_Charge__c</name>
+</CustomFieldTranslation>

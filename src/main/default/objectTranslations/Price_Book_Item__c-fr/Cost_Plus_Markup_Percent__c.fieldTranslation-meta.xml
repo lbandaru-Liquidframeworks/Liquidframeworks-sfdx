@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If the Pricing Method for this item is set to Cost Plus, this is the Markup percentage that will be used by default when the user adds this item to a ticket and inputs a cost. --></help>
+    <label>Fr Cost+ Markup Percent</label>
+    <name>Cost_Plus_Markup_Percent__c</name>
+</CustomFieldTranslation>

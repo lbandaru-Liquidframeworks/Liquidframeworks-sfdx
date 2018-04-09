@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is copied down from the price book item level.  The user can not and should not be allowed to change this. When this is checked, the item&apos;s price/markup (dependent on the pricing method) cannot be changed regardless of the user&apos;s security. --></help>
+    <label><!-- PBI Locked Price/Markup --></label>
+    <name>PBI_Locked_Price_Markup__c</name>
+</CustomFieldTranslation>

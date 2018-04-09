@@ -1,0 +1,158 @@
+<apex:page controller="RuleCriteriaStackBuilderController" docType="html-5.0">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script src="https://cdn.fieldfx.com/{!$Api.Session_ID}/{!namespaceWithoutUnderscores + '__'}/formulaforce/1/formula-force.js?orgid={!$organization.id}&orgname={!$organization.name}&loginname={!$User.UserName}&userid={!$User.id}&username={!$User.FirstName + ' ' + $User.LastName}" type="text/javascript"></script>
+
+
+<style>
+    table {width:100%;}
+    tr:nth-child(even) {background-color: #f2f2f2}
+    th, td {
+    padding: 5px;
+    text-align: left;
+  }
+  .ruleCriteria {width:100%;}
+  .ruleCriteriaStack {width:100%;}
+</style>
+
+<apex:form id="editorForm">   
+   
+    <apex:actionFunction action="{!save}" name="jsSaveCriteriaStacks" rerender="rulesPanel,pageMsg" />
+
+    <apex:pageBlock mode="masterdetail" id="pbMain">
+        <apex:pageMessages id="pageMsg" />
+            <apex:pageBlockButtons >               
+              <input type='button' value="Save" onclick="processCriteria();" class="btn" />
+              <apex:commandButton action="{!TaintAllRules}" value="Flag Rules Dirty" reRender="pageMsg,rulesPanel" />
+            </apex:pageBlockButtons>  
+     
+      <apex:outputPanel id="rulesPanel">
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Price Book</th>
+          <th>Applies To</th>
+          <th>Criteria</th>
+          <th>Criteria Stack</th>
+        </tr>
+      <apex:repeat value="{!Rules}" var="r">
+          <tr>
+              <td><a href="/{!r.Id}">{!r.Name}</a></td>             
+              <td>{!r.Price_Book__r.Name}</td>
+              <td>{!r.Applies_To__c}</td>
+              <td><apex:inputField html-data-ruleid="{!r.Id}" styleclass="ruleCriteria ruleCriteria{!r.Id}" value="{!r.Criteria__c}"> </apex:inputField></td>
+              
+              <td><apex:inputField html-data-ruleid="{!r.Id}" styleclass="ruleCriteriaStack ruleCriteriaStack{!r.Id}" value="{!r.CriteriaStack__c}"> </apex:inputField></td>
+          </tr>
+     </apex:repeat>   
+              
+      </table>
+    </apex:outputPanel>
+    </apex:pageBlock> 
+</apex:form>
+
+  <script type="text/javascript"> 
+
+    var j$ = jQuery.noConflict();    
+    var ast = window['formula-force'].ast;
+
+    function processCriteria(){
+      var stackItems = {};
+      j$(".ruleCriteriaStack").each(function(){
+        console.log(j$(this).data("ruleid"));
+        var ruleId = j$(this).data("ruleid");
+        stackItems[ruleId] = j$(this);
+      });
+
+      j$(".ruleCriteria").each(function(){
+        //console.log(j$(this).data("ruleid"));
+        var ruleId = j$(this).data("ruleid");
+        var ruleStack = stackItems[ruleId];
+        console.log(this.value);
+        var r = ast(this.value);  
+
+           
+        cleanupMemberExp(r);
+        var rStack = [];
+        buildEvalStack(rStack, r);       
+        var s = JSON.stringify(rStack);
+       
+        ruleStack.val(s);
+       
+        console.log(JSON.stringify(rStack, null, '  '));
+
+      });
+      jsSaveCriteriaStacks();
+
+    }
+
+    
+
+    function cleanupMemberExp(exp) {
+        if(exp.type =='BinaryExpression'){
+          cleanupMemberExp(exp.left);
+          cleanupMemberExp(exp.right);
+        }
+        else if(exp.type == 'MemberExpression'){
+          var fields = [];
+          var m = exp;
+            //fields.push(m.property.value);
+          while(m.type == 'MemberExpression'){           
+            fields.push(m.property.value);
+            m = m.value;
+            if(m.type == 'Identifier'){
+              fields.push(m.value);
+            }
+          }
+          var fieldPath = '';
+          var sep = '';
+          for(i=0; i<fields.length; i++)
+          {
+            fieldPath = fields[i] + sep + fieldPath;
+            sep='.';
+          }
+          exp.value = fieldPath;
+
+          if(exp.property) {
+            delete exp.property;
+          }
+          console.log('fullPath:' + fieldPath);          
+        }        
+    }
+
+     function buildEvalStack(astStack, exp) {
+        
+        console.log('exp:' + exp);
+        if(exp.operator == '&&' || exp.operator =='||'){
+          
+          buildEvalStack(astStack, exp.left);
+          buildEvalStack(astStack, exp.right);
+          astStack.push(exp.operator);
+        }
+        else{
+          astStack.push(JSON.stringify(exp));
+        } 
+                       
+    }
+
+
+   
+    j$(document).ready(function(){   
+        j$('.ruleCriteria').change(function(){                
+          var ruleId = j$(this).data("ruleid");
+          var ruleStack = j$('.ruleCriteriaStack' + ruleId)[0];
+          console.log(this.value);
+          var r = ast(this.value);  
+
+           
+          cleanupMemberExp(r);
+          var rStack = [];
+          buildEvalStack(rStack, r);       
+          var s = JSON.stringify(rStack);
+       
+          j$(ruleStack).val(s);
+        });
+    });
+ </script>
+    
+</apex:page>

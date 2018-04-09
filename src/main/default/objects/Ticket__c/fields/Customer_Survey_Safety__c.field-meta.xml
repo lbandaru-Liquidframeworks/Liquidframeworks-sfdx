@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Survey_Safety__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Customer's rating of the job crew's commitment to safety.</inlineHelpText>
+    <label>Customer Survey Safety</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Safety Issues</fullName>
+                <default>false</default>
+                <label>No Safety Issues</label>
+            </value>
+            <value>
+                <fullName>Safety Issues were a Problem</fullName>
+                <default>false</default>
+                <label>Safety Issues were a Problem</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

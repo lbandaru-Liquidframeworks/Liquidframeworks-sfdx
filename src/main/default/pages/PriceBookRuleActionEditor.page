@@ -1,0 +1,103 @@
+<apex:page standardController="Price_Book_Rule_Action__c"  extensions="FXEditorController" sidebar="false" tabStyle="Price_Book_Rule_Action__c">
+<apex:sectionHeader title="Edit {!EntityTypeDisplayLabel}" rendered="{!NOT(IsInsert)}"/>
+<apex:sectionHeader title="New {!EntityTypeDisplayLabel}" rendered="{!IsInsert}"/> 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script src="https://cdn.fieldfx.com/{!$Api.Session_ID}/{!FXNamespaceWithoutUnderscores + '__'}/customeditor/1/main.js" type="text/javascript"></script>
+ 
+<apex:form id="editorForm">     
+    <apex:pageMessages />
+      <apex:pageBlock mode="masterdetail" id="pbMain">
+            <apex:pageBlockButtons >               
+                    <apex:commandButton action="{!save}" value="Save" id="cmdSave" />
+                    <apex:commandButton action="{!saveAndNew}" value="Save & New" id="cmdSaveAndNew" />
+                    <apex:commandButton action="{!doCancel}" value="Cancel" immediate="true"/>
+            </apex:pageBlockButtons>           
+          
+            <apex:pageBlockSection columns="2">
+                 <apex:repeat value="{!LayoutFields}" var="f">
+                   <apex:inputField value="{!EntityObj[f.fieldName]}" styleClass="fxdatafield" required="{!f.required}" html-data-fieldname="{!f.fieldName}" />
+                </apex:repeat> 
+            </apex:pageBlockSection>                  
+        </apex:pageBlock>        
+        <apex:inputHidden value="{!LayoutJsonString}" />
+       
+</apex:form>
+<script type="text/javascript"> 
+  var j$ = jQuery.noConflict(); 
+
+  function openLookup(baseURL, width, modified, searchParam){    
+  var customSearch = '{!FXNamespace}Price_Book_Item__c';
+  var searchAttrs = `{  
+  "{!FXNamespace}Price_Book_Item__c" : {
+    "QueryFilter" : "{!FXNamespace}Price_Book__c='@@{!FXNamespace}Price_Book_Rule__c.{!FXNamespace}Price_Book__c@@'",
+    "QueryFields" : "Id,Name,{!FXNamespace}Catalog_Item_Code__c,{!FXNamespace}Catalog_Description__c,{!FXNamespace}Price_Book__r.Name",
+    "KeywordSearchFields" : "{!FXNamespace}Catalog_Description__c,{!FXNamespace}Catalog_Item_Code__c",
+    "OrderBy" : "{!FXNamespace}Catalog_Item_Code__c"
+  }
+}`;
+   
+    var originalbaseURL = baseURL;
+    var originalwidth = width;
+    var originalmodified = modified;
+    var originalsearchParam = searchParam;
+    var entityType = '{!EntityType}';
+    var entityId = '{!EntityId}';
+    var originatorId = '{!ReturnUrlObjectId}';    
+    var lookupType = getParameterByName('lktp', baseURL);
+    var lookupCustomFieldId = getParameterByName('lknm', baseURL);
+    var ctrl = j$('[Id$="' + lookupCustomFieldId +'"]')[0];
+    var lookupCustomField = j$(ctrl).data('fieldname');
+
+    if (modified == '1') baseURL = baseURL + searchParam;
+
+    var pIndex = baseURL.indexOf('?');
+    var params = baseURL.substring(pIndex);
+    
+    var isCustomLookup = customSearch.indexOf(lookupCustomField) !== -1;     
+    
+    console.log('isCustomLookup for ' + lookupCustomField + ' : ' + isCustomLookup);
+    
+    if(isCustomLookup == true){
+      var urlArr = baseURL.split("&");
+      var txtId = '';
+      if(urlArr.length > 2) {
+        urlArr = urlArr[1].split('=');
+        txtId = urlArr[1];
+      }
+
+      params = params.replace('&lknm=' + encodeURIComponent(lookupCustomFieldId), '&lknm='+lookupCustomField);
+      console.log('params: ' + params);
+      var jsonSubjectEntity = getContextEntity();
+      // Following is the url of Custom Lookup page. You need to change that accordingly
+      baseURL = "/apex/FXEditorSearcher"  + params;
+      baseURL += "&txt=" + txtId;
+      baseURL +="&subjectType={!EntityType}&subjectId={!EntityId}&originatorId={!ReturnUrlObjectId}";
+      baseURL +="&subjectEntity=" + escapeUTF(jsonSubjectEntity);
+      // Following is the id of apex:form control "myForm". You need to change that accordingly
+      baseURL = baseURL + "&frm=" + escapeUTF("{!$Component.editorForm}");
+      
+      if (modified == '1') {
+        baseURL = baseURL + "&lksearch=" + searchParam;
+      }  
+      
+      baseURL = baseURL + "&searchAttrs="+searchAttrs;
+   
+
+      openPopup(baseURL, "lookup", 350, 480, "width="+width+",height=480,toolbar=no,status=no,directories=no,menubar=no,resizable=yes,scrollable=no", true);
+    }
+    else {
+      if (modified == '1') originalbaseURL = originalbaseURL + originalsearchParam;
+      openPopup(originalbaseURL, "lookup", 350, 480, "width="+originalwidth+",height=480,toolbar=no,status=no,directories=no,menubar=no,resizable=yes,scrollable=no", true);
+    } 
+  }
+  
+  j$(document).ready(function(){        
+
+  });
+    
+    
+
+
+</script>
+</apex:page>

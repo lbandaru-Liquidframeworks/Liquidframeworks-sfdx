@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EquipmentPlanningSkipAssignPriceBookItem__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If true, skip auto assigning Price Book Item using Equipment's Catalog Item value to find related Price Book Item from the Job's Price Book.</description>
+    <externalId>false</externalId>
+    <label>EquipmentPlanningSkipAssignPriceBookItem</label>
+    <type>Checkbox</type>
+</CustomField>

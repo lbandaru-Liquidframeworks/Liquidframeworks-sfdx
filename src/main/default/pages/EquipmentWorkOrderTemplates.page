@@ -1,0 +1,12 @@
+<apex:page standardController="Equipment__c" extensions="EquipmentWorkOrderTemplatesController" action="{!CreateWorkOrder}">
+<apex:form >
+	<apex:pageMessages />
+    <div style="padding:4px;margin-top: 2px;margin-bottom: 2px;text-align: center;">
+   <apex:repeat value="{!woTemplates }" var="t">
+   <apex:commandLink value="{!t.Name}" action="{!CreateWorkOrder}" target="_parent"  styleClass="btn" style="text-decoration:none;padding:4px;">
+      <apex:param name="templateWorkOrderId" value="{!t.Id}" assignTo="{!TemplateWorkOrderId}"/>
+   </apex:commandLink>  
+   </apex:repeat>
+   </div>
+</apex:form>
+</apex:page>

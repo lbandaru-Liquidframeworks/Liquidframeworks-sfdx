@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When this is a sync upload failure it will be the error message associated with the failure --></help>
+    <label><!-- Message --></label>
+    <name>Message__c</name>
+</CustomFieldTranslation>

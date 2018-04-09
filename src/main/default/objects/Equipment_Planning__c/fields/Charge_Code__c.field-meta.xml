@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Charge_Code__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Charge code used to bill the customer for the equipment.</inlineHelpText>
+    <label>Charge Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Shop Time</fullName>
+                <default>false</default>
+                <label>Shop Time</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

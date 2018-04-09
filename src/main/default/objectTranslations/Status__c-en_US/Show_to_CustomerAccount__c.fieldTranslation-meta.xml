@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When this field is checked, the job is displayed to the service provider&apos;s customer via the Customer Portal and any other applications that are offered to the service provider&apos;s customer that give visibility into jobs. --></help>
+    <label><!-- Show to Customer --></label>
+    <name>Show_to_CustomerAccount__c</name>
+</CustomFieldTranslation>

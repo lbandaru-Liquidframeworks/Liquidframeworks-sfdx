@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available_for_Field_Work__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check this field to indicate that the person is available to work in the field. This typically means that they can be assigned to a job or ticket.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If selected, the user is selectable when adding a job or ticket in FieldFX Mobile. You must select this option if the user needs to use FieldFX Mobile.</inlineHelpText>
+    <label>Available for Field Work</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

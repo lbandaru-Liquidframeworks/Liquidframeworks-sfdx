@@ -1,0 +1,58 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification_Requirement__c",
+                "referenceId": "FX5QA__Qualification_Requirement__cRef1"
+            },
+            "FX5QA__Qualification__c": "@FX5QA__Qualification__cRef4",
+            "FX5QA__Required__c": true,
+            "Name": "QR-0004"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification_Requirement__c",
+                "referenceId": "FX5QA__Qualification_Requirement__cRef2"
+            },
+            "FX5QA__Qualification__c": "@FX5QA__Qualification__cRef34",
+            "FX5QA__Required__c": false,
+            "Name": "QR-0002"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification_Requirement__c",
+                "referenceId": "FX5QA__Qualification_Requirement__cRef3"
+            },
+            "FX5QA__Qualification__c": "@FX5QA__Qualification__cRef35",
+            "FX5QA__Required__c": false,
+            "Name": "QR-0018"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification_Requirement__c",
+                "referenceId": "FX5QA__Qualification_Requirement__cRef4"
+            },
+            "FX5QA__Qualification__c": "@FX5QA__Qualification__cRef36",
+            "FX5QA__Required__c": false,
+            "Name": "QR-0008"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification_Requirement__c",
+                "referenceId": "FX5QA__Qualification_Requirement__cRef5"
+            },
+            "FX5QA__Qualification__c": "@FX5QA__Qualification__cRef38",
+            "FX5QA__Required__c": true,
+            "Name": "QR-0017"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Qualification_Requirement__c",
+                "referenceId": "FX5QA__Qualification_Requirement__cRef6"
+            },
+            "FX5QA__Qualification__c": "@FX5QA__Qualification__cRef39",
+            "FX5QA__Required__c": false,
+            "Name": "QR-0000"
+        }
+    ]
+}

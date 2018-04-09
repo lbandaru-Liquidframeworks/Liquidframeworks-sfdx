@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Read_Only_Apps__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether jobs/tickets with this status are read-only in each application.</inlineHelpText>
+    <label>Read Only Apps</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Console</fullName>
+                <default>false</default>
+                <label>Console</label>
+            </value>
+            <value>
+                <fullName>Portal</fullName>
+                <default>false</default>
+                <label>Portal</label>
+            </value>
+            <value>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+                <label>Mobile</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

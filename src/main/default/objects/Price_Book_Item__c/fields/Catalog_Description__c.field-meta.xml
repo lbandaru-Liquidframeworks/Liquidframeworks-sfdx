@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Catalog_Description__c</fullName>
+    <externalId>false</externalId>
+    <formula>Catalog_Item__r.Description__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Catalog description for the price book item. The price book item inherits this description from the linked catalog item by default. If the price book item has a description override, the price book item uses that description.</inlineHelpText>
+    <label>Catalog Description</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

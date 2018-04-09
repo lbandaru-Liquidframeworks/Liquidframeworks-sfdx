@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the last time that the crew member was notified of their position on this job.  It is only set by the system and not editable by a user since the notified goes out via system workflow. --></help>
+    <label><!-- Last Notified --></label>
+    <name>Last_Notified__c</name>
+</CustomFieldTranslation>

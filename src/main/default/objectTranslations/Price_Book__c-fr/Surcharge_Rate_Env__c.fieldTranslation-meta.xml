@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The percentage to be assessed against the Ticket Item&apos;s Subtotal when the ticket line item is added from a price book item where the price book item&apos;s Surcharge Environmental field is checked. --></help>
+    <label>Fr Surcharge Rate Env</label>
+    <name>Surcharge_Rate_Env__c</name>
+</CustomFieldTranslation>

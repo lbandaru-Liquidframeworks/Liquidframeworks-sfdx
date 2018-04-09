@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pricing_Method__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Pricing method used for the price book item. Select "Straight Price" to set a standard price. Select "Cost Plus Markup Amount" to mark up the item by a dollar amount. Select "Cost Plus Markup Percent" to mark up the item by a percentage of cost.</inlineHelpText>
+    <label>Pricing Method</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Straight Price</fullName>
+                <default>true</default>
+                <label>Straight Price</label>
+            </value>
+            <value>
+                <fullName>Cost Plus Markup Percent</fullName>
+                <default>false</default>
+                <label>Cost Plus Markup Percent</label>
+            </value>
+            <value>
+                <fullName>Cost Plus Markup Amount</fullName>
+                <default>false</default>
+                <label>Cost Plus Markup Amount</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TicketItemDateValidation</fullName>
+    <active>true</active>
+    <description>The start date should never be after the end date.</description>
+    <errorConditionFormula>Date_Start__c > Date_End__c</errorConditionFormula>
+    <errorMessage>The end date must follow the start date.</errorMessage>
+</ValidationRule>

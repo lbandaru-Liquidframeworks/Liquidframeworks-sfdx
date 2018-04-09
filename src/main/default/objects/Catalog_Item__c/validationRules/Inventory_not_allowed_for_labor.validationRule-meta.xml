@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inventory_not_allowed_for_labor</fullName>
+    <active>false</active>
+    <description>Track Inventory cannot be turned on when the record type is  Labor.</description>
+    <errorConditionFormula>RecordType.DeveloperName == 'Labor' &amp;&amp;  Track_Inventory__c</errorConditionFormula>
+    <errorDisplayField>Track_Inventory__c</errorDisplayField>
+    <errorMessage>Track Inventory cannot be turned on (checked)  for a Labor record type Catalog Item.</errorMessage>
+</ValidationRule>

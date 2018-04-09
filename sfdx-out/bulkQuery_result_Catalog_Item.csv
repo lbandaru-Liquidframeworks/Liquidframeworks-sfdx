@@ -1,0 +1,1450 @@
+FX5QA__Breadcrumb__c,FX5QA__Cost__c,FX5QA__Description__c,FX5QA__Name_Unique__c,FX5QA__Sequence_Number__c,FX5QA__Ticket_Item_Record_Type__c,FX5QA__Track_Inventory__c,FX5QA__UOM__c,Name
+,52.28,*New* Scania R500,SR500,0,Equipment,FALSE,DAY,SR500
+,459.99,Black Steering Wheel,SW-BLK,14,Equipment,FALSE,EA,SW-BLK
+,199.99,Locked Discount Item,LockedDiscount,134,Equipment,FALSE,DAY,LockedDiscount
+,159.99,Locked Price Item,LockedPrice,134,Equipment,FALSE,DAY,LockedPrice
+,,Jollof Delivery,123455,0,Equipment,FALSE,,123455
+,11,Enabled Dynamic Parenting,3646,0,Equipment,FALSE,EA,3646
+,36.07,4.0.1.3607,3607,3607,Equipment,FALSE,EA,3607
+,142,child item,44001,0,Equipment,FALSE,,44001
+Equipment: Trucks: Scania: R440,47.22,Scania R440,SR440,4.44,Equipment,FALSE,DAY,SR440
+Equipment: Trucks: Scania: R410,63.33,Scania R410,SR410,0,Equipment,FALSE,DAY,SR410
+Equipment,59.33,Scania R520,SR520,0,Equipment,FALSE,DAY,SR520
+Supplies,1.99,Hot Dog,HtDg,0,Supplies,FALSE,EA,HtDg
+GTI:APR,549,APR Stage 1+ Tune,APRSTG1+,1.5,Equipment,FALSE,EA,APRSTG1+
+,,Hot-Dog bite,12312,1.923,Equipment,FALSE,,12312
+,3.99,Black Steering Wheel Knob,SWK-BLK,15,Equipment,FALSE,EA,SWK-BLK
+,150,APR Carbon Fiber Intake System - Stage 2,APRIntakeStage2,889,Equipment,FALSE,EA,APRIntakeStage2
+,395,APR Carbon Fiber Intake System - Combo,APRIntakeCombo,890,Equipment,FALSE,EA,APRIntakeCombo
+,,Money Maker,123489,0,Equipment,TRUE,,123489
+,35.91,4.0.1.3591,3591,3591,Supplies,FALSE,EA,3591
+,36.07,Parent 3607,P3607,3607.1,Equipment,FALSE,EA,P3607
+,400,Cat_3938,PD_Cat3938,0,Equipment,FALSE,,PD_Cat3938
+,,3938 regression,3938,0,Equipment,FALSE,,3938
+,345,ticket_disallowed,Tick_Dis,0,Equipment,FALSE,,Tick_Dis
+,3500,Dec12_3906_PD2,Dec12_3906_PD2,0,Equipment,FALSE,,Dec12_3906_PD2
+,15.99,4.0.1.3637,4.0.1.3637,0.3637,Equipment,FALSE,EA,4.0.1.3637
+,15.99,4.0.1.3637 Child,4.0.1.3637C,0.3637,Equipment,FALSE,EA,4.0.1.3637C
+Equipment,41.89,Scania P360,SP360,0,Equipment,FALSE,DAY,SP360
+Equipment,79.17,Scania R580,SR580,0,Equipment,TRUE,DAY,SR580
+Equipment,35.44,Scania P320,SP320,0,Equipment,FALSE,DAY,SP320
+Equipment,35.39,Scania G280,SG280,0,Equipment,FALSE,DAY,SG280
+Supplies,0.49,Hot Dog Bun,HDBun,0,Supplies,FALSE,EA,HDBun
+Equipment,78.26,Scania R730 Sleeper Cab,SR730,7.73,Equipment,FALSE,DAY,SR730
+,0.1,Fried Onions,FrdOns,0,Equipment,FALSE,EA,FrdOns
+,0.04,Mustard Packet,MstdPkt,0,Equipment,FALSE,EA,MstdPkt
+Equipment,2749.99,APR Brembo Brake GT,APRBremboBrakeGT,0,Equipment,FALSE,,APRBremboBrakeGT
+,333,Cat_3938_2,PD_3939_2,0,Equipment,FALSE,,PD_3939_2
+,,"LED Bulb, 195, Red",Bulb195R,1,Equipment,FALSE,EA,Bulb195R
+,15,regression 3619,3619,3619,Equipment,FALSE,,3619
+,,test_record_item,test_1234,30000,Equipment,FALSE,DAY,test_1234
+Equipment,39.44,Scania G250,SG250,0,Equipment,FALSE,DAY,SG250
+Equipment: Trucks: Scania: G320,45.56,Scania G320,SG320,0,Equipment,FALSE,DAY,SG320
+,0.03,Ketchup Packet (Not Dynamic Parent),KtchpPkt,0,Equipment,FALSE,EA,KtchpPkt
+Equipment,34.39,Scania P280,SP280,0,Equipment,FALSE,DAY,SP280
+Equipment: Trucks: Scania: G360,43.64,Scania G360,SG360,0,Equipment,FALSE,DAY,SG360
+Equipment,38.33,Scania P250,SP250,2.25,Equipment,FALSE,DAY,SP250
+,2800,Exhaust Stacks,ExStack,1,Equipment,FALSE,EA,ExStack
+,500,test 12345,IT124_PD_ios102,9,Equipment,FALSE,,IT124_PD_ios102
+,,3883 regression,111200,0,Equipment,FALSE,,111200
+,450,testing incremental sync 3,T8_IOS11_3,0,Equipment,FALSE,,T8_IOS11_3
+Supplies,12.99,Ketchup - 64oz,Katsup,0,Supplies,FALSE,EA,Katsup
+,350,regression test it 124,It124_PD_ios10,0,Equipment,FALSE,,It124_PD_ios10
+,,Rule test,RuleTest01,0,Equipment,FALSE,,RuleTest01
+,1000,testing incremental sync,T8_IOS11,0,Equipment,FALSE,,T8_IOS11
+,150,Incremental testing,T8_IOS11_2,0,Equipment,FALSE,,T8_IOS11_2
+,,regression 3646-2,3646-2,0,Equipment,FALSE,,3646-2
+,0,spare part,111111,0,Equipment,FALSE,,111111
+,,3956 regression,3956,0,Equipment,FALSE,,3956
+,,Vergo Link,12343,123,Equipment,FALSE,,12343
+,,regression test it 124 2,IT124_test2,0,Equipment,FALSE,,IT124_test2
+,,Enable Dynamic Parenting,Carlift45,5,Equipment,FALSE,,Carlift45
+Equipment,,Car Note,41910,0,Equipment,TRUE,,41910
+,149.99,Cable Stretcher,CblStrtchr,1337,Equipment,FALSE,EA,CblStrtchr
+Equipment,859,Performance Intake,PerfInt,1,Equipment,FALSE,EA,PerfInt
+,,people item,LAB26,0,Labor,FALSE,,LAB26
+,3500,PD test 3977,CAT3977,0,Equipment,FALSE,,CAT3977
+,2500,New cat for test case 11_iteration 121,PD_101,0,Equipment,FALSE,,PD_101
+,5600,iteration 121,PD_102,0,Equipment,FALSE,,PD_102
+,3500,Child catelog,PD_103,0,Equipment,FALSE,,PD_103
+Equipment,875,Alcoa Wheel,AlcoaWheel,1,Equipment,FALSE,EA,AlcoaWheel
+Equipment,1899,Upgraded Turbo,UpTrbo,1,Equipment,FALSE,EA,UpTrbo
+Copied by Default,210,Catalog Item Copied by Default,CBD,0,Equipment,FALSE,EA,CBD
+,,4.0.1.3975 regression,4013975,0,Equipment,FALSE,,4013975
+,6000,cat child item test,CAT3977-2,0,Equipment,FALSE,,CAT3977-2
+,,4.0.1.3990 item,3990,1,Equipment,FALSE,,3990
+,,3848 reg,3848,0,Equipment,FALSE,,3848
+,,Incremental Sync 5,1112,0,Equipment,FALSE,,1112
+,3500,incre_sync,IT123_PD2,15,Equipment,FALSE,,IT123_PD2
+,150,regression item,3864,0,Equipment,FALSE,,3864
+,,incre_parent,IT123_PD3,3,Equipment,FALSE,,IT123_PD3
+,125,incre__pricebook,IT123_PD,60,Equipment,FALSE,,IT123_PD
+,3500,PD_test_it125-R2,IT_125,0,Equipment,FALSE,,IT_125
+"Supplies : Paint, Coating, and Thinner : Ceilcote",47.52,Ceilcote #211,C211,361,Supplies,FALSE,GAL,C211
+"Supplies : Paint, Coating, and Thinner : Ceilcote",72.76,Ceilcote #380 primer,C380P,362,Supplies,FALSE,GAL,C380P
+"Supplies : Paint, Coating, and Thinner : Ceilcote",68.19,Ceilcote ceilline #40,C40,363,Supplies,FALSE,GAL,C40
+"Supplies : Paint, Coating, and Thinner : Ceilcote",60.57,Ceilcote flake tar #661,C661FT,364,Supplies,FALSE,GAL,C661FT
+"Supplies : Paint, Coating, and Thinner : Ceilcote",100.8,Ceilcote flakeline #2000,C2000F,365,Supplies,FALSE,GAL,C2000F
+"Supplies : Paint, Coating, and Thinner : Ceilcote",77.34,Ceilcote flakeline #242,1030301,366,Supplies,FALSE,GAL,1030301
+Equipment,0,Tri-filter unit,TriFilt,1271,Supplies,FALSE,SHIFT,TriFilt
+"Supplies : Paint, Coating, and Thinner : Devoe",19.22,Devoe #9 thinner,D9T,431,Supplies,FALSE,GAL,D9T
+Equipment,0,Digital Camera,DigCam,432,Supplies,FALSE,SHIFT,DigCam
+Equipment,0,Dirt compactor,DCmpt,433,Supplies,FALSE,SHIFT,DCmpt
+Supplies,0,Discount,DISC,434,Supplies,FALSE,Lump Sum,DISC
+Equipment,0,Disinfection unit,DisU,435,Supplies,FALSE,SHIFT,DisU
+Supplies,0,Disposable coveralls,8100510,436,Supplies,FALSE,EA,8100510
+Supplies,0,Disposable Coveralls (FRC),8100550,437,Supplies,FALSE,EA,8100550
+Equipment,0,Double line swing stage,DLSS,438,Supplies,FALSE,SHIFT,DLSS
+Equipment,0,Dry mm gauge/microtest,DryMGage,439,Supplies,FALSE,SHIFT,DryMGage
+Equipment : Vacuum Trucks,0,Dry Vacuum Service,DVS,440,Equipment,FALSE,HR,DVS
+Supplies,0,Overpack 85 gal. drum,5100120,641,Supplies,FALSE,EA,5100120
+Equipment,0,Pail mixer,PMix,642,Equipment,FALSE,HR,PMix
+Equipment,0,Paint Shop - 15' x 55',FCureBldg1,643,Supplies,FALSE,SHIFT,FCureBldg1
+Equipment,0,Paint Shop - 25' x 50',FCureBldg2,644,Supplies,FALSE,SHIFT,FCureBldg2
+Equipment,0,Paint Shop - 40' x 60',FCureBldg4,645,Supplies,FALSE,SHIFT,FCureBldg4
+Labor : OT,0,Painter - OT,POT,646,Labor,FALSE,,POT
+Labor : TT,0,Painter - PT,PHT,647,Labor,FALSE,,PHT
+Labor : ST,0,Painter - ST,PST,648,Labor,FALSE,,PST
+Subsistence,100,Per Diem - $100.00,PD100,649,Supplies,FALSE,DAY,PD100
+Subsistence,130,Per Diem - $130.00,PD130,650,Supplies,FALSE,DAY,PD130
+"Supplies : Paint, Coating, and Thinner : Ceilcote",0,Ceilcote flakeline #282 topcoat,C282F,367,Supplies,FALSE,GAL,C282F
+"Supplies : Paint, Coating, and Thinner : Ceilcote",90.23,Ceilcote flakeprime #675,C675F,368,Supplies,FALSE,GAL,C675F
+Supplies,8.9,Cesco 2525 degreaser,CESCO 2525,369,Supplies,FALSE,GAL,CESCO 2525
+Supplies,0,Chemical cartridges (including HEPA rating),8600150,370,Supplies,FALSE,EA,8600150
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",15.35,Sherwin Williams okon W-1 water repellant,SWW1WR,891,Supplies,FALSE,GAL,SWW1WR
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",17,Sherwin Williams okon W-2 water repellant,SWW2WR,892,Supplies,FALSE,GAL,SWW2WR
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",56,Sherwin Williams phinicon HS,SWP,893,Supplies,FALSE,GAL,SWP
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",33,Sherwin Williams recoatable primer,SWRP,894,Supplies,FALSE,GAL,SWRP
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Sherchem",28.96,Sherwin Williams sherchem (black),SWSBK,895,Supplies,FALSE,GAL,SWSBK
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Sherchem",36.79,Sherwin Williams sherchem (blue),SWSB,896,Supplies,FALSE,GAL,SWSB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Sherchem",36.79,Sherwin Williams sherchem (fed spec green),SWSFSG,897,Supplies,FALSE,GAL,SWSFSG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Sherchem",28.96,Sherwin Williams sherchem (gray),SWSG,898,Supplies,FALSE,GAL,SWSG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Sherchem",28.96,Sherwin Williams sherchem (white),SWSW,899,Supplies,FALSE,GAL,SWSW
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Sherchem",28.96,Sherwin Williams sherchem (yellow),SWSY,900,Supplies,FALSE,GAL,SWSY
+"Supplies : Paint, Coating, and Thinner",0,Tuff chem coating (4-gal. kit),1194000,1272,Supplies,FALSE,Kit,1194000
+Equipment : Abrasive Blasting,0,Turbine blasting unit (with compressor),TBUComp,1273,Equipment,FALSE,HR,TBUComp
+Equipment : Abrasive Blasting,0,Turbine blasting unit (with plant air),TBUPA,1274,Equipment,FALSE,HR,TBUPA
+Equipment,32.5,Ultrasonic Testing Gauge,UTGauge,1275,Supplies,FALSE,SHIFT,UTGauge
+Supplies,0,Urethane enamel,UE,1276,Supplies,FALSE,GAL,UE
+Equipment,0,Vacuum (electric),VacE,1277,Supplies,FALSE,SHIFT,VacE
+Labor : OT,0,Vacuum Equipment Operator - OT,VEOOT,1278,Labor,FALSE,,VEOOT
+Labor : ST,0,Vacuum Equipment Operator - ST,VEOST,1279,Labor,FALSE,,VEOST
+Equipment,0,Vacuum for 55 gal. Drum,Vac55,1280,Supplies,FALSE,SHIFT,Vac55
+Equipment : Vacuum Trucks,0,"15"" Vacuum Truck - Dry Service",DVS15,51,Equipment,FALSE,HR,DVS15
+Equipment : 15000 CFM Blowers,0,"15,000 CFM blower",Blwr15,52,Services,FALSE,SHIFT,Blwr15
+Equipment : 15000 CFM Blowers,0,"15,000 CFM Blower (Hourly)",Blwr15H,53,Equipment,FALSE,HR,Blwr15H
+Equipment : 150 HP Hydroblast,0,150 HP Hydroblast Unit,HBU150,54,Equipment,FALSE,HR,HBU150
+Equipment : Heaters,0,"150,000 BTU heater (with fuel)",Htr150F,55,Supplies,FALSE,SHIFT,Htr150F
+Equipment : Heaters,0,"150,000 BTU heater (without fuel)",Htr150,56,Supplies,FALSE,SHIFT,Htr150
+Equipment,0,16' enclosed trailer van,16TrailerVan,57,Supplies,FALSE,SHIFT,16TrailerVan
+Equipment,0,16' enclosed trailer van,16TrailerVanM,58,Supplies,FALSE,MONTH,16TrailerVanM
+Equipment,0,16' enclosed trailer van (insulated),16TrailerVanI,59,Supplies,FALSE,SHIFT,16TrailerVanI
+Equipment,0,16' enclosed trailer van (insulated),16TrailerVanIM,60,Supplies,FALSE,MONTH,16TrailerVanIM
+"Supplies : Paint, Coating, and Thinner : Wilko",73.8,Wilko wilkothane (Carlsbad canyon),WWCC,1321,Supplies,FALSE,GAL,WWCC
+"Supplies : Paint, Coating, and Thinner : Wilko",75.84,Wilko wilkothane (white),WWW,1322,Supplies,FALSE,GAL,WWW
+"Supplies : Paint, Coating, and Thinner : Solvent and Thinner",0,Xylene thinner,1000040,1323,Supplies,FALSE,GAL,1000040
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",31.23,Sherwin Williams #301 (basin blue),SW301BB,801,Supplies,FALSE,GAL,SW301BB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",67.93,Sherwin Williams #304 HS polyurethane (alpine green),SW304AG,802,Supplies,FALSE,GAL,SW304AG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",52.85,Sherwin Williams #304 HS polyurethane (Aztec machine),SW304AM,803,Supplies,FALSE,GAL,SW304AM
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",64.04,Sherwin Williams #304 HS polyurethane (black),SW304B,804,Supplies,FALSE,GAL,SW304B
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",124.18,Sherwin Williams #304 HS polyurethane (Bolack blue),SW304BB,805,Supplies,FALSE,GAL,SW304BB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",41.72,Sherwin Williams #304 HS polyurethane (bolt brown),SW304BBR,806,Supplies,FALSE,GAL,SW304BBR
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",64.04,Sherwin Williams #304 HS polyurethane (carlsbad tan),SW304CT,807,Supplies,FALSE,GAL,SW304CT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",60.48,Sherwin Williams #304 HS polyurethane (cedar green),SW304CG,808,Supplies,FALSE,GAL,SW304CG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",54,Sherwin Williams #304 HS polyurethane (Citizen's Bank blue),SW304CBB,809,Supplies,FALSE,GAL,SW304CBB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",62.38,Sherwin Williams #304 HS polyurethane (Conoco safety green),SW304CSG,810,Supplies,FALSE,GAL,SW304CSG
+"Supplies : Paint, Coating, and Thinner : Tnemec : Thinner",45.64,Tnemec #39 thinner,T39T,1251,Supplies,FALSE,GAL,T39T
+"Supplies : Paint, Coating, and Thinner : Tnemec : Thinner",19.95,Tnemec #4 thinner,T4T,1252,Supplies,FALSE,GAL,T4T
+"Supplies : Paint, Coating, and Thinner : Tnemec : Thinner",22.95,Tnemec #42 thinner,T42T,1253,Supplies,FALSE,GAL,T42T
+Supplies,0,"9"" roller frame",5300000,231,Supplies,FALSE,EA,5300000
+Supplies,0,"9"" x 3/4"" roller cover nap",5300100,232,Supplies,FALSE,EA,5300100
+Equipment : 900 CFM Air Compressors,0,900 CFM Air Compressor,AC900,233,Equipment,FALSE,HR,AC900
+"Supplies : Paint, Coating, and Thinner : Solvent and Thinner",0,Acetone thinner,1000001,234,Supplies,FALSE,GAL,1000001
+Equipment,0,Additional air pack,AddAP,235,Supplies,FALSE,HR,AddAP
+Equipment,0,"Additional shotgun, foot valve or nozzle setup (for 10,000 PSI units)",AddSG10,236,Supplies,FALSE,HR,AddSG10
+Equipment,0,Adhesion tester gauge,AdTest,237,Supplies,FALSE,SHIFT,AdTest
+"Supplies : Paint, Coating, and Thinner : Plasite",54,Plasite #7122,P7122,661,Supplies,FALSE,GAL,P7122
+"Supplies : Paint, Coating, and Thinner : Plasite",60,Plasite #7133,P7133,662,Supplies,FALSE,GAL,P7133
+"Supplies : Paint, Coating, and Thinner : Plasite",71.5,Plasite #7156,P7156,663,Supplies,FALSE,GAL,P7156
+"Supplies : Paint, Coating, and Thinner : Plasite",88.5,Plasite #7159,P7159,664,Supplies,FALSE,GAL,P7159
+"Supplies : Paint, Coating, and Thinner : Plasite",88.37,Plasite #9029 plasguard,P9029P,665,Supplies,FALSE,GAL,P9029P
+Equipment : Painting Equipment,0,Plural component spray unit (with compressor),PCSPU,666,Equipment,FALSE,HR,PCSPU
+Equipment : Painting Equipment,0,Plural component spray unit (with plant air),PCSPUPA,667,Equipment,FALSE,HR,PCSPUPA
+Equipment : Specialty Cleaning Tools,0,Pneumatic stack cleaning tool,Stack,668,Equipment,FALSE,DAY,Stack
+Equipment : Coating Vans,0,Polibrid coating van,PCoatVan,669,Services,FALSE,SHIFT,PCoatVan
+Equipment : Coating Vans,1.4,Polibrid coating van - Mileage,PCVM,670,Supplies,FALSE,MI,PCVM
+"Supplies : Paint, Coating, and Thinner : Tnemec : Thinner",27.34,Tnemec #47 thinner,T47T,1254,Supplies,FALSE,GAL,T47T
+"Supplies : Paint, Coating, and Thinner : Tnemec : Thinner",23.15,Tnemec #48 thinner,T48T,1255,Supplies,FALSE,GAL,T48T
+"Supplies : Paint, Coating, and Thinner : Tnemec : Thinner",46.69,Tnemec #63 thinner,T63T,1256,Supplies,FALSE,GAL,T63T
+"Supplies : Paint, Coating, and Thinner : Tnemec",324.61,Tnemec #700 hyrdoflon,T700H,1257,Supplies,FALSE,GAL,T700H
+"Supplies : Paint, Coating, and Thinner : Tnemec",44,Tnemec #73 series (cloud delft blue),T73CDB,1258,Supplies,FALSE,GAL,T73CDB
+"Supplies : Paint, Coating, and Thinner : Tnemec",44,Tnemec #73 series (confederate gray),T73CG,1259,Supplies,FALSE,GAL,T73CG
+"Supplies : Paint, Coating, and Thinner : Tnemec",47.08,Tnemec #73 series (currency),T73C,1260,Supplies,FALSE,GAL,T73C
+Equipment : Painting Equipment,0,Agitated paint unit (with compressor),AgPU,238,Equipment,FALSE,HR,AgPU
+Equipment : Painting Equipment,0,Agitated paint unit (with plant air),AgPUPA,239,Equipment,FALSE,HR,AgPUPA
+Equipment,0,Air chisels and accessories,Achis,240,Supplies,FALSE,SHIFT,Achis
+"Supplies : Paint, Coating, and Thinner : Carboline : Carbothane",63.5,Carboline #134 HG carbothane (white),C134W,321,Supplies,FALSE,GAL,C134W
+"Supplies : Paint, Coating, and Thinner : Carboline",45,Carboline #15 carbomastic,C15C,322,Supplies,FALSE,GAL,C15C
+"Supplies : Paint, Coating, and Thinner : Carboline : Thinner",8.95,Carboline #2 thinner,C2T,323,Supplies,FALSE,GAL,C2T
+"Supplies : Paint, Coating, and Thinner : Carboline",146,Carboline #2000 carboxane (white),C2000CW,324,Supplies,FALSE,GAL,C2000CW
+"Supplies : Paint, Coating, and Thinner : Carboline",153,Carboline #2000 carboxane (yellow),C2000CY,325,Supplies,FALSE,GAL,C2000CY
+"Supplies : Paint, Coating, and Thinner : Carboline : Thinner",14,Carboline #213 thinner,C213T,326,Supplies,FALSE,GAL,C213T
+"Supplies : Paint, Coating, and Thinner : Carboline : Thinner",33.5,Carboline #214 thinner,C214T,327,Supplies,FALSE,GAL,C214T
+"Supplies : Paint, Coating, and Thinner : Carboline : Thinner",37.26,Carboline #215 thinner,C215T,328,Supplies,FALSE,GAL,C215T
+"Supplies : Paint, Coating, and Thinner : Carboline : Thinner",17,Carboline #221 thinner,C221T,329,Supplies,FALSE,GAL,C221T
+"Supplies : Paint, Coating, and Thinner : Carboline",55,Carboline #241 pyrocrete,C241P,330,Supplies,FALSE,Sack,C241P
+"Supplies : Paint, Coating, and Thinner : Carboline : Semstone",115,Carboline #245 semstone,C245S,331,Supplies,FALSE,GAL,C245S
+"Supplies : Paint, Coating, and Thinner : Carboline : Thinner",13.5,Carboline #25 thinner,C25T,332,Supplies,FALSE,GAL,C25T
+"Supplies : Paint, Coating, and Thinner : Carboline",12.5,Carboline #3 surface cleaner,1030100,333,Supplies,FALSE,GAL,1030100
+"Supplies : Paint, Coating, and Thinner : Carboline",23.26,Carboline #300 bitumastic,C300B,334,Supplies,FALSE,GAL,C300B
+"Supplies : Paint, Coating, and Thinner : Carboline : Phenoline",66,Carboline #311 phenoline primer,C311PP,335,Supplies,FALSE,GAL,C311PP
+"Supplies : Paint, Coating, and Thinner : Carboline : Thinner",16.5,Carboline #33 thinner,C33T,336,Supplies,FALSE,GAL,C33T
+"Supplies : Paint, Coating, and Thinner : Carboline",16.9,Carboline #3359 DTM (safety blue),C3359SB,337,Supplies,FALSE,GAL,C3359SB
+"Supplies : Paint, Coating, and Thinner : Carboline : Phenoline",42.5,Carboline #341 phenoline (grey),C311PG,338,Supplies,FALSE,GAL,C311PG
+"Supplies : Paint, Coating, and Thinner : Carboline : Phenoline",42.5,Carboline #341 phenoline (white),C311PW,339,Supplies,FALSE,GAL,C311PW
+"Supplies : Paint, Coating, and Thinner : Carboline : Carboguard",51.91,Carboline #501 carboguard (gray),C501CG,340,Supplies,FALSE,GAL,C501CG
+Equipment : Vacuum Trucks,0,Vacuum truck,VTD,1291,Equipment,FALSE,DAY,VTD
+Equipment : Vacuum Trucks,0,Vacuum truck,LVH,1292,Equipment,FALSE,HR,LVH
+Equipment,1.5,Vacuum Truck - Mileage Only,VACMILEAGE,1293,Supplies,FALSE,MI,VACMILEAGE
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",26.79,Sherwin Williams #54 reducer,SW54R,861,Supplies,FALSE,GAL,SW54R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",85.12,Sherwin Williams #55 epophen (gray),SW55G,862,Supplies,FALSE,GAL,SW55G
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",10.5,Sherwin Williams #55 reducer,SW55R,863,Supplies,FALSE,GAL,SW55R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",33.19,Sherwin Williams #58 reducer,SW58R,864,Supplies,FALSE,GAL,SW58R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Macropoxy",42.89,Sherwin Williams #610 macropoxy HS (bolt green),SW610BG,865,Supplies,FALSE,GAL,SW610BG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Macropoxy",22.11,Sherwin Williams #646 macropoxy (Carlsbad canyon tan),SW646CT,866,Supplies,FALSE,GAL,SW646CT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Macropoxy",33,Sherwin Williams #646 macropoxy (juniper green),SW646JP,867,Supplies,FALSE,GAL,SW646JP
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Macropoxy",33,Sherwin Williams #646 macropoxy (light blue),SW646LB,868,Supplies,FALSE,GAL,SW646LB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Macropoxy",33,Sherwin Williams #646 macropoxy (light gray),SW646LG,869,Supplies,FALSE,GAL,SW646LG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Macropoxy",33,Sherwin Williams #646 macropoxy (mill white),SW646MW,870,Supplies,FALSE,GAL,SW646MW
+"Supplies : Paint, Coating, and Thinner",0,Valspar alumapoxy primer,1220100,1294,Supplies,FALSE,GAL,1220100
+Equipment : Vapor Recovery Trucks,0,Vapor Recovery Wet Vacuum Truck Service,VaporVS,1295,Equipment,FALSE,HR,VaporVS
+"Supplies : Paint, Coating, and Thinner : Solvent and Thinner",0,Varsol thinner,1000002,1296,Supplies,FALSE,GAL,1000002
+Equipment,0,Ventilation Support,VENT,1297,Supplies,FALSE,HR,VENT
+"Supplies : Paint, Coating, and Thinner : Versaflex",40,Versaflex #20 primer,V20P,1298,Supplies,FALSE,GAL,V20P
+"Supplies : Paint, Coating, and Thinner : Versaflex",36.41,Versaflex #380 aromatic spray polyurea,V380P,1299,Supplies,FALSE,GAL,V380P
+"Supplies : Paint, Coating, and Thinner : Versaflex",30,Versaflex 45DC polyurea,V45P,1300,Supplies,FALSE,GAL,V45P
+Tax,0,TAX:  TX - MIDLAND COUNTY - 700-000-2245-1013,2344,1171,Supplies,FALSE,Lump Sum,2344
+Tax,0,TAX:  TX - MOORE COUNTY - 700-000-2245-1037,2347,1172,Supplies,FALSE,Lump Sum,2347
+Tax,0,TAX:  TX - MOORE COUNTY - 700-000-2245-1038,2348,1173,Supplies,FALSE,Lump Sum,2348
+Tax,0,TAX:  TX - PALO PINTO COUNTY - 700-000-2245-1057,2364,1174,Supplies,FALSE,Lump Sum,2364
+Tax,0,TAX:  TX - PALO PINTO COUNTY - 700-000-2245-1058,2365,1175,Supplies,FALSE,Lump Sum,2365
+Tax,0,TAX:  TX - PECOS COUNTY - 700-000-2245-1024,2388,1176,Supplies,FALSE,Lump Sum,2388
+Tax,0,TAX:  TX - PECOS COUNTY - 700-000-2245-1029,2389,1177,Supplies,FALSE,Lump Sum,2389
+Tax,0,TAX:  TX - REAGAN COUNTY - 700-000-2245-1017,2349,1178,Supplies,FALSE,Lump Sum,2349
+Tax,0,TAX:  TX - REAGAN COUNTY - 700-000-2245-1018,2350,1179,Supplies,FALSE,Lump Sum,2350
+Tax,0,TAX:  TX - SCURRY COUNTY - 700-000-2245-1062,2368,1180,Supplies,FALSE,Lump Sum,2368
+Tax,0,TAX: TEXAS -BORGER (CITY) - 700-000-2245-1103,2436,1221,Supplies,FALSE,Lump Sum,2436
+Tax,0,TAX: TEXAS -BROWNFIELD (CITY) - 700-000-2245-1101,2434,1222,Supplies,FALSE,Lump Sum,2434
+Tax,0,TAX: TX - CITY OF NEW DEAL - 700-000-2245-1087,2424,1223,Supplies,FALSE,Lump Sum,2424
+Tax,0,TAX: TX - CITY OF NEW DEAL - 700-000-2245-1088,2425,1224,Supplies,FALSE,Lump Sum,2425
+Tax,0,TAX: TX - SCHLEICHER (COUNTY) - 700-000-2245-1084,2430,1225,Supplies,FALSE,Lump Sum,2430
+Tax,0,TAX: TX - SCHLEICHER (COUNTY) - 700-000-2245-1089,2431,1226,Supplies,FALSE,Lump Sum,2431
+Tax,0,TAX: TX -BROWNFIELD (CITY) - 700-000-2245-1100,2433,1227,Supplies,FALSE,Lump Sum,2433
+Tax,0,TAX: TX -LEVELLAND - 700-000-2245-1108,2443,1228,Supplies,FALSE,Lump Sum,2443
+Tax,0,TAX: TX -LEVELLAND - 700-000-2245-1109,2444,1229,Supplies,FALSE,Lump Sum,2444
+Equipment,0,Testex Press-O-Film,TesFilm,1230,Supplies,FALSE,SHIFT,TesFilm
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",41.72,Sherwin Williams #311 HS polyurethane (pallet tan),SW311PT,841,Supplies,FALSE,GAL,SW311PT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",41.72,Sherwin Williams #311 HS polyurethane (Praxair beige),SW311PB,842,Supplies,FALSE,GAL,SW311PB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",41.72,Sherwin Williams #311 HS polyurethane (slate gray),SW311SG,843,Supplies,FALSE,GAL,SW311SG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",41.72,Sherwin Williams #311 HS polyurethane (tannery),SW311T,844,Supplies,FALSE,GAL,SW311T
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",40.67,Sherwin Williams #311 HS polyurethane (Tex/Chev tan),SW311TCT,845,Supplies,FALSE,GAL,SW311TCT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",62.38,Sherwin Williams #311 HS polyurethane (white),SW311W,846,Supplies,FALSE,GAL,SW311W
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Steelmaster",31.51,Sherwin Williams #311 steelmaster,SW311S,847,Supplies,FALSE,GAL,SW311S
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",105.7,Sherwin Williams #338 HS polyurethane (safety red),SW338SR,848,Supplies,FALSE,GAL,SW338SR
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",48.49,Sherwin Williams #37 (yellow),SW37Y,849,Supplies,FALSE,GAL,SW37Y
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : DTM Water Base",40.81,Sherwin Williams #37 DTM water base (safety yellow),SW37SY,850,Supplies,FALSE,GAL,SW37SY
+"Supplies : Paint, Coating, and Thinner : Tnemec",161.46,Tnemec #120 series (beige),T120B,1241,Supplies,FALSE,GAL,T120B
+"Supplies : Paint, Coating, and Thinner : Tnemec",161.46,Tnemec #120 series (gray),T120G,1242,Supplies,FALSE,GAL,T120G
+"Supplies : Paint, Coating, and Thinner : Tnemec",31.2,Tnemec #151 series elasto primer,T151P,1243,Supplies,FALSE,GAL,T151P
+"Supplies : Paint, Coating, and Thinner : Tnemec : Thinner",25.72,Tnemec #19 thinner,T19T,1244,Supplies,FALSE,GAL,T19T
+"Supplies : Paint, Coating, and Thinner : Tnemec : Thinner",20.47,Tnemec #2 thinner,T2T,1245,Supplies,FALSE,GAL,T2T
+"Supplies : Paint, Coating, and Thinner : Tnemec",58.85,Tnemec #260 tneme bond (clear),T260TB,1246,Supplies,FALSE,GAL,T260TB
+"Supplies : Paint, Coating, and Thinner : Tnemec : Elasto Shield",51.3,Tnemec #262 elasto shield,T262ES,1247,Supplies,FALSE,GAL,T262ES
+"Supplies : Paint, Coating, and Thinner : Tnemec : Elasto Shield",44.21,Tnemec #264 elasto shield,T264ES,1248,Supplies,FALSE,GAL,T264ES
+"Supplies : Paint, Coating, and Thinner : Tnemec : Elasto Shield",59.7,Tnemec #265 elasto shield,T265ES,1249,Supplies,FALSE,GAL,T265ES
+"Supplies : Paint, Coating, and Thinner : Tnemec",37.75,Tnemec #30 series spray safe,T30SS,1250,Supplies,FALSE,GAL,T30SS
+Equipment,0,Equipment nonuse surcharge,STBYSUR,471,Supplies,FALSE,DAY,STBYSUR
+Equipment,0,Explosion proof floodlight (12 volt),ExPL12,472,Supplies,FALSE,SHIFT,ExPL12
+Equipment,0,Explosion proof floodlight (120 volt),ExPL120,473,Supplies,FALSE,SHIFT,ExPL120
+Equipment,0,Extension Ladder (all sizes),ELadr,474,Supplies,FALSE,SHIFT,ELadr
+Supplies,0,F-24 Degreaser,F24D,475,Supplies,FALSE,GAL,F24D
+Supplies,0,Fiberglass cloth/matting,3400070,476,Supplies,FALSE,LB,3400070
+Equipment : Fiberglass,0,Fiberglass hand lay unit,FGHLU,477,Equipment,FALSE,HR,FGHLU
+Equipment : Fiberglass,0,Fiberglass spray unit (with compressor),FGUComp,478,Equipment,FALSE,HR,FGUComp
+Equipment : Fiberglass,0,Fiberglass spray unit (with plant air),FGUPA,479,Equipment,FALSE,HR,FGUPA
+Equipment,0,Filter bags for dust filtration,Fbags,480,Supplies,FALSE,SHIFT,Fbags
+Tax,0,TAX:  OK - DEWEY COUNTY - 500-000-2230-1010,2380,1101,Supplies,FALSE,Lump Sum,2380
+Tax,0,TAX:  OK - DEWEY COUNTY - 500-000-2230-1011,2381,1102,Supplies,FALSE,Lump Sum,2381
+Tax,0,TAX:  OK - STATE - 500-000-2230-1005,2155,1103,Supplies,FALSE,Lump Sum,2155
+Tax,0,TAX:  OK - STATE - 500-000-2230-1006,2265,1104,Supplies,FALSE,Lump Sum,2265
+Tax,0,TAX:  SD - WATERTOWN - 905-000-2235-1005,2278,1105,Supplies,FALSE,Lump Sum,2278
+Tax,0,TAX:  SWISHER COUNTY - 700-000-2245-1072,2412,1106,Supplies,FALSE,Lump Sum,2412
+Tax,0,TAX:  TX - ANDREWS COUNTY - 100-000-2201-9003,2257,1107,Supplies,FALSE,Lump Sum,2257
+Tax,0,TAX:  TX - BAILEY COUNTY - 700-000-2245-1075,2334,1108,Supplies,FALSE,Lump Sum,2334
+Tax,0,TAX:  TX - BAILEY COUNTY - 700-000-2245-1076,2335,1109,Supplies,FALSE,Lump Sum,2335
+Tax,0,TAX:  TX - BELL COUNTY - 700-000-2245-1022,2324,1110,Supplies,FALSE,Lump Sum,2324
+"Supplies : Paint, Coating, and Thinner : Power Crete",36.01,Power Crete P-100 primer,PC100P,681,Supplies,FALSE,GAL,PC100P
+Equipment : Pressure Washers,0,Pressure Washer/Steam Cleaner,PWSC,682,Equipment,FALSE,HR,PWSC
+"Supplies : Paint, Coating, and Thinner",0,Pretox,2000010,683,Supplies,FALSE,GAL,2000010
+Labor : DT,0,Principle Consultant - DT,PCDT,684,Labor,FALSE,,PCDT
+Labor : OT,0,Principle Consultant - OT,PCOT,685,Labor,FALSE,,PCOT
+Labor : ST,0,Principle Consultant - ST,PCST,686,Labor,FALSE,,PCST
+Labor : TT,0,Principle Consultant - TT,PCTT,687,Labor,FALSE,,PCTT
+Labor : DT,0,Project Manager - DT,PMDT,688,Labor,FALSE,,PMDT
+Labor : OT,0,Project Manager - OT,PMOT,689,Labor,FALSE,,PMOT
+Labor : TT,0,Project Manager - PT,PMPT,690,Labor,FALSE,,PMPT
+Equipment,0,Hammer wrenches,HWr,511,Supplies,FALSE,SHIFT,HWr
+Equipment : Painting Equipment,0,Hand troweling unit,HTu,512,Equipment,FALSE,HR,HTu
+Equipment,0,Handheld radio package,RadioP,513,Supplies,FALSE,SHIFT,RadioP
+Equipment,0,HARD DOLLAR (Enter Description) BY LINEAR FOOT,HARDDOLLARLF,514,Supplies,FALSE,FT,HARDDOLLARLF
+Equipment,0,HARD DOLLAR (Enter Description) BY SQUARE FOOT,HARDDOLLARSF,515,Supplies,FALSE,FT,HARDDOLLARSF
+Equipment,0,Hard Dollar Quotation (MANUALLY MODIFY DESCRIPTION WITH DOLLAR AMOUNT),HARDDOLLAR,516,Services,FALSE,Lump Sum,HARDDOLLAR
+Equipment,0,Hardhat light,HHL,517,Supplies,FALSE,SHIFT,HHL
+Labor : DT,0,Hazardous Waste Technician - DT,HWTDT,518,Labor,FALSE,,HWTDT
+Labor : OT,0,Hazardous Waste Technician - OT,HWTOT,519,Labor,FALSE,,HWTOT
+Labor : ST,0,Hazardous Waste Technician - ST,HWTST,520,Labor,FALSE,,HWTST
+Equipment : Painting Equipment,0,Roller unit,Ru,711,Equipment,FALSE,HR,Ru
+Equipment : Wreckers,0,Roll-off Truck Wrecker (Single Axle),RollOffS,712,Equipment,FALSE,HR,RollOffS
+Equipment : Wreckers,0,Roll-off Truck Wrecker (Tandem Axle),RollOffT,713,Equipment,FALSE,HR,RollOffT
+Equipment,0,Rotary drilling tool,Rdrill,714,Supplies,FALSE,HR,Rdrill
+Equipment,0,Roto-peener,RpeenH,715,Supplies,FALSE,SHIFT,RpeenH
+Supplies,0,Rubber gloves,8200010,716,Supplies,FALSE,PAIR,8200010
+Equipment,0,Safety road sign,SafSign,717,Supplies,FALSE,SHIFT,SafSign
+Labor : DT,0,Safety Supervisor - DT,SSDT,718,Labor,FALSE,,SSDT
+Labor : OT,0,Safety Supervisor - OT,SSOT,719,Labor,FALSE,,SSOT
+Labor : TT,0,Safety Supervisor - PT,SSPT,720,Labor,FALSE,,SSPT
+Labor : TT,0,Hazardous Waste Technician - TT,HWTTT,521,Labor,FALSE,,HWTTT
+"Supplies : Paint, Coating, and Thinner",0,Hazardous waste thinner disposal,1000100,522,Supplies,FALSE,GAL,1000100
+Supplies,0,Hazmat 55 gal. drum,5100110,523,Supplies,FALSE,EA,5100110
+Equipment,0,Heat exchanger tube checker,TubeCk,524,Supplies,FALSE,SHIFT,TubeCk
+Equipment,0,Heat gun,HeatGun,525,Supplies,FALSE,SHIFT,HeatGun
+Equipment,0,Heated & Insulated Paint Shop #3,FCureBldg3,526,Supplies,FALSE,SHIFT,FCureBldg3
+Equipment,0,Heated & Insulated Paint Shop #5,FCureBldg5,527,Supplies,FALSE,SHIFT,FCureBldg5
+Equipment,0,Heated Paint Shop,FCureBldg,528,Supplies,FALSE,SHIFT,FCureBldg
+Equipment,0,Hedon testing gauge,HTG,529,Supplies,FALSE,SHIFT,HTG
+Labor : DT,0,Helper - DT,HDT,530,Labor,FALSE,,HDT
+Tax,0,TAX:  TX - CITY OF EL PASO - 700-000-2245-1094,2392,1121,Supplies,FALSE,Lump Sum,2392
+Tax,0,TAX:  TX - CITY OF EL PASO - 700-000-2245-1095,2393,1122,Supplies,FALSE,Lump Sum,2393
+Tax,0,TAX:  TX - CITY OF GATESVILLE - 700-000-2245-1055,2314,1123,Supplies,FALSE,Lump Sum,2314
+Tax,0,TAX:  TX - CITY OF GATESVILLE - 700-000-2245-1056,2315,1124,Supplies,FALSE,Lump Sum,2315
+Tax,0,TAX:  TX - CITY OF HEREFORD - 700-000-2245-1045,2310,1125,Supplies,FALSE,Lump Sum,2310
+Tax,0,TAX:  TX - CITY OF HEREFORD - 700-000-2245-1046,2311,1126,Supplies,FALSE,Lump Sum,2311
+Tax,0,TAX:  TX - CITY OF LUBBOCK - 700-000-2245-1020,2300,1127,Supplies,FALSE,Lump Sum,2300
+Tax,0,TAX:  TX - CITY OF LUBBOCK - 700-000-2245-1021,2301,1128,Supplies,FALSE,Lump Sum,2301
+Tax,0,TAX:  TX - CITY OF MIDLAND - 700-000-2245-1098,2409,1129,Supplies,FALSE,Lump Sum,2409
+Tax,0,TAX:  TX - CITY OF MIDLAND - 700-000-2245-1099,2410,1130,Supplies,FALSE,Lump Sum,2410
+"Supplies : Paint, Coating, and Thinner : Versaflex",30,Versaflex 50DM polyurea coating,Versa50DM,1301,Supplies,FALSE,GAL,Versa50DM
+Equipment : Coating Vans,0,Versaflex coating van,VCoatVan,1302,Services,FALSE,SHIFT,VCoatVan
+Equipment : Coating Vans,1.4,Versaflex coating van - Mileage,VCoatVanm,1303,Supplies,FALSE,MI,VCoatVanm
+"Supplies : Paint, Coating, and Thinner : Versaflex",283.23,Versaflex finish coat,VFC,1304,Supplies,FALSE,GAL,VFC
+"Supplies : Paint, Coating, and Thinner : Versaflex",113.41,Versaflex hand mix polyurea,VHMP,1305,Supplies,FALSE,GAL,VHMP
+"Supplies : Paint, Coating, and Thinner : Versaflex",1395.12,Versaflex liner sheets (15 x 40),VLS,1306,Supplies,FALSE,ROLL,VLS
+"Supplies : Paint, Coating, and Thinner : Versaflex",203.23,Versaflex lock coat,VLC,1307,Supplies,FALSE,GAL,VLC
+Equipment : Painting Equipment,0,Versaflex paint unit (does not include generator or compressor),VPU,1308,Equipment,FALSE,HR,VPU
+Equipment,0,Video equipment,Video,1309,Supplies,FALSE,SHIFT,Video
+Supplies,116.92,Visqueen Reinforced 20' X 100',7400150,1310,Supplies,FALSE,ROLL,7400150
+Equipment,0,8' suspended tower working platform,SPltfrm,221,Supplies,FALSE,SHIFT,SPltfrm
+Equipment,0,"8"" air mover exhaust horn",AH8,222,Supplies,FALSE,SHIFT,AH8
+Equipment : Exhaust Blowers,0,"8"" pressure blower",Blwr8,223,Equipment,FALSE,DAY,Blwr8
+"Equipment : Forklifts, Backhoes and Graders",0,"8,000 lb. Forklift",FL8K,224,Equipment,FALSE,HR,FL8K
+"Equipment : Forklifts, Backhoes and Graders",0,"8,500 lb. Forklift",FL85K,225,Equipment,FALSE,HR,FL85K
+Equipment : 175-290 CFM Air Compressors,0,85-185 CFM Air Compressor,AC85185,226,Equipment,FALSE,HR,AC85185
+Equipment,0,9 cubic ft. mixer for coating,9Mix,227,Equipment,FALSE,HR,9Mix
+Equipment,0,9 ton utility trailer (3-axle),9TTrailer,228,Supplies,FALSE,SHIFT,9TTrailer
+Supplies,0,"9"" masking paper",4300010,229,Supplies,FALSE,ROLL,4300010
+Supplies,0,"9"" Mohair roller cover",5300110,230,Supplies,FALSE,EA,5300110
+Tax,0,TAX:  NE - CITY OF LINCOLN - 850-000-2215-1001,2262,991,Supplies,FALSE,Lump Sum,2262
+Tax,0,TAX:  NE - STATE - 850-000-2215-1005,2263,992,Supplies,FALSE,Lump Sum,2263
+Tax,0,TAX:  NM - ALBUQUERQUE - 000-000-2220-1005,2280,993,Supplies,FALSE,Lump Sum,2280
+Tax,0,TAX:  NM - ALBUQUERQUE - 000-000-2220-1026,2281,994,Supplies,FALSE,Lump Sum,2281
+Tax,0,TAX:  NM - ANGEL FIRE - 000-000-2220-1006,2157,995,Supplies,FALSE,Lump Sum,2157
+Tax,0,TAX:  NM - ANGEL FIRE - 000-000-2220-1010,2156,996,Supplies,FALSE,Lump Sum,2156
+Tax,0,TAX:  NM - ARTESIA - 000-000-2220-1015,2165,997,Supplies,FALSE,Lump Sum,2165
+Tax,0,TAX:  NM - AZTEC - 000-000-2220-1020,2170,998,Supplies,FALSE,Lump Sum,2170
+Tax,0,TAX:  NM - AZTEC - 000-000-2220-1025,2171,999,Supplies,FALSE,Lump Sum,2171
+Tax,0,TAX:  NM - BELEN COUNTY - 000-000-2220-1030,2284,1000,Supplies,FALSE,Lump Sum,2284
+"Supplies : Paint, Coating, and Thinner : High Temp",200,Hi-temp primer (gray),HTPG,541,Supplies,FALSE,GAL,HTPG
+Equipment,0,Hi-torque wrench,TorqueW,542,Supplies,FALSE,SHIFT,TorqueW
+Labor : OT,0,Hole Watch Attendant - OT,HWOT,543,Labor,FALSE,,HWOT
+Labor : ST,0,Hole Watch Attendant - ST,HWST,544,Labor,FALSE,,HWST
+Supplies,0,Holiday surcharge,HOLSUR,545,Supplies,FALSE,HR,HOLSUR
+Supplies,39.96,Hulk 500 Cleaner,1900140,546,Supplies,FALSE,GAL,1900140
+Equipment,0,Hydroblast Crew and Equipment (overtime),AIHROT,547,Equipment,FALSE,HR,AIHROT
+Equipment,0,Hydroblast Crew and Equipment (straight time),AIHRST,548,Equipment,FALSE,HR,AIHRST
+Labor : OT,0,Hydroblast Equipment Operator - OT,HEOOT,549,Labor,FALSE,,HEOOT
+Labor : ST,0,Hydroblast Equipment Operator - ST,HEOST,550,Labor,FALSE,,HEOST
+Tax,0,TAX:  AZ - MARICOPA COUNTY - 100-000-2201-1031,2228,971,Supplies,FALSE,Lump Sum,2228
+Tax,0,TAX:  AZ - MOHAVE COUNTY - 100-000-2201-1035,2253,972,Supplies,FALSE,Lump Sum,2253
+Tax,0,TAX:  AZ - MOHAVE COUNTY - 100-000-2201-1036,2219,973,Supplies,FALSE,Lump Sum,2219
+Tax,0,TAX:  AZ - NAVAJO COUNTY - 100-000-2201-1045,2220,974,Supplies,FALSE,Lump Sum,2220
+Tax,0,TAX:  AZ - NAVAJO COUNTY - 100-000-2201-1046,2229,975,Supplies,FALSE,Lump Sum,2229
+Tax,0,TAX:  AZ - PIMA COUNTY - 100-000-2201-1050,2221,976,Supplies,FALSE,Lump Sum,2221
+Tax,0,TAX:  AZ - PIMA COUNTY - 100-000-2201-1051,2227,977,Supplies,FALSE,Lump Sum,2227
+Tax,0,TAX:  AZ - PINAL COUNTY - 100-000-2201-1055,2252,978,Supplies,FALSE,Lump Sum,2252
+Tax,0,TAX:  AZ - PINAL COUNTY - 100-000-2201-1056,2249,979,Supplies,FALSE,Lump Sum,2249
+Tax,0,TAX:  AZ - SAFFORD COUNTY - 100-000-2201-1061,2275,980,Supplies,FALSE,Lump Sum,2275
+"Supplies : Paint, Coating, and Thinner : Thurmalox",156.27,Thurmalox #215,T215,1231,Supplies,FALSE,GAL,T215
+"Supplies : Paint, Coating, and Thinner : Thurmalox",351.85,Thurmalox #216 top coat,T216,1232,Supplies,FALSE,Kit,T216
+"Supplies : Paint, Coating, and Thinner : Tnemec : Thinner",19.95,Tnemec #1 thinner,T1T,1233,Supplies,FALSE,GAL,T1T
+"Supplies : Paint, Coating, and Thinner : Tnemec : Enduro Shield",91.68,Tnemec #1074 endura shield (black),T1074B,1234,Supplies,FALSE,GAL,T1074B
+"Supplies : Paint, Coating, and Thinner : Tnemec : Enduro Shield",91.68,Tnemec #1074 endura shield (delft blue),T1074DB,1235,Supplies,FALSE,GAL,T1074DB
+"Supplies : Paint, Coating, and Thinner : Tnemec : Enduro Shield",111.49,Tnemec #1074 endura shield (lemon yellow),T1074LY,1236,Supplies,FALSE,GAL,T1074LY
+"Supplies : Paint, Coating, and Thinner : Tnemec : Enduro Shield",111.49,Tnemec #1074 endura shield (purple mountains),T1074PM,1237,Supplies,FALSE,GAL,T1074PM
+"Supplies : Paint, Coating, and Thinner : Tnemec : Enduro Shield",91.68,Tnemec #1074 endura shield (white),T1074W,1238,Supplies,FALSE,GAL,T1074W
+"Supplies : Paint, Coating, and Thinner : Tnemec : Enduro Shield",79.19,Tnemec #1075 endura shield (beige),T1075B,1239,Supplies,FALSE,GAL,T1075B
+"Supplies : Paint, Coating, and Thinner : Tnemec",68.92,Tnemec #1075 urethane (white),T1075W,1240,Supplies,FALSE,GAL,T1075W
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : DTM Alkaloid",32.67,Sherwin Williams #104 DTM alkaloid (juniper green),SW104AJP,761,Supplies,FALSE,GAL,SW104AJP
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : DTM Alkaloid",34.19,Sherwin Williams #104 DTM alkaloid (modular tan),SW104AMT,762,Supplies,FALSE,GAL,SW104AMT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : DTM Alkaloid",29.63,Sherwin Williams #104 DTM alkaloid (pallet tan),SW104APT,763,Supplies,FALSE,GAL,SW104APT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : DTM Alkaloid",17.38,Sherwin Williams #104 DTM alkaloid (teal blue),SW104ATB,764,Supplies,FALSE,GAL,SW104ATB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : DTM Water Base",24.53,Sherwin Williams #104 DTM water base (juniper green),SW104JG,765,Supplies,FALSE,GAL,SW104JG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",29.2,Sherwin Williams #104 polyurethane enamel (meridian oil),SW104MO,766,Supplies,FALSE,GAL,SW104MO
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",21.69,Sherwin Williams #104 reducer,SW104R,767,Supplies,FALSE,GAL,SW104R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",42.42,Sherwin Williams #104 urethane (green),SW104G,768,Supplies,FALSE,GAL,SW104G
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",124.57,Sherwin Williams #105 diamond clad (clear),SW105DC,769,Supplies,FALSE,GAL,SW105DC
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",39.49,Sherwin Williams #11 heavy duty silver brite,SW11SB,770,Supplies,FALSE,GAL,SW11SB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",21.49,Sherwin Williams traffic marking (yellow),SWTM,901,Supplies,FALSE,GAL,SWTM
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",0,Sherwin Williams Zinc Clad IV,SWZCIV,902,Supplies,FALSE,GAL,SWZCIV
+Equipment : Abrasive Blasting,0,Shot peening unit (with compressor),SPSBUComp,903,Equipment,FALSE,HR,SPSBUComp
+Equipment : Abrasive Blasting,0,Shot peening unit (with plant air),SPSBUPA,904,Equipment,FALSE,HR,SPSBUPA
+Equipment,0,Shot-powered fastening gun,ShotGun,905,Supplies,FALSE,SHIFT,ShotGun
+Supplies,0,Simple Green,1900180,906,Supplies,FALSE,GAL,1900180
+Equipment,0,Single line cable climber,SLCC,907,Supplies,FALSE,SHIFT,SLCC
+Equipment,0,Sky Genie vertical descent equipment,SkyG,908,Supplies,FALSE,SHIFT,SkyG
+Equipment,0,SkyClimber single man climber basket,Sky1,909,Supplies,FALSE,SHIFT,Sky1
+Equipment,0,SkyTrak forklift,SkyTrak,910,Equipment,FALSE,HR,SkyTrak
+Tax,0,TAX:  TX - CITY OF SEMINOLE - 700-000-2245-1031,2305,1141,Supplies,FALSE,Lump Sum,2305
+Tax,0,TAX:  TX - CITY OF SLATON - 700-000-2245-1014,2345,1142,Supplies,FALSE,Lump Sum,2345
+Tax,0,TAX:  TX - CITY OF SLATON - 700-000-2245-1016,2346,1143,Supplies,FALSE,Lump Sum,2346
+Tax,0,TAX:  TX - CITY OF WILSON - 700-000-2245-1070,2332,1144,Supplies,FALSE,Lump Sum,2332
+Tax,0,TAX:  TX - CITY OF WILSON - 700-000-2245-1071,2333,1145,Supplies,FALSE,Lump Sum,2333
+Tax,0,TAX:  TX - CITY OF WOLFFORTH - 700-000-2245-1027,2354,1146,Supplies,FALSE,Lump Sum,2354
+Tax,0,TAX:  TX - CITY OF WOLFFORTH - 700-000-2245-1028,2355,1147,Supplies,FALSE,Lump Sum,2355
+Tax,0,TAX:  TX - CORYELL COUNTY - 700-000-2245-1050,2312,1148,Supplies,FALSE,Lump Sum,2312
+Tax,0,TAX:  TX - CORYELL COUNTY - 700-000-2245-1051,2313,1149,Supplies,FALSE,Lump Sum,2313
+Tax,0,TAX:  TX - DEAF SMITH COUNTY - 700-000-2245-1040,2308,1150,Supplies,FALSE,Lump Sum,2308
+Supplies,0,5 gal. bucket,5100200,181,Supplies,FALSE,EA,5100200
+Equipment : Dump Trucks,0,5 yard Dump Truck,DT5,182,Equipment,FALSE,HR,DT5
+Equipment : 5000 CFM Blowers,0,"5,000 CFM blower",Blwr5000,183,Equipment,FALSE,DAY,Blwr5000
+Equipment : 5000 CFM Blowers,0,"5,000 CFM Blower (Hourly)",Blwr5000H,184,Equipment,FALSE,HR,Blwr5000H
+"Equipment : Forklifts, Backhoes and Graders",0,"5,000 lb. Forklift",FL5K,185,Equipment,FALSE,HR,FL5K
+Equipment,0,"5,000-6,000 gal. water tank (trailer mounted)",Tank6000T,186,Supplies,FALSE,SHIFT,Tank6000T
+Equipment,0,"5,000-6,000 Gallon Tanker - Hourly",Tank6000Th,187,Equipment,FALSE,HR,Tank6000Th
+Equipment : Dehumidification,0,"5,500 CFM dehumidification unit",5500Dehy,188,Supplies,FALSE,SHIFT,5500Dehy
+Equipment,0,50' rope ladder,RLadr50,189,Supplies,FALSE,SHIFT,RLadr50
+Equipment,0,500 gal. poly water tank,Poly500,190,Supplies,FALSE,SHIFT,Poly500
+Supplies,0,"4"" x 3/4"" roller cover nap",5300070,151,Supplies,FALSE,EA,5300070
+Equipment,0,"4,000 gal. water tank (trailer mounted)",Tank4000T,152,Supplies,FALSE,SHIFT,Tank4000T
+Equipment,0,40' enclosed trailer van,40TrailerVan,153,Supplies,FALSE,SHIFT,40TrailerVan
+Equipment,0,40' enclosed trailer van,40TrailerVanM,154,Supplies,FALSE,MONTH,40TrailerVanM
+Equipment,0,40' extension ladder,SLadr40,155,Supplies,FALSE,SHIFT,SLadr40
+Equipment : Trailers,0,40' flatbed trailer,40Trailer,156,Equipment,FALSE,DAY,40Trailer
+Equipment,0,25 lb. pogo tamper,Ptamp,91,Supplies,FALSE,SHIFT,Ptamp
+Equipment : Trailers,0,25 Ton Belly Dump Trailer with 30 Ton Tractor,BTrlr,92,Equipment,FALSE,HR,BTrlr
+Equipment : 2-5 Ton Flatbed Trucks,0,2-5 Ton Flat Bed Truck - Hourly,Trk5h,93,Equipment,FALSE,HR,Trk5h
+Equipment : 2-5 Ton Flatbed Trucks,1.4,2-5 ton flat bed truck - Mileage,Trk5m,94,Supplies,FALSE,MI,Trk5m
+Equipment : 2-5 Ton Flatbed Trucks,0,2-5 ton flatbed truck,Trk5,95,Services,FALSE,SHIFT,Trk5
+Equipment,0,25 ton pneumatic dry bulk trailer,PTrlr,96,Supplies,FALSE,HR,PTrlr
+Equipment,0,250 amp welding & cutting unit,250Weld,97,Equipment,FALSE,HR,250Weld
+Equipment : 250 HP Hydroblast,0,250 HP Hydroblast Unit,HBU250,98,Equipment,FALSE,HR,HBU250
+Equipment,0,26' enclosed trailer van (insulated),26TrailerI,99,Supplies,FALSE,SHIFT,26TrailerI
+Equipment,0,26' enclosed trailer van (insulated),26TrailerIM,100,Supplies,FALSE,MONTH,26TrailerIM
+Equipment,0,40 K Hydroblast Pump,40KHBU,157,Equipment,FALSE,HR,40KHBU
+Equipment,0,40' office van or parts room,40TrailerVanO,158,Supplies,FALSE,SHIFT,40TrailerVanO
+Equipment,0,40' office van or parts room,40TrailerVanOM,159,Supplies,FALSE,MONTH,40TrailerVanOM
+Equipment,0,400 barrel frac tank for fluid storage,400frac,160,Supplies,FALSE,DAY,400frac
+"Supplies : Paint, Coating, and Thinner : Tnemec",50.29,Tnemec #73 series (safety blue),T73SB,1261,Supplies,FALSE,GAL,T73SB
+"Supplies : Paint, Coating, and Thinner : Tnemec",59.37,Tnemec #73 series (safety green),T73SG,1262,Supplies,FALSE,GAL,T73SG
+"Supplies : Paint, Coating, and Thinner : Tnemec",67.63,Tnemec hydro zinc,THZ,1263,Supplies,FALSE,GAL,THZ
+"Supplies : Paint, Coating, and Thinner : Tnemec",37.25,Tnemec pota pox,TPP,1264,Supplies,FALSE,GAL,TPP
+"Supplies : Paint, Coating, and Thinner : Solvent and Thinner",12.49,Toluene thinner,TOLT,1265,Supplies,FALSE,GAL,TOLT
+Equipment,0,Tool/Paint trailer,TlPaintTrail,1266,Supplies,FALSE,SHIFT,TlPaintTrail
+Equipment,0,Tower stringer lights,TSL,1267,Supplies,FALSE,SHIFT,TSL
+Supplies,6.79,T-Posts,TP,1268,Supplies,FALSE,EA,TP
+Equipment,0,Traffic arrow sign,TrafSign,1269,Supplies,FALSE,SHIFT,TrafSign
+Equipment,0,Travel Time,TRAVEL,1270,Equipment,FALSE,HR,TRAVEL
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : DTM Water Base",39.09,Sherwin Williams #204 DTM water base (bolt brown),SW204BB,781,Supplies,FALSE,GAL,SW204BB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : DTM Water Base",31.71,Sherwin Williams #204 DTM water base (juniper green),SW204JG,782,Supplies,FALSE,GAL,SW204JG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : DTM Water Base",32.69,Sherwin Williams #204 DTM water base (rainforest),SW204R,783,Supplies,FALSE,GAL,SW204R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : DTM Water Base",31.71,Sherwin Williams #204 DTM water base (solar yellow),SW204SY,784,Supplies,FALSE,GAL,SW204SY
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",27.53,Sherwin Williams #211 DTM,SW211,785,Supplies,FALSE,GAL,SW211
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",27.53,Sherwin Williams #211 DTM (fed standard),SW211FS,786,Supplies,FALSE,GAL,SW211FS
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",13.41,Sherwin Williams #216 reducer,SW216R,787,Supplies,FALSE,GAL,SW216R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Acrolon",61.63,Sherwin Williams #218 acrolon (ballast beige),SW218BB,788,Supplies,FALSE,GAL,SW218BB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Acrolon",61.83,Sherwin Williams #218 acrolon (canyon tan),SW218CT,789,Supplies,FALSE,GAL,SW218CT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Acrolon",92.18,Sherwin Williams #218 acrolon (enviro green),SW218EG,790,Supplies,FALSE,GAL,SW218EG
+Tax,0,TAX:  NM - CITY OF BERNALILLO - 000-000-2220-1040,2270,1011,Supplies,FALSE,Lump Sum,2270
+Tax,0,TAX:  NM - CITY OF DEXTER - 000-000-2220-1090,2193,1012,Supplies,FALSE,Lump Sum,2193
+Tax,0,TAX:  NM - CITY OF GRANTS - 000-000-2220-1115,2276,1013,Supplies,FALSE,Lump Sum,2276
+Tax,0,TAX:  NM - CITY OF HURLEY - 000-000-2220-1130,2192,1014,Supplies,FALSE,Lump Sum,2192
+Tax,0,TAX:  NM - CITY OF LAS VEGAS - 000-000-2220-1140,2216,1015,Supplies,FALSE,Lump Sum,2216
+Tax,0,TAX:  NM - CITY OF LAS VEGAS - 000-000-2220-1141,2212,1016,Supplies,FALSE,Lump Sum,2212
+Tax,0,TAX:  NM - CITY OF SANTA FE - 000-000-2220-1260,2255,1017,Supplies,FALSE,Lump Sum,2255
+Tax,0,TAX:  NM - CITY OF SANTA FE - 000-000-2220-1261,2285,1018,Supplies,FALSE,Lump Sum,2285
+Tax,0,TAX:  NM - CITY OF TIJERAS - 000-000-2220-1285,2179,1019,Supplies,FALSE,Lump Sum,2179
+Tax,0,TAX:  NM - CLAYTON - 000-000-2220-1070,2197,1020,Supplies,FALSE,Lump Sum,2197
+Tax,0,TAX:  TX - SCURRY COUNTY - 700-000-2245-1063,2369,1181,Supplies,FALSE,Lump Sum,2369
+Supplies,8.43,#3 Dolen fine silica blasting sand,2014050,1,Supplies,FALSE,Sack,2014050
+Supplies,8.22,#4 Dolen fine silica blasting sand,2014040,2,Supplies,FALSE,Sack,2014040
+Supplies,0,1 gal. bucket,5100170,3,Supplies,FALSE,EA,5100170
+Equipment,0,1 ton chain hoist (electric),Hoist1E,4,Supplies,FALSE,SHIFT,Hoist1E
+Equipment,0,1 ton chain hoist (hand),Hoist1H,5,Supplies,FALSE,SHIFT,Hoist1H
+Equipment,0,1 ton come-along,Calong1,6,Supplies,FALSE,SHIFT,Calong1
+Equipment,0,"1"" air impact",Imp1,7,Supplies,FALSE,SHIFT,Imp1
+Equipment,0,"1"" diaphragm pump (air-powered)",WP1,8,Supplies,FALSE,SHIFT,WP1
+Supplies,9.49,"1"" Awesome Paint Brush",5200001,9,Supplies,FALSE,EA,5200001
+Equipment,0,"1,000 gal. water tank (skid mounted)",Tank1000S,10,Supplies,FALSE,SHIFT,Tank1000S
+Supplies : Batteries,0.81,Alkaline batteries (D cell),DCELL,251,Supplies,FALSE,EA,DCELL
+Equipment : Dump Trucks,0,All-inclusive dump truck services,AIDT,252,Equipment,FALSE,HR,AIDT
+Equipment : GapVax,0,All-Inclusive Hydro-Excavation Services (Double Time),HydroXDT,253,Equipment,FALSE,HR,HydroXDT
+Equipment : GapVax,0,All-Inclusive Hydro-Excavation Services (Overtime),HydroXOT,254,Equipment,FALSE,HR,HydroXOT
+Equipment : GapVax,0,All-Inclusive Hydro-Excavation Services (Straight Time),HydroXST,255,Equipment,FALSE,HR,HydroXST
+Equipment : Vacuum Trucks,0,All-inclusive vacuum rate (overtime),AIVROT,256,Equipment,FALSE,HR,AIVROT
+Equipment : Vacuum Trucks,0,All-inclusive vacuum rate (premium time),AIVRPT,257,Equipment,FALSE,HR,AIVRPT
+Equipment : Vacuum Trucks,0,All-inclusive vacuum rate (straight time),AIVRST,258,Equipment,FALSE,HR,AIVRST
+Equipment,0,Almen gauge,AlGge,259,Supplies,FALSE,SHIFT,AlGge
+Supplies,0,Aluminum oxide abrasive,2500220,260,Supplies,FALSE,Sack,2500220
+Tax,0,TAX:  TX - HOWARD COUNTY - 700-000-2245-1034,2370,1161,Supplies,FALSE,Lump Sum,2370
+Tax,0,TAX:  TX - HOWARD COUNTY - 700-000-2245-1039,2371,1162,Supplies,FALSE,Lump Sum,2371
+Tax,0,TAX:  TX - HUTCHINSON COUNTY - 700-000-2245-1085,2339,1163,Supplies,FALSE,Lump Sum,2339
+Tax,0,TAX:  TX - HUTCHINSON COUNTY - 700-000-2245-1086,2340,1164,Supplies,FALSE,Lump Sum,2340
+Tax,0,TAX:  TX - LAMB COUNTY - 700-000-2245-1011,2359,1165,Supplies,FALSE,Lump Sum,2359
+Tax,0,TAX:  TX - LUBBOCK COUNTY - 700-000-2245-1025,2302,1166,Supplies,FALSE,Lump Sum,2302
+Tax,0,TAX:  TX - LUBBOCK COUNTY - 700-000-2245-1026,2303,1167,Supplies,FALSE,Lump Sum,2303
+Tax,0,TAX:  TX - LYNN COUNTY - 700-000-2245-1065,2330,1168,Supplies,FALSE,Lump Sum,2330
+Tax,0,TAX:  TX - LYNN COUNTY - 700-000-2245-1066,2331,1169,Supplies,FALSE,Lump Sum,2331
+Tax,0,TAX:  TX - MIDLAND COUNTY - 700-000-2245-1012,2343,1170,Supplies,FALSE,Lump Sum,2343
+Tax,0,TAX:  TX - STATE - 700-000-2245-1005,2260,1182,Supplies,FALSE,Lump Sum,2260
+Tax,0,TAX:  TX - STATE - 700-000-2245-1006,2261,1183,Supplies,FALSE,Lump Sum,2261
+Tax,0,TAX:  TX - TERRY COUNTY - 700-000-2245-1044,2372,1184,Supplies,FALSE,Lump Sum,2372
+Tax,0,TAX:  TX - TERRY COUNTY - 700-000-2245-1049,2373,1185,Supplies,FALSE,Lump Sum,2373
+Tax,0,TAX:  TX - WICHITA COUNTY - 700-000-2245-1090,2341,1186,Supplies,FALSE,Lump Sum,2341
+Tax,0,TAX:  TX - WICHITA COUNTY - 700-000-2245-1091,2342,1187,Supplies,FALSE,Lump Sum,2342
+Tax,0,TAX:  TX - WILBARGER COUNTY - 700-000-2245-1047,2366,1188,Supplies,FALSE,Lump Sum,2366
+Tax,0,TAX:  TX - WILBARGER COUNTY - 700-000-2245-1048,2367,1189,Supplies,FALSE,Lump Sum,2367
+Tax,0,TAX:  TX- CITY OF BIG LAKE - 700-000-2245-1079,2419,1190,Supplies,FALSE,Lump Sum,2419
+"Supplies : Paint, Coating, and Thinner : Solvent and Thinner",0,"Inactive Item, do NOT use to create any new item",InactiveSKU,0,Supplies,FALSE,EA,InactiveSKU
+Tax,0,TAX:  AZ - YAVAPAI - 100-000-2201-1065,2258,981,Supplies,FALSE,Lump Sum,2258
+Tax,0,TAX:  AZ - YAVAPAI - 100-000-2201-1066,2256,982,Supplies,FALSE,Lump Sum,2256
+Tax,0,TAX:  AZ - YUMA COUNTY - 100-000-2201-1070,2254,983,Supplies,FALSE,Lump Sum,2254
+Tax,0,TAX:  AZ - YUMA COUNTY - 100-000-2201-1071,2251,984,Supplies,FALSE,Lump Sum,2251
+Tax,0,TAX:  CO - 200-000-2205-1001,2150,985,Supplies,FALSE,Lump Sum,2150
+Tax,0,TAX:  CO - OUT OF STATE - 200-000-2205-1002,2151,986,Supplies,FALSE,Lump Sum,2151
+Tax,0,TAX:  KS - SEWARD COUNTY - 825-000-2235-1003,2399,987,Supplies,FALSE,Lump Sum,2399
+Tax,0,TAX:  KS - SEWARD COUNTY - 825-000-2235-1004,2400,988,Supplies,FALSE,Lump Sum,2400
+Tax,0,TAX:  KS - STATE - 825-000-2235-1001,2397,989,Supplies,FALSE,Lump Sum,2397
+Tax,0,TAX:  KS - STATE - 825-000-2235-1002,2398,990,Supplies,FALSE,Lump Sum,2398
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Acrolon",61.63,Sherwin Williams #218 acrolon (light brown),SW218LB,791,Supplies,FALSE,GAL,SW218LB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Acrolon",61.83,Sherwin Williams #218 acrolon (pumice stone),SW218PS,792,Supplies,FALSE,GAL,SW218PS
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Acrolon",103.78,Sherwin Williams #218 acrolon (safety orange),SW218SO,793,Supplies,FALSE,GAL,SW218SO
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Acrolon",97.18,Sherwin Williams #218 acrolon (safety red),SW218SR,794,Supplies,FALSE,GAL,SW218SR
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Acrolon",97.18,Sherwin Williams #218 acrolon (safety yellow),SW218SY,795,Supplies,FALSE,GAL,SW218SY
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Acrolon",61.83,Sherwin Williams #218 acrolon (Terry tan),SW218TT,796,Supplies,FALSE,GAL,SW218TT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Acrolon",61.84,Sherwin Williams #218 acrolon (white),SW218W,797,Supplies,FALSE,GAL,SW218W
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",87,Sherwin Williams #220 novaplate,SW220N,798,Supplies,FALSE,GAL,SW220N
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",38.79,Sherwin Williams #225 reducer,SW225R,799,Supplies,FALSE,GAL,SW225R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",74,Sherwin Williams #290 corcote (gray),SW290G,800,Supplies,FALSE,GAL,SW290G
+Equipment,0,400 barrel uncoated tank for fluid storage,400Tank,161,Supplies,FALSE,SHIFT,400Tank
+Equipment : Heaters,0,"400,000 BTU in-line heater (with fuel)",Htr400IF,162,Supplies,FALSE,SHIFT,Htr400IF
+Equipment : Heaters,0,"400,000 BTU in-line heater (without fuel)",Htr400I,163,Supplies,FALSE,SHIFT,Htr400I
+Equipment : Heaters,0,"400,000 BTU space heater (without fuel)",Htr400,164,Supplies,FALSE,SHIFT,Htr400
+Supplies,9.44,40-120 slag abrasive (100 lb.),2011702,165,Supplies,FALSE,Sack,2011702
+Supplies,0,40-200 fine slag abrasive (100 lb.),2014020,166,Supplies,FALSE,Sack,2014020
+Supplies,8.81,40-70 Sand Abrasive,2014070,167,Supplies,FALSE,Sack,2014070
+Equipment,0,40K Hydroblast Pump Unit,HBU40K,168,Supplies,FALSE,Lump Sum,HBU40K
+Equipment : Bucket Trucks,0,41' Bucket Truck,BTrk41,169,Equipment,FALSE,HR,BTrk41
+Equipment : Bucket Trucks,0,42' Bucket Truck,BTrk42,170,Equipment,FALSE,HR,BTrk42
+Equipment,0,42' enclosed trailer van (insulated),42TrailerI,171,Supplies,FALSE,SHIFT,42TrailerI
+Equipment,0,42' enclosed trailer van (insulated),42TrailerIM,172,Supplies,FALSE,MONTH,42TrailerIM
+Equipment,0,"42' enclosed trailer van (insulated, heated)",42TrailerH,173,Supplies,FALSE,SHIFT,42TrailerH
+Equipment,0,"42' enclosed trailer van (insulated, heated)",42TrailerHM,174,Supplies,FALSE,MONTH,42TrailerHM
+Equipment : 42750 CFM Blowers,0,"42,750 CFM blower",Blwr42,175,Equipment,FALSE,DAY,Blwr42
+Equipment : 42750 CFM Blowers,0,"42,750 CFM Blower (Hourly)",Blwr42H,176,Equipment,FALSE,HR,Blwr42H
+Equipment : Trailers,0,47' drop deck trailer,47Trailer,177,Equipment,FALSE,DAY,47Trailer
+Labor : DT,0,Laborer - DT,LDT,591,Labor,FALSE,,LDT
+Labor : OT,0,Laborer - OT,LOT,592,Labor,FALSE,,LOT
+Labor : DT,0,Laborer - PT,LPT,593,Labor,FALSE,,LPT
+Labor : ST,0,Laborer - ST,LST,594,Labor,FALSE,,LST
+Labor : TT,0,Laborer - TT,LTT,595,Labor,FALSE,,LTT
+Equipment,0,Large hand tools,LHndTool,596,Supplies,FALSE,SHIFT,LHndTool
+Equipment,0,Lead paint personal monitor,LeadPDet,597,Supplies,FALSE,SHIFT,LeadPDet
+Labor : OT,0,Leadman - OT,LMOT,598,Labor,FALSE,,LMOT
+Labor : ST,0,Leadman - ST,LMST,599,Labor,FALSE,,LMST
+Equipment,0,MANUAL LABOR FIELD FOR BHP,MANLABOR,600,Equipment,FALSE,HR,MANLABOR
+Equipment,0,Dryer can cleaning tool,DCCT,441,Supplies,FALSE,SHIFT,DCCT
+Equipment : Pressure Washers,0,Dual action pressure washer,DualPW,442,Equipment,FALSE,HR,DualPW
+Supplies,0,Duct tape,4200020,443,Supplies,FALSE,ROLL,4200020
+Equipment,0,Dump fee (per load),DumpFee,444,Supplies,FALSE,EA,DumpFee
+Equipment : Dump Trucks,0,Dump truck,DT,445,Equipment,FALSE,HR,DT
+"Supplies : Paint, Coating, and Thinner : Dupont",13.6,Dupont #2184 bleaderseal,D2184B,446,Supplies,FALSE,QT,D2184B
+"Supplies : Paint, Coating, and Thinner : Dupont",9.59,Dupont #244 kwik prep,D244KP,447,Supplies,FALSE,QT,D244KP
+"Supplies : Paint, Coating, and Thinner : Dupont",46.5,Dupont #326 (blue green),D326BG,448,Supplies,FALSE,GAL,D326BG
+"Supplies : Paint, Coating, and Thinner : Dupont",51.32,Dupont #333 imron (tan),D333I,449,Supplies,FALSE,GAL,D333I
+"Supplies : Paint, Coating, and Thinner : Dupont",49.45,Dupont #34887 (nebula green),D34887NG,450,Supplies,FALSE,GAL,D34887NG
+Equipment,0,48' dry van trailer,48Trailer,178,Supplies,FALSE,SHIFT,48Trailer
+Equipment,0,480 split box,480B,179,Supplies,FALSE,SHIFT,480B
+Equipment,0,480 volt load center,LdCtr,180,Supplies,FALSE,SHIFT,LdCtr
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",62.38,Sherwin Williams #304 HS polyurethane (Patterson gray),SW304PG,821,Supplies,FALSE,GAL,SW304PG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",62.38,Sherwin Williams #304 HS polyurethane (Patterson orange),SW304PO,822,Supplies,FALSE,GAL,SW304PO
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",62.38,Sherwin Williams #304 HS polyurethane (rainforest green),SW304RG,823,Supplies,FALSE,GAL,SW304RG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",56.44,Sherwin Williams #304 HS polyurethane (Red Cedar juniper green),SW304RCJG,824,Supplies,FALSE,GAL,SW304RCJG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",68.86,Sherwin Williams #304 HS polyurethane (Resolute canyon tan),SW304RCT,825,Supplies,FALSE,GAL,SW304RCT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",62.38,Sherwin Williams #304 HS polyurethane (Riley trailer red),SW304RTR,826,Supplies,FALSE,GAL,SW304RTR
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",48.1,Sherwin Williams #304 HS polyurethane (safety blue),SW304SB,827,Supplies,FALSE,GAL,SW304SB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",62.38,Sherwin Williams #304 HS polyurethane (sierra tan),SW304ST,828,Supplies,FALSE,GAL,SW304ST
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",54.49,Sherwin Williams #304 HS polyurethane (slate gray),SW304SG,829,Supplies,FALSE,GAL,SW304SG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",41.72,Sherwin Williams #304 HS polyurethane (Tatami tan),SW304TT,830,Supplies,FALSE,GAL,SW304TT
+Labor : ST,0,Project Manager - ST,PMST,691,Labor,FALSE,,PMST
+Labor : TT,0,Project Manager - TT,PMTT,692,Labor,FALSE,,PMTT
+Supplies,45,Propane,PROPANE,693,Supplies,FALSE,EA,PROPANE
+Equipment,0,Propane hoses (50' sections),PropHose,694,Supplies,FALSE,SHIFT,PropHose
+Supplies,0,Protective faceshields,8500520,695,Supplies,FALSE,EA,8500520
+Supplies,0,Protective wetsuits,8100000,696,Supplies,FALSE,EA,8100000
+Equipment,0,Psychro-Dyne mercury,PSMerc,697,Supplies,FALSE,SHIFT,PSMerc
+Equipment : 300 HP Hydroblast,0,Pump (with 1 lance),P1L,698,Equipment,FALSE,HR,P1L
+Equipment : 300 HP Hydroblast,0,Pump (with 1-gun operation),P1G,699,Equipment,FALSE,HR,P1G
+Equipment : 300 HP Hydroblast,0,Pump (with 2 lances),P2L,700,Equipment,FALSE,HR,P2L
+Equipment,0,60 lb. jackhammer,Jhamr60,211,Supplies,FALSE,SHIFT,Jhamr60
+Equipment : 600 CFM Air Compressors,0,600 CFM Air Compressor,AC600,212,Equipment,FALSE,HR,AC600
+Equipment,0,65 gal. poly water tank,Poly65,213,Supplies,FALSE,SHIFT,Poly65
+Equipment,0,"7"" circular saw (electric)",Saw7,214,Supplies,FALSE,SHIFT,Saw7
+Equipment : Water Trucks,0,75 Barrel Water Truck,WT75,215,Equipment,FALSE,HR,WT75
+Equipment : 75000 CFM Blowers,0,"75,000 CFM blower",Blwr75,216,Equipment,FALSE,DAY,Blwr75
+Equipment : 750 CFM Air Compressors,0,750 CFM Air Compressor,AC750,217,Equipment,FALSE,HR,AC750
+Equipment : 750 CFM Air Compressors,0,750 CFM air compressor,AC750S,218,Equipment,FALSE,DAY,AC750S
+Equipment : 750 HP Hydroblast,0,750 HP Hydroblast Unit,HBU750,219,Equipment,FALSE,HR,HBU750
+Equipment,0,8' extension gun,Ext8,220,Supplies,FALSE,HR,Ext8
+Tax,0,TAX:  TX - CITY OF MINERAL SPRINGS - 700-000-2245-1052,2362,1131,Supplies,FALSE,Lump Sum,2362
+Tax,0,TAX:  TX - CITY OF MINERAL SPRINGS - 700-000-2245-1053,2363,1132,Supplies,FALSE,Lump Sum,2363
+Tax,0,TAX:  TX - CITY OF MULESHOE - 700-000-2245-1080,2336,1133,Supplies,FALSE,Lump Sum,2336
+Tax,0,TAX:  TX - CITY OF MULESHOE - 700-000-2245-1081,2337,1134,Supplies,FALSE,Lump Sum,2337
+Tax,0,TAX:  TX - CITY OF ODESSA - 700-000-2245-1096,2407,1135,Supplies,FALSE,Lump Sum,2407
+Tax,0,TAX:  TX - CITY OF ODESSA - 700-000-2245-1097,2408,1136,Supplies,FALSE,Lump Sum,2408
+Tax,0,TAX:  TX - CITY OF PLAINVIEW - 700-000-2245-1064,2420,1137,Supplies,FALSE,EA,2420
+Tax,0,TAX:  TX - CITY OF RANSOM CANYON - 700-000-2245-1060,2319,1138,Supplies,FALSE,Lump Sum,2319
+Tax,0,TAX:  TX - CITY OF RANSOM CANYON - 700-000-2245-1061,2320,1139,Supplies,FALSE,Lump Sum,2320
+Tax,0,TAX:  TX - CITY OF SEMINOLE - 700-000-2245-1030,2304,1140,Supplies,FALSE,Lump Sum,2304
+Tax,0,TAX:  NM - LOS LUNAS COUNTY - 000-000-2220-1160,2242,1051,Supplies,FALSE,Lump Sum,2242
+Tax,0,TAX:  NM - LOS RANCHOS DE ALBUQUERQUE - 000-000-2220-1165,2187,1052,Supplies,FALSE,Lump Sum,2187
+Tax,0,TAX:  NM - LOVINGTON - 000-000-2220-1170,2184,1053,Supplies,FALSE,Lump Sum,2184
+Tax,0,TAX:  NM - LOVINGTON - 000-000-2220-1171,2186,1054,Supplies,FALSE,Lump Sum,2186
+Tax,0,TAX:  NM - LOVINGTON INDUSTRIAL PARK - 000-000-2220-1175,2209,1055,Supplies,FALSE,Lump Sum,2209
+Tax,0,TAX:  NM - LUNA COUNTY - 000-000-2220-1180,2208,1056,Supplies,FALSE,Lump Sum,2208
+Tax,0,TAX:  NM - MAGDALENA - 000-000-2220-1185,2177,1057,Supplies,FALSE,Lump Sum,2177
+Tax,0,TAX:  NM - MCKINLEY COUNTY - 000-000-2220-1190,2210,1058,Supplies,FALSE,Lump Sum,2210
+Tax,0,TAX:  NM - MCKINLEY COUNTY - 000-000-2220-1191,2211,1059,Supplies,FALSE,Lump Sum,2211
+Tax,0,TAX:  NM - MORA COUNTY - 000-000-2220-1192,2169,1060,Supplies,FALSE,Lump Sum,2169
+Equipment,0,Tank Cleaning Services - OT,TANKCLEANSVCOT,941,Equipment,FALSE,HR,TANKCLEANSVCOT
+Equipment,0,Tank Cleaning Services - ST,TANKCLEANSVC,942,Equipment,FALSE,HR,TANKCLEANSVC
+Equipment,0,Tank demurrage fee,TankDemurr,943,Equipment,FALSE,DAY,TankDemurr
+Equipment,0,Tank support box,TSB,944,Supplies,FALSE,SHIFT,TSB
+Tax,0,TAX:  AZ - APACHE COUNTY - 100-000-2201-1005,2224,945,Supplies,FALSE,Lump Sum,2224
+Tax,0,TAX:  AZ - APACHE COUNTY - 100-000-2201-1006,2225,946,Supplies,FALSE,Lump Sum,2225
+Tax,0,TAX:  AZ - CITY OF FLAGSTAFF - 100-000-2201-1001,2231,947,Supplies,FALSE,Lump Sum,2231
+Tax,0,TAX:  AZ - CITY OF FOUNTAIN HILLS - 100-000-2201-1007,2384,948,Supplies,FALSE,Lump Sum,2384
+Tax,0,TAX:  AZ - CITY OF FOUNTAIN HILLS - 100-000-2201-1008,2385,949,Supplies,FALSE,Lump Sum,2385
+Tax,0,TAX:  AZ - CITY OF GLOBE - 100-000-2201-1003,2321,950,Supplies,FALSE,Lump Sum,2321
+"Equipment : Forklifts, Backhoes and Graders",0,"10,000 lb. Forklift - 4 Wheel Drive",FL10K4WD,31,Equipment,FALSE,HR,FL10K4WD
+Equipment : Boom Trucks,0,100' 15 Ton Hydraulic Boom Truck,15Hbt,32,Equipment,FALSE,HR,15Hbt
+Equipment : 100-165 CFM Air Compressors,0,100-165 CFM Air Compressor,AC100165,33,Equipment,FALSE,HR,AC100165
+Equipment : 10-90 CFM Air Compressors,0,10-90 CFM Air Compressor,AC1090,34,Equipment,FALSE,HR,AC1090
+Equipment : Crew Vans,0.8,11 passenger crew van - Mileage,11PassVanm,35,Supplies,FALSE,MI,11PassVanm
+Equipment : Crew Vans,0,11 passenger crew van - Shift,11PassVan,36,Services,FALSE,SHIFT,11PassVan
+Equipment : 5 KW Generators,0,1-10 KW Generator,Gen10,37,Equipment,FALSE,HR,Gen10
+Equipment,0,12' step ladder,SLadr12,38,Supplies,FALSE,SHIFT,SLadr12
+Equipment,0,12' x 7' x 30' portable blast tent,BTent12,39,Supplies,FALSE,SHIFT,BTent12
+Equipment : Exhaust Blowers,0,"12"" exhaust blower",Blwr12,40,Equipment,FALSE,DAY,Blwr12
+Tax,0,TAX:  NM - HOBBS - 000-000-2220-2293,2168,1041,Supplies,FALSE,Lump Sum,2168
+Tax,0,TAX:  NM - JICARILLA APACHE NATION - 926-000-2220-1135,2205,1042,Supplies,FALSE,Lump Sum,2205
+Tax,0,TAX:  NM - JICARILLA APACHE NATION - 926-000-2220-1136,2206,1043,Supplies,FALSE,Lump Sum,2206
+Tax,0,TAX:  NM - LAS CRUCES - 000-000-2220-1157,2194,1044,Supplies,FALSE,Lump Sum,2194
+Tax,0,TAX:  NM - LAS CRUCES - 000-000-2220-1158,2195,1045,Supplies,FALSE,Lump Sum,2195
+Tax,0,TAX:  NM - LEA COUNTY - 000-000-2220-1145,2176,1046,Supplies,FALSE,Lump Sum,2176
+Tax,0,TAX:  NM - LEA COUNTY - 000-000-2220-1146,2358,1047,Supplies,FALSE,Lump Sum,2358
+Tax,0,TAX:  NM - LINCOLN COUNTY - 000-000-2220-1150,2245,1048,Supplies,FALSE,Lump Sum,2245
+Tax,0,TAX:  NM - LOS ALAMOS - 000-000-2220-1155,2234,1049,Supplies,FALSE,Lump Sum,2234
+Tax,0,TAX:  NM - LOS ALAMOS - 000-000-2220-1156,2232,1050,Supplies,FALSE,Lump Sum,2232
+Labor : DT,0,Superintendent - DT,SDT,931,Labor,FALSE,,SDT
+Labor : OT,0,Superintendent - OT,SOT,932,Labor,FALSE,,SOT
+Labor : TT,0,Superintendent - PT,SPT,933,Labor,FALSE,,SPT
+Labor : ST,0,Superintendent - ST,SST,934,Labor,FALSE,,SST
+Labor : TT,0,Superintendent - TT,STT,935,Labor,FALSE,,STT
+Equipment,0,Superintendent Overtime Burden,SOB,936,Supplies,FALSE,HR,SOB
+Equipment : Vacuum Trucks,0,Supersucker vacuum loader,SVL,937,Equipment,FALSE,HR,SVL
+Equipment : Vacuum Trucks,0,Supersucker Vacuum Loader (Wet or Dry),SuperSucker,938,Equipment,FALSE,HR,SuperSucker
+Equipment,0,Surface contamination analysis kit,SurfKit,939,Supplies,FALSE,SHIFT,SurfKit
+Equipment,0,Surface profile comparator,SurfProf,940,Supplies,FALSE,SHIFT,SurfProf
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",15.29,Sherwin Williams #102 (bolt match),SW102BM,751,Supplies,FALSE,GAL,SW102BM
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",32.8,Sherwin Williams #104 (cedar green),SW104CG,752,Supplies,FALSE,GAL,SW104CG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",17.08,Sherwin Williams #104 (light brown),SW104LB,753,Supplies,FALSE,GAL,SW104LB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",34.19,Sherwin Williams #104 (modular tan),SW104MT,754,Supplies,FALSE,GAL,SW104MT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",15.25,Sherwin Williams #104 (mountain brown),SW104MB,755,Supplies,FALSE,GAL,SW104MB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",17.08,Sherwin Williams #104 (olive green),SW104OG,756,Supplies,FALSE,GAL,SW104OG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",16,Sherwin Williams #104 (red willow),SW104RW,757,Supplies,FALSE,GAL,SW104RW
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",15.69,Sherwin Williams #104 (safety blue),SW104SB,758,Supplies,FALSE,GAL,SW104SB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : DTM Water Base",31.44,Sherwin Williams #104 DTM acrylic (cold steel black),SW104CSB,759,Supplies,FALSE,GAL,SW104CSB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : DTM Alkaloid",28.49,Sherwin Williams #104 DTM alkaloid (Carlsbad tan),SW104ACT,760,Supplies,FALSE,GAL,SW104ACT
+Equipment,0,Vacuum for 55 gal. drum (air-powered),APVac,1281,Supplies,FALSE,SHIFT,APVac
+Labor : OT,0,Vacuum Helper - OT,VHOT,1282,Labor,FALSE,,VHOT
+Labor : ST,0,Vacuum Helper - ST,VHST,1283,Labor,FALSE,,VHST
+Labor : OT,0,Vacuum Project Manager - OT,VPMOT,1284,Labor,FALSE,,VPMOT
+Labor : ST,0,Vacuum Project Manager - ST,VPMST,1285,Labor,FALSE,,VPMST
+Labor : OT,0,Vacuum Service Supervisor - OT,VSSOT,1286,Labor,FALSE,,VSSOT
+Labor : ST,0,Vacuum Service Supervisor - ST,VSSST,1287,Labor,FALSE,,VSSST
+Labor : OT,0,Vacuum Technician - OT,VTOT,1288,Labor,FALSE,,VTOT
+Labor : ST,0,Vacuum Technician - ST,VTST,1289,Labor,FALSE,,VTST
+Equipment : Vacuum Trucks,0,Vacuum truck,VT,1290,Equipment,FALSE,HR,VT
+Tax,0,TAX:  UT - IRON COUNTY - 300-000-2250-1010,2189,1191,Supplies,FALSE,Lump Sum,2189
+Tax,0,TAX:  UT - OUT OF STATE - 300-000-2250-1000,2152,1192,Supplies,FALSE,Lump Sum,2152
+Tax,0,TAX:  UT - SAN JUAN COUNTY - 300-000-2250-1005,2202,1193,Supplies,FALSE,Lump Sum,2202
+Tax,0,TAX:  UTE - SOUTHERN UTE TERO FEE (ON LABOR ONLY) - 927-000-2240-1005,2269,1194,Supplies,FALSE,Lump Sum,2269
+Tax,0,TAX:  WY - CARBON COUNTY - 400-000-2225-1007,2351,1195,Supplies,FALSE,Lump Sum,2351
+Tax,0,TAX:  WY - CARBON COUNTY - 400-000-2225-1008,2352,1196,Supplies,FALSE,Lump Sum,2352
+Tax,0,TAX:  WY - LARAMIE COUNTY - 400-000-2225-1014,2386,1197,Supplies,FALSE,Lump Sum,2386
+Tax,0,TAX:  WY - LARAMIE COUNTY - 400-000-2225-1015,2387,1198,Supplies,FALSE,Lump Sum,2387
+Tax,0,TAX:  WY - LINCOLN COUNTY - 400-000-2225-1012,2293,1199,Supplies,FALSE,Lump Sum,2293
+Tax,0,TAX:  WY - LINCOLN COUNTY - 400-000-2225-1013,2297,1200,Supplies,FALSE,Lump Sum,2297
+"Equipment : Forklifts, Backhoes and Graders",0,"30,000 lb. Forklift",FL30K,131,Equipment,FALSE,HR,FL30K
+Equipment : 300 HP Hydroblast,0,300 HP Hydroblast Unit,HBU300,132,Equipment,FALSE,HR,HBU300
+Equipment : 300 HP Hydroblast,0,300 HP hydroblast unit - HW,HBU300H,133,Equipment,FALSE,HR,HBU300H
+Equipment : 300-375 CFM Air Compressors,0,300-375 CFM Air Compressor,AC300375,134,Equipment,FALSE,HR,AC300375
+Equipment : 30-35 KW Generators,0,30-35 KW Generator,Gen35,135,Equipment,FALSE,HR,Gen35
+Equipment,0,3-10' step ladder,SLadr3,136,Supplies,FALSE,SHIFT,SLadr3
+Equipment,0,32' extension ladder,SLadr32,137,Supplies,FALSE,SHIFT,SLadr32
+Equipment,0,32' snorkel scissor lift,32Sciss,138,Supplies,FALSE,SHIFT,32Sciss
+Equipment,0,32 ton field abrasive storage bin (portable),32Bin,139,Supplies,FALSE,MONTH,32Bin
+Equipment,0,32' x 70' Quonset Tent,BTent38,140,Supplies,FALSE,SHIFT,BTent38
+Tax,0,TAX:  NM - CLOVIS - 000-000-2220-1075,2162,1021,Supplies,FALSE,Lump Sum,2162
+Tax,0,TAX:  NM - CLOVIS - 000-000-2220-1076,2159,1022,Supplies,FALSE,Lump Sum,2159
+Tax,0,TAX:  NM - CORRALES - 000-000-2220-1080,2185,1023,Supplies,FALSE,Lump Sum,2185
+Tax,0,TAX:  NM - CURRY COUNTY - 000-000-2220-1085,2181,1024,Supplies,FALSE,Lump Sum,2181
+Tax,0,TAX:  NM - CURRY COUNTY - 000-000-2220-1086,2411,1025,Supplies,FALSE,Lump Sum,2411
+Tax,0,TAX:  NM - DONA ANA COUNTY - 000-000-2220-1095,2164,1026,Supplies,FALSE,Lump Sum,2164
+Tax,0,TAX:  NM - DONA ANA COUNTY - 000-000-2220-1096,2166,1027,Supplies,FALSE,Lump Sum,2166
+Tax,0,TAX:  NM - EDDY COUNTY - 000-000-2220-1100,2158,1028,Supplies,FALSE,Lump Sum,2158
+Tax,0,TAX:  NM - EDDY COUNTY - 000-000-2220-1101,2353,1029,Supplies,FALSE,Lump Sum,2353
+Tax,0,TAX:  NM - FARMINGTON - 000-000-2220-1105,2160,1030,Supplies,FALSE,Lump Sum,2160
+"Supplies : Paint, Coating, and Thinner : Solvent and Thinner",0,MEK thinner,1000020,601,Supplies,FALSE,GAL,1000020
+Supplies,0,MEKP,3100090,602,Supplies,FALSE,GAL,3100090
+Equipment,0,Mercury Remediation Unit,MerRem,603,Equipment,FALSE,HR,MerRem
+Equipment,0,Metrotech locator,MetTech,604,Supplies,FALSE,SHIFT,MetTech
+Equipment : 20 Ton Flatbed Trucks,0,Mileage,SBTM,605,Supplies,FALSE,MI,SBTM
+Equipment : Dump Trucks,0,Mileage,DT6m,606,Supplies,FALSE,MI,DT6m
+"Supplies : Paint, Coating, and Thinner : Solvent and Thinner",0,Mineral spirit thinner,1000025,607,Supplies,FALSE,GAL,1000025
+"Supplies : Paint, Coating, and Thinner",0,Miscellaneous coating (OVERRIDE THIS DESCRIPTION),MISCOATING,608,Supplies,FALSE,GAL,MISCOATING
+Equipment,0,Miscellaneous Equipment (CHANGE THIS BOX TO MATCH EQUIPMENT),MISCEQUIP,609,Supplies,FALSE,EA,MISCEQUIP
+Supplies,0,Miscellaneous materials < $500.00,MM,610,Supplies,FALSE,EA,MM
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",0,Sherwin Williams - Polysiloxane XLE-80,SWB80W800,741,Supplies,FALSE,GAL,SWB80W800
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",10.5,Sherwin Williams #10 hi-temp thinner,SW10R,742,Supplies,FALSE,GAL,SW10R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",9,Sherwin Williams #100 (shell white),SW100SW,743,Supplies,FALSE,GAL,SW100SW
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",91.2,Sherwin Williams #100 corobond (white),SW100W,744,Supplies,FALSE,GAL,SW100W
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",30.89,Sherwin Williams #100 reducer,SW100R,745,Supplies,FALSE,GAL,SW100R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",15.95,Sherwin Williams #101 (Bloomfield tan),SW101BT,746,Supplies,FALSE,GAL,SW101BT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",15.71,Sherwin Williams #101 (Chaco match),SW101CM,747,Supplies,FALSE,GAL,SW101CM
+Equipment,0,16' Stinson planks,Stin16,61,Supplies,FALSE,SHIFT,Stin16
+Equipment : 175-290 CFM Air Compressors,0,175-290 CFM Air Compressor,AC175290,62,Equipment,FALSE,HR,AC175290
+Equipment,0,18' suspended tank working platform,18Platform,63,Supplies,FALSE,SHIFT,18Platform
+"Equipment : Forklifts, Backhoes and Graders",0,"18,000 lb. Forklift",FL18K,64,Equipment,FALSE,HR,FL18K
+Supplies,0,2 gal. bucket,5100180,65,Supplies,FALSE,EA,5100180
+Equipment : 2 Ton Trucks,0.8,2 Ton Freightliner  Truck - Mileage,2TM,66,Supplies,FALSE,MI,2TM
+Equipment : 2 Ton Trucks,0,2 Ton Freightliner Truck - Shift,Trk2,67,Services,FALSE,SHIFT,Trk2
+Equipment,0,"2"" air mover exhaust horn",AH2,68,Supplies,FALSE,SHIFT,AH2
+Equipment,0,"2"" diaphragm pump (air-powered)",WP2A,69,Supplies,FALSE,SHIFT,WP2A
+Supplies,0,"2"" masking tape",4200070,70,Supplies,FALSE,ROLL,4200070
+"Supplies : Paint, Coating, and Thinner : Ameron : Thinner",11.5,Ameron #7 thinner,A7T,271,Supplies,FALSE,GAL,A7T
+"Supplies : Paint, Coating, and Thinner : Ameron : Thinner",11.84,Ameron #911 thinner,A911T,272,Supplies,FALSE,GAL,A911T
+"Supplies : Paint, Coating, and Thinner : Ameron",66.31,Amershield (ivory),ASHIELD,273,Supplies,FALSE,GAL,ASHIELD
+Equipment,0,Angle head grinder (electric),DAGrindE,274,Supplies,FALSE,SHIFT,DAGrindE
+Equipment,0,Angle head/D. A. grinder (air),DAGrindA,275,Supplies,FALSE,SHIFT,DAGrindA
+Supplies,0,Angry Orange degreaser,9100010,276,Supplies,FALSE,GAL,9100010
+"Supplies : Paint, Coating, and Thinner",96.93,APCO Fire Tube Coating,XTFD15A,277,Supplies,FALSE,GAL,XTFD15A
+Equipment,0,Asbestos Remediation Unit,AsbRem,278,Equipment,FALSE,HR,AsbRem
+Supplies,0,Ashland 197A fiberglass resin,3100030,279,Supplies,FALSE,GAL,3100030
+Equipment,0,Automated lance machine,AutoLance,280,Supplies,FALSE,HR,AutoLance
+Supplies,0,Floodlight bulb (500 watt),9500500,491,Supplies,FALSE,EA,9500500
+Equipment,0,Floor coating unit,FCU,492,Supplies,FALSE,SHIFT,FCU
+Equipment,0,Floor sander,Fsndr,493,Supplies,FALSE,SHIFT,Fsndr
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",15,Sherwin Williams #101 (Cholla green),SW101CG,748,Supplies,FALSE,GAL,SW101CG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",15.49,Sherwin Williams #101 (Napi valve match),SW101NVM,749,Supplies,FALSE,GAL,SW101NVM
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Macropoxy",70.8,Sherwin Williams #101 macropoxy (pre prime clear),SW101M,750,Supplies,FALSE,GAL,SW101M
+Equipment,0,Floor scarifier,Fscar,494,Supplies,FALSE,SHIFT,Fscar
+Labor : DT,0,Foreman - DT,FDT,495,Labor,FALSE,,FDT
+Labor : OT,0,Foreman - OT,FOT,496,Labor,FALSE,,FOT
+Labor : TT,0,Foreman - PT,FPT,497,Labor,FALSE,,FPT
+Labor : ST,0,Foreman - ST,FST,498,Labor,FALSE,,FST
+Labor : TT,0,Foreman - TT,FTT,499,Labor,FALSE,,FTT
+Equipment,0,Foreman Overtime Burden,FOB,500,Supplies,FALSE,HR,FOB
+Labor : ST,0,Safety Supervisor - ST,SSST,721,Labor,FALSE,,SSST
+Labor : TT,0,Safety Supervisor - TT,SSTT,722,Labor,FALSE,,SSTT
+Equipment,0,Sandblast nozzle light (12 volt),NL12,723,Supplies,FALSE,SHIFT,NL12
+Equipment : Abrasive Blasting,0,Sandblast unit (with compressor),SBUComp,724,Equipment,FALSE,HR,SBUComp
+Equipment : Abrasive Blasting,0,Sandblast unit (with plant air),SBUPA,725,Equipment,FALSE,HR,SBUPA
+Equipment,0,Scaffolding (per end frame),Sfld,726,Supplies,FALSE,SHIFT,Sfld
+Supplies,0,Scotch Brite pads,6200000,727,Supplies,FALSE,EA,6200000
+"Supplies : Paint, Coating, and Thinner : ScotchKote",91.88,ScotchKote 323 brush grade (gallon kit),SK323BG,728,Supplies,FALSE,Kit,SK323BG
+"Supplies : Paint, Coating, and Thinner : ScotchKote",32.41,ScotchKote 323 brush grade (quart kit),SK323BQ,729,Supplies,FALSE,Kit,SK323BQ
+"Supplies : Paint, Coating, and Thinner : ScotchKote",78.34,ScotchKote 323 spray grade,SK323S,730,Supplies,FALSE,GAL,SK323S
+Tax,0,TAX:  NM - BERNALILLO COUNTY - 000-000-2220-1035,2200,1001,Supplies,FALSE,Lump Sum,2200
+Tax,0,TAX:  NM - BERNALILLO COUNTY - 000-000-2220-1036,2201,1002,Supplies,FALSE,Lump Sum,2201
+Tax,0,TAX:  NM - BLOOMFIELD - 000-000-2220-1045,2180,1003,Supplies,FALSE,Lump Sum,2180
+Tax,0,TAX:  NM - BLOOMFIELD - 000-000-2220-1046,2182,1004,Supplies,FALSE,Lump Sum,2182
+Tax,0,TAX:  NM - CAPITAN - 000-000-2220-1050,2246,1005,Supplies,FALSE,Lump Sum,2246
+Tax,0,TAX:  NM - CATRON COUNTY - 000-000-2220-1055,2272,1006,Supplies,FALSE,Lump Sum,2272
+Tax,0,TAX:  NM - CHAMA - 000-000-2220-1060,2378,1007,Supplies,FALSE,Lump Sum,2378
+Tax,0,TAX:  NM - CHAMA - 000-000-2220-1061,2379,1008,Supplies,FALSE,Lump Sum,2379
+Tax,0,TAX:  NM - CIBOLA COUNTY - 000-000-2220-1065,2240,1009,Supplies,FALSE,Lump Sum,2240
+Tax,0,TAX:  NM - CIBOLA COUNTY - 000-000-2220-1066,2239,1010,Supplies,FALSE,Lump Sum,2239
+Subsistence,0,Per Diem - $80.00,PD80,652,Supplies,FALSE,DAY,PD80
+Equipment : Crew Cab Trucks,0,Pickup,PU,653,Equipment,FALSE,HR,PU
+Equipment : Abrasive Blasting,0,Pipe cleaning spin blast unit (with compressor),SpinBlast,654,Equipment,FALSE,HR,SpinBlast
+"Supplies : Paint, Coating, and Thinner : Plasite",17.78,Plasite #20 thinner,P20T,655,Supplies,FALSE,GAL,P20T
+"Supplies : Paint, Coating, and Thinner : Plasite",97.5,Plasite #4100 (light gray),P4100LG,656,Supplies,FALSE,GAL,P4100LG
+"Supplies : Paint, Coating, and Thinner : Plasite",89.5,Plasite #4110 (light gray),P4110LG,657,Supplies,FALSE,GAL,P4110LG
+"Supplies : Paint, Coating, and Thinner : Plasite",109.36,Plasite #4300/4310 vinyl ester,P4300VE,658,Supplies,FALSE,GAL,P4300VE
+"Supplies : Paint, Coating, and Thinner : Plasite",68.21,Plasite #4500 plasguard (gray),P4500P,659,Supplies,FALSE,GAL,P4500P
+"Supplies : Paint, Coating, and Thinner : Plasite",20,Plasite #71 thinner,P71T,660,Supplies,FALSE,GAL,P71T
+Equipment : Coating Vans,0,ScotchKote coating van,3MCoatVan,731,Services,FALSE,SHIFT,3MCoatVan
+Equipment : Coating Vans,1.4,ScotchKote Coating Van - Mileage,SCCV,732,Supplies,FALSE,MI,SCCV
+Equipment : Painting Equipment,0,ScotchKote paint unit (does not include generator or compressor),SKPU,733,Equipment,FALSE,HR,SKPU
+Labor : DT,0,Senior Foreman - DT,SFDT,734,Labor,FALSE,,SFDT
+Labor : OT,0,Senior Foreman - OT,SFOT,735,Labor,FALSE,,SFOT
+Labor : TT,0,Senior Foreman - PT,SFPT,736,Labor,FALSE,,SFPT
+Labor : ST,0,Senior Foreman - ST,SFST,737,Labor,FALSE,,SFST
+Labor : TT,0,Senior Foreman - TT,SFTT,738,Labor,FALSE,,SFTT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",85,Sherwin William - FC Flat hi temp black,SW851-1,739,Supplies,FALSE,GAL,SW851-1
+Equipment : 20000 CFM Blowers,0,"20,000 CFM Blower (Hourly)",Blwr20H,81,Equipment,FALSE,HR,Blwr20H
+Equipment : 20000 CFM Blowers Grit,0,"20,000 CFM blower (with cartridge filter house)",Blwr20CFH,82,Services,FALSE,SHIFT,Blwr20CFH
+Equipment : 20-25 KW Generators,0,20-25 KW Generator,Gen25,83,Equipment,FALSE,HR,Gen25
+Supplies,0,20-50 slag abrasive (100 lb.),2011650,84,Supplies,FALSE,Sack,2011650
+Equipment : Crane Trucks,0,23 Ton Crane Truck,CT23,85,Equipment,FALSE,HR,CT23
+Equipment,0,24' extension ladder,SLadr24,86,Supplies,FALSE,SHIFT,SLadr24
+Equipment,0,24' SkyClimber rolling roof rig,24SCRR,87,Supplies,FALSE,SHIFT,24SCRR
+Equipment,0,24' Stinson planks,Stin24,88,Supplies,FALSE,SHIFT,Stin24
+Equipment : Exhaust Blowers,0,"24"" exhaust blower",Blwr24,89,Equipment,FALSE,DAY,Blwr24
+Equipment,0,25 lb. air chipper,Achip,90,Supplies,FALSE,SHIFT,Achip
+"Supplies : Paint, Coating, and Thinner : Carboline : Carboguard",31.5,Carboline #890 carboguard (gray),C890G,351,Supplies,FALSE,GAL,C890G
+"Supplies : Paint, Coating, and Thinner : Carboline : Carboguard",27.5,Carboline #890 carboguard (safety yellow),C890SY,352,Supplies,FALSE,GAL,C890SY
+"Supplies : Paint, Coating, and Thinner : Carboline : Carboguard",29.5,Carboline #890 carboguard (white),C890W,353,Supplies,FALSE,GAL,C890W
+"Supplies : Paint, Coating, and Thinner : Carboline : Carboguard",27,Carboline #891 carboguard (gray),C891G,354,Supplies,FALSE,GAL,C891G
+"Supplies : Paint, Coating, and Thinner : Carboline : Carboguard",27,Carboline #891 carboguard (white),C891W,355,Supplies,FALSE,GAL,C891W
+"Supplies : Paint, Coating, and Thinner : Carboline",54,Carboline #S606 nullifire,C606N,356,Supplies,FALSE,GAL,C606N
+"Supplies : Paint, Coating, and Thinner : Carboline",69.5,Carboline rustbond,CRUST,357,Supplies,FALSE,GAL,CRUST
+Equipment,0,Carbon monoxide monitor & alarm,CMDet,358,Supplies,FALSE,SHIFT,CMDet
+"Supplies : Paint, Coating, and Thinner : Carboline : Semstone",41.25,Caroline urethane (clear),CUTH,359,Supplies,FALSE,GAL,CUTH
+Equipment,0,Carousel pump,CarPump,360,Supplies,FALSE,HR,CarPump
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",30.89,Sherwin Williams #69 reducer,SE69R,871,Supplies,FALSE,GAL,SE69R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",87,Sherwin Williams #9001 aersil thixotropic power,SW9001,872,Supplies,FALSE,Sack,SW9001
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",53.43,Sherwin Williams #910 steel seam,SW910SS,873,Supplies,FALSE,GAL,SW910SS
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",54.39,Sherwin Williams copoxy primer (gold),SWCP,874,Supplies,FALSE,GAL,SWCP
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",0,Sherwin Williams corothane II coating,1190700,875,Supplies,FALSE,GAL,1190700
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Duraplate",0,Sherwin Williams duraplate,1190895,876,Supplies,FALSE,GAL,1190895
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Duraplate",45.2,Sherwin Williams duraplate (black),SWDBK,877,Supplies,FALSE,GAL,SWDBK
+Equipment : Rescue and Breathing Support,0,Air Feed Hood (air compressor charged separately),AirFeedHood,241,Equipment,FALSE,HR,AirFeedHood
+Equipment,0,Air monitor,AirMon,242,Equipment,FALSE,HR,AirMon
+Supplies,0,Air mover (with plant air),AirMov,243,Supplies,FALSE,HR,AirMov
+Equipment : Painting Equipment,0,Airless paint unit (with compressor),APU,244,Equipment,FALSE,HR,APU
+Equipment : Painting Equipment,0,Airless paint unit (with Honda engine),APUG,245,Equipment,FALSE,HR,APUG
+Equipment : Painting Equipment,0,Airless paint unit (with plant air),APUPA,246,Equipment,FALSE,HR,APUPA
+Supplies : Batteries,1.35,Alkaline batteries (9 volt),9VOLT,247,Supplies,FALSE,EA,9VOLT
+Supplies : Batteries,0.35,Alkaline batteries (AA),AA,248,Supplies,FALSE,EA,AA
+Supplies : Batteries,0.36,Alkaline batteries (AAA),AAA,249,Supplies,FALSE,EA,AAA
+Supplies : Batteries,0.69,Alkaline batteries (C cell),CCELL,250,Supplies,FALSE,EA,CCELL
+"Supplies : Paint, Coating, and Thinner : Carboline : Carbothane",49.75,Carboline #134 GH carbothane (marble dust),C134MD,311,Supplies,FALSE,GAL,C134MD
+"Supplies : Paint, Coating, and Thinner : Carboline : Carbothane",64.09,Carboline #134 HG carbothane (Abitibi green),C134AG,312,Supplies,FALSE,GAL,C134AG
+"Supplies : Paint, Coating, and Thinner : Carboline : Carbothane",61.21,Carboline #134 HG carbothane (Aztec Well red),C134AWR,313,Supplies,FALSE,GAL,C134AWR
+"Supplies : Paint, Coating, and Thinner : Carboline : Carbothane",47,Carboline #134 HG carbothane (bird egg blue),C134BEB,314,Supplies,FALSE,GAL,C134BEB
+"Supplies : Paint, Coating, and Thinner : Carboline : Carbothane",53.5,Carboline #134 HG carbothane (desert tan),C134DT,315,Supplies,FALSE,GAL,C134DT
+"Supplies : Paint, Coating, and Thinner : Carboline : Carbothane",44,Carboline #134 HG carbothane (gray flannel),C134GF,316,Supplies,FALSE,GAL,C134GF
+"Supplies : Paint, Coating, and Thinner : Carboline : Carbothane",48.5,Carboline #134 HG carbothane (off white),C134OW,317,Supplies,FALSE,GAL,C134OW
+"Supplies : Paint, Coating, and Thinner : Carboline : Carbothane",59.5,Carboline #134 HG carbothane (Riley red),C134RR,318,Supplies,FALSE,GAL,C134RR
+"Supplies : Paint, Coating, and Thinner : Carboline : Carbothane",70,Carboline #134 HG carbothane (safety yellow),C134SY,319,Supplies,FALSE,GAL,C134SY
+"Supplies : Paint, Coating, and Thinner : Carboline : Carbothane",44,Carboline #134 HG carbothane (volcano cliff),C134VC,320,Supplies,FALSE,GAL,C134VC
+Equipment : Bucket Trucks,0,JLG 60' manlift,JLG60,571,Equipment,FALSE,HR,JLG60
+Equipment : Bucket Trucks,0,JLG 80' manlift,JLG80,572,Equipment,FALSE,HR,JLG80
+"Supplies : Paint, Coating, and Thinner : Jones Blair",12.1,Jones Blair #21092 polyurethane med enamel reducer,JB21092R,573,Supplies,FALSE,GAL,JB21092R
+"Supplies : Paint, Coating, and Thinner : Jones Blair",34.4,Jones Blair #45040 (balsam),JB45040B,574,Supplies,FALSE,GAL,JB45040B
+"Supplies : Paint, Coating, and Thinner : Jones Blair",45.84,Jones Blair #45040 (brown),JB45040BR,575,Supplies,FALSE,GAL,JB45040BR
+"Supplies : Paint, Coating, and Thinner : Jones Blair",42.35,Jones Blair #45040 (desert tan),JB45040DT,576,Supplies,FALSE,GAL,JB45040DT
+"Supplies : Paint, Coating, and Thinner : Jones Blair",42.35,Jones Blair #45040 (white),JB45040W,577,Supplies,FALSE,GAL,JB45040W
+Labor : DT,0,Journeyman - DT,JDT,578,Labor,FALSE,,JDT
+Labor : OT,0,Journeyman - OT,JOT,579,Labor,FALSE,,JOT
+Labor : TT,0,Journeyman - PT,JPT,580,Labor,FALSE,,JPT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Duraplate",55.83,Sherwin Williams duraplate (buff),SWDB,878,Supplies,FALSE,GAL,SWDB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Duraplate",75.15,Sherwin Williams duraplate (green),SWDG,879,Supplies,FALSE,GAL,SWDG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Duraplate",55.83,Sherwin Williams duraplate (mill white),SWDMW,880,Supplies,FALSE,GAL,SWDMW
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Duraplate",76.44,Sherwin Williams duraplate (white),SWDW,881,Supplies,FALSE,GAL,SWDW
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Duraplate",53.22,Sherwin Williams duraplate laminate (clear),SWDL,882,Supplies,FALSE,GAL,SWDL
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Duraplate",62.02,Sherwin Williams duraplate primer (gold),SWDP,883,Supplies,FALSE,GAL,SWDP
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",536.4,Sherwin Williams fluorchem urethane (Riley red),SWFU,884,Supplies,FALSE,GAL,SWFU
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",75.29,Sherwin Williams graffiti guard,SWGG,885,Supplies,FALSE,GAL,SWGG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",35.62,Sherwin Williams hi-mil shertar,SWSTAR,886,Supplies,FALSE,GAL,SWSTAR
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",48.49,Sherwin Williams industrial enamel (safety red),SWESR,887,Supplies,FALSE,GAL,SWESR
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",48.49,Sherwin Williams industrial enamel (safety yellow),SWESY,888,Supplies,FALSE,GAL,SWESY
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",35.98,Sherwin Williams mastic alium epoxy,SWAE,889,Supplies,FALSE,GAL,SWAE
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",47.66,Sherwin Williams mio aluminum,SWMA,890,Supplies,FALSE,GAL,SWMA
+Supplies,263.91,Slag Abrasive (Jumbo Cell),2011650Jumbo,911,Supplies,FALSE,EA,2011650Jumbo
+Equipment,0,Sling psychrometer,SlngSy,912,Supplies,FALSE,SHIFT,SlngSy
+Equipment,0,Small hand tools,SHndTool,913,Supplies,FALSE,SHIFT,SHndTool
+Equipment,0,Spark tester,SpkTestTr,914,Supplies,FALSE,SHIFT,SpkTestTr
+Equipment,0,Special Rental Item (SHIFT),SPRENTAL,915,Supplies,FALSE,SHIFT,SPRENTAL
+Equipment,50,Spill Guard,SpillGuard,916,Supplies,FALSE,SHIFT,SpillGuard
+Equipment,0,Spinner jet setup,SpinJet,917,Equipment,FALSE,HR,SpinJet
+Equipment,0,Sponge tester,SpTest,918,Supplies,FALSE,SHIFT,SpTest
+Equipment : Painting Equipment,0,Spray paint unit (with compressor),440095,919,Equipment,FALSE,HR,440095
+Equipment : Painting Equipment,0,Spray paint unit (with plant air),440094,920,Equipment,FALSE,HR,440094
+Equipment,0,"1,000 gal. water tank (trailer mounted)",Tank1000T,11,Supplies,FALSE,SHIFT,Tank1000T
+Equipment : Heaters,0,"1,000,000 BTU force cure heater (with fuel)",Htr1000f,12,Supplies,FALSE,SHIFT,Htr1000f
+Equipment : Heaters,0,"1,000,000 BTU force cure heater (without fuel)",Htr1000,13,Supplies,FALSE,SHIFT,Htr1000
+Equipment : 1050 CFM Air Compressors,0,"1,050 CFM Air Compressor",AC1050,14,Equipment,FALSE,HR,AC1050
+Equipment : 1200 CFM Air Compressors,0,"1,200 CFM Air Compressor",AC1200,15,Equipment,FALSE,HR,AC1200
+Equipment : 1300 CFM Air Compressors,0,"1,300 CFM Air Compressor",AC1300,16,Equipment,FALSE,HR,AC1300
+Equipment,0,"1,500 gal. water tank (skid mounted)",Tank1500S,17,Supplies,FALSE,SHIFT,Tank1500S
+Equipment : Heaters,0,"1,500,000 BTU space heater (without fuel)",Htr15M,18,Supplies,FALSE,SHIFT,Htr15M
+Equipment,0,"1,600 gal. water tank (skid mounted)",Tank1600S,19,Supplies,FALSE,SHIFT,Tank1600S
+Equipment : 1600-1750 CFM Air Compressors,0,"1,600-1,750 CFM Air Compressor",AC16001750,20,Equipment,FALSE,HR,AC16001750
+Equipment,0,Hydro-excavation truck with 2-man crew (unscheduled),HXTU,561,Equipment,FALSE,DAY,HXTU
+Equipment,0,Hydro-excavation truck with 2-man crew (weekend),HXTW,562,Equipment,FALSE,DAY,HXTW
+Equipment,0,Hydrotest Pump,Htest,563,Equipment,FALSE,HR,Htest
+Equipment : Vacuum Trucks,0,Industrial vacuum truck with 2-man crew (scheduled),IVTS,564,Equipment,FALSE,HR,IVTS
+Equipment,0,Industrial vacuum truck with 2-man crew (unscheduled),IVTU,565,Equipment,FALSE,DAY,IVTU
+Equipment,0,Industrial vacuum truck with 2-man crew (weekend),IVTW,566,Equipment,FALSE,DAY,IVTW
+Equipment : Painting Equipment,0,Internal pipe spray unit (with compressor),IPSPU,567,Equipment,FALSE,HR,IPSPU
+Equipment : Painting Equipment,0,Internal pipe spray unit (with plant air),IPSPUPA,568,Equipment,FALSE,HR,IPSPUPA
+Equipment,0,Jerome mercury meter,JerMerc,569,Supplies,FALSE,SHIFT,JerMerc
+Equipment : Bucket Trucks,0,JLG 40' manlift,JLG40,570,Equipment,FALSE,HR,JLG40
+Equipment,0,One call fee (per location),OneCall,631,Supplies,FALSE,EA,OneCall
+Labor : DT,0,Operator - DT,ODT,632,Labor,FALSE,,ODT
+Labor : OT,0,Operator - OT,OOT,633,Labor,FALSE,,OOT
+Labor : TT,0,Operator - PT,OPT,634,Labor,FALSE,,OPT
+Labor : ST,0,Operator - ST,OST,635,Labor,FALSE,,OST
+Labor : TT,0,Operator - TT,OTT,636,Labor,FALSE,,OTT
+Equipment,0,Operator Overtime Burden,OOB,637,Supplies,FALSE,HR,OOB
+Supplies,23.39,Orange safety fence,OSF,638,Supplies,FALSE,ROLL,OSF
+Supplies,0,Other material as needed (CHANGE THIS BOX TO MATCH MATERIAL NAME),OTHER,639,Supplies,FALSE,EA,OTHER
+"Supplies : Paint, Coating, and Thinner",0,Other paint or coating as needed (CHANGE THIS BOX TO MATCH SPECIFIC COATING NAME),OTHERPAINT,640,Supplies,FALSE,GAL,OTHERPAINT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",62.38,Sherwin Williams #304 HS polyurethane (Conoco safety red),SW304CSR,811,Supplies,FALSE,GAL,SW304CSR
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",64.04,Sherwin Williams #304 HS polyurethane (Elkhorn juniper green),SW304EJG,812,Supplies,FALSE,GAL,SW304EJG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",64.04,Sherwin Williams #304 HS polyurethane (Enterprise blue),SW304EB,813,Supplies,FALSE,GAL,SW304EB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",64.04,Sherwin Williams #304 HS polyurethane (Enterprise green),SW304EG,814,Supplies,FALSE,GAL,SW304EG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",54.93,Sherwin Williams #304 HS polyurethane (EPNG gray),SW304EPG,815,Supplies,FALSE,GAL,SW304EPG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",100.8,Sherwin Williams #304 HS polyurethane (EPNG orange),SW304EPO,816,Supplies,FALSE,GAL,SW304EPO
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",62.38,Sherwin Williams #304 HS polyurethane (H&R gray),SW304HRG,817,Supplies,FALSE,GAL,SW304HRG
+Tax,0,TAX:  AZ - CITY OF KINGMAN - 100-000-2201-1078,2317,951,Supplies,FALSE,Lump Sum,2317
+Tax,0,TAX:  AZ - CITY OF PHOENIX - 100-000-2201-1074,2207,952,Supplies,FALSE,Lump Sum,2207
+Tax,0,TAX:  AZ - CITY OF PRESCOTT - 100-000-2201-1080,2328,953,Supplies,FALSE,Lump Sum,2328
+Tax,0,TAX:  AZ - CITY OF PRESCOTT - 100-000-2201-1081,2329,954,Supplies,FALSE,Lump Sum,2329
+Tax,0,TAX:  AZ - CITY OF PRESCOTT VALLEY - 100-000-2201-1079,2318,955,Supplies,FALSE,Lump Sum,2318
+Tax,0,TAX:  AZ - CITY OF SAFFORD - 100-000-2201-1060,2266,956,Supplies,FALSE,Lump Sum,2266
+Tax,0,TAX:  AZ - CITY OF TUCSON - 100-000-2201-1075,2213,957,Supplies,FALSE,Lump Sum,2213
+Tax,0,TAX:  AZ - CITY OF YUMA - 100-000-2201-1077,2316,958,Supplies,FALSE,Lump Sum,2316
+Tax,0,TAX:  AZ - COCHISE COUNTY - 100-000-2201-1010,2248,959,Supplies,FALSE,Lump Sum,2248
+Tax,0,TAX:  AZ - COCHISE COUNTY - 100-000-2201-1011,2247,960,Supplies,FALSE,Lump Sum,2247
+Tax,0,TAX:  WY - PLATT COUNTY - 400-000-2225-1005,2296,1201,Supplies,FALSE,Lump Sum,2296
+Tax,0,TAX:  WY - PLATTE COUNTY - 400-000-2225-1006,2292,1202,Supplies,FALSE,Lump Sum,2292
+Tax,0,TAX:  WY - SWEETWATER COUNTY - 400-000-2225-1010,2299,1203,Supplies,FALSE,Lump Sum,2299
+Tax,0,TAX:  WY - SWEETWATER COUNTY - 400-000-2225-1011,2298,1204,Supplies,FALSE,Lump Sum,2298
+Tax,0,TAX:  WY - UINTA COUNTY - 400-000-2225-1016,2395,1205,Supplies,FALSE,Lump Sum,2395
+Tax,0,TAX:  WY - UINTA COUNTY - 400-000-2225-1017,2396,1206,Supplies,FALSE,Lump Sum,2396
+Tax,0,TAX: NM - CHAVES COUNTY - 000-000-2220-1062,2426,1207,Supplies,FALSE,Lump Sum,2426
+Tax,0,TAX: NM - CHAVES COUNTY - 000-000-2220-1063,2427,1208,Supplies,FALSE,Lump Sum,2427
+Tax,0,TAX: NM - CIMARRON - 000-000-2220-1011,2428,1209,Supplies,FALSE,EA,2428
+Tax,0,TAX: NM - CIMARRON - 000-000-2220-1012,2429,1210,Supplies,FALSE,EA,2429
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",64.04,Sherwin Williams #304 HS polyurethane (juniper green),SW304JG,818,Supplies,FALSE,GAL,SW304JG
+Equipment,0,500 gal. propane tank,Prop500,191,Supplies,FALSE,SHIFT,Prop500
+Equipment : 500 HP Hydroblast,0,500 HP Hydroblast Unit,HBU500,192,Equipment,FALSE,HR,HBU500
+Equipment,0,500 Watt Flood Light (hourly),fl500h,193,Equipment,FALSE,HR,fl500h
+Equipment : 50-60 KW Generators,0,50-60 KW Generator,Gen60,194,Equipment,FALSE,HR,Gen60
+Equipment : Bucket Trucks,0,52' Bucket Truck,BTrk52,195,Equipment,FALSE,HR,BTrk52
+Equipment,0,53' dry van trailer,53TrailerVan,196,Supplies,FALSE,SHIFT,53TrailerVan
+Equipment,0,53' dry van trailer,53TrailerVanM,197,Supplies,FALSE,MONTH,53TrailerVanM
+Equipment : Trailers,0,53' flatbed or drop deck trailer,53Trailer,198,Equipment,FALSE,DAY,53Trailer
+Equipment : Trailers,0,"53 Ft. Tilt Deck Trailer with 20,000 lb. Winch",TTrlr,199,Equipment,FALSE,HR,TTrlr
+Supplies,0,6 mm Visqueen plastic (20' X 100'),7400200,200,Supplies,FALSE,ROLL,7400200
+Equipment : 300 HP Hydroblast,0,Pump (with 2-gun operation),P2G,701,Equipment,FALSE,HR,P2G
+Equipment : 300 HP Hydroblast,0,Pump (with 3 lances),P3L,702,Equipment,FALSE,HR,P3L
+Equipment : 300 HP Hydroblast,0,Pump (with 3-gun operation),P3G,703,Equipment,FALSE,HR,P3G
+Equipment : 300 HP Hydroblast,0,Pump (with 4-gun operation),P4G,704,Equipment,FALSE,HR,P4G
+Equipment,0,Quik-Erect scaffold (per vertical ft.),Qerect,705,Supplies,FALSE,SHIFT,Qerect
+Supplies,0,Rags (10 lb. box),9600000,706,Supplies,FALSE,BOX,9600000
+Equipment,0,Recipro Sawzall (electric),SawZ,707,Supplies,FALSE,SHIFT,SawZ
+Equipment : Rescue and Breathing Support,0,Rescue support unit,RSU,708,Equipment,FALSE,HR,RSU
+Equipment,0,Rezclad mono pump unit,RezClad,709,Supplies,FALSE,HR,RezClad
+Equipment,0,Rileybilt single man climber basket,RBSLCB,710,Supplies,FALSE,SHIFT,RBSLCB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",64.04,Sherwin Williams #304 HS polyurethane (new cat yellow),SW304NCY,819,Supplies,FALSE,GAL,SW304NCY
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",62.38,Sherwin Williams #304 HS polyurethane (Patterson blue),SW304PB,820,Supplies,FALSE,GAL,SW304PB
+Tax,0,TAX:  NM - FARMINGTON - 000-000-2220-1106,2161,1031,Supplies,FALSE,Lump Sum,2161
+Tax,0,TAX:  NM - GALLUP - 000-000-2220-1110,2250,1032,Supplies,FALSE,Lump Sum,2250
+Tax,0,TAX:  NM - GALLUP - 000-000-2220-1111,2238,1033,Supplies,FALSE,Lump Sum,2238
+Tax,0,TAX:  NM - GRANT COUNTY - 000-000-2220-1116,2404,1034,Supplies,FALSE,Lump Sum,2404
+Tax,0,TAX:  NM - GRANT COUNTY - 000-000-2220-1117,2188,1035,Supplies,FALSE,Lump Sum,2188
+Tax,0,TAX:  NM - HAGERMAN - 000-000-2220-1120,2174,1036,Supplies,FALSE,Lump Sum,2174
+Tax,0,TAX:  NM - HAGERMAN - 000-000-2220-1121,2175,1037,Supplies,FALSE,Lump Sum,2175
+Tax,0,TAX:  NM - HIDALGO COUNTY - 000-000-2220-1125,2295,1038,Supplies,FALSE,Lump Sum,2295
+Tax,0,TAX:  NM - HIDALGO COUNTY - 000-000-2220-1126,2294,1039,Supplies,FALSE,Lump Sum,2294
+Tax,0,TAX:  NM - HOBBS - 000-000-2220-2292,2167,1040,Supplies,FALSE,Lump Sum,2167
+"Supplies : Paint, Coating, and Thinner : Corchem",86.37,Corchem #243 (beige),C243B,391,Supplies,FALSE,GAL,C243B
+"Supplies : Paint, Coating, and Thinner : Corchem",86.37,Corchem #243 (gray),C243G,392,Supplies,FALSE,GAL,C243G
+Supplies,0,Cotton gloves,8200100,393,Supplies,FALSE,PAIR,8200100
+Equipment,0,Crew and equipment (day),BIDCE,394,Supplies,FALSE,DAY,BIDCE
+Equipment,0,Crew and equipment (hourly),BIDCEH,395,Equipment,FALSE,HR,BIDCEH
+Equipment,0,"Crew and equipment (hourly, OT)",BIDCEHOT,396,Equipment,FALSE,HR,BIDCEHOT
+Equipment : Crew Cab Trucks,0.8,Crew Cab Truck - Mileage,CCTM,397,Supplies,FALSE,MI,CCTM
+Equipment,0,Crew Cab Truck - Mileage Only,CCMILEAGE,398,Supplies,FALSE,MI,CCMILEAGE
+Equipment : Crew Cab Trucks,0,Crew Cab Truck - Shift,CCTrk,399,Services,FALSE,SHIFT,CCTrk
+Equipment : Crew Cab Trucks,0,"Crew Cab Truck (hourly, includes mileage)",CCTrkh,400,Equipment,FALSE,HR,CCTrkh
+Equipment,0,Crew swap out,SWAP,401,Supplies,FALSE,CREW,SWAP
+Equipment,0,Cutting torch unit,CutT,402,Supplies,FALSE,HR,CutT
+Supplies,0,Daily Sundries,SUN,403,Supplies,FALSE,EA,SUN
+"Supplies : Paint, Coating, and Thinner : Dampney",26.58,Dampney #160 thinner,D243G,404,Supplies,FALSE,GAL,D243G
+"Supplies : Paint, Coating, and Thinner : Dampney",130.93,Dampney #260 series thermalox (white),D260W,405,Supplies,FALSE,GAL,D260W
+"Supplies : Paint, Coating, and Thinner : Dampney",79,Dampney #262 series thermalox (black),D262B,406,Supplies,FALSE,GAL,D262B
+"Supplies : Paint, Coating, and Thinner : Dampney",154.31,Dampney #776 series high temp (canyon tan),D776CT,407,Supplies,FALSE,GAL,D776CT
+Equipment,0,Decon trailer,Decon,408,Supplies,FALSE,SHIFT,Decon
+"Supplies : Paint, Coating, and Thinner : Devoe",20.87,Devoe #10 thinner,D10T,409,Supplies,FALSE,GAL,D10T
+"Supplies : Paint, Coating, and Thinner : Devoe",65,Devoe #111 devmat (buff),D111B,410,Supplies,FALSE,GAL,D111B
+Tax,0,TAX:  NM - TORRANCE COUNTY - 000-000-2220-1290,2203,1088,Supplies,FALSE,Lump Sum,2203
+Tax,0,TAX:  NM - TORRANCE COUNTY - 000-000-2220-1291,2204,1089,Supplies,FALSE,Lump Sum,2204
+Tax,0,TAX:  NM - TOWN OF TAOS - 000-000-2220-1275,2183,1090,Supplies,FALSE,Lump Sum,2183
+Labor : OT,0,Helper - OT,HOT,531,Labor,FALSE,,HOT
+Labor : TT,0,Helper - PT,HPT,532,Labor,FALSE,,HPT
+Labor : ST,0,Helper - ST,HST,533,Labor,FALSE,,HST
+Labor : TT,0,Helper - TT,HTT,534,Labor,FALSE,,HTT
+Equipment,0,Helper Overtime Burden,HOB,535,Supplies,FALSE,HR,HOB
+Equipment,0,HEPA filter attachment,HEPAFltr,536,Supplies,FALSE,SHIFT,HEPAFltr
+Equipment,0,HEPA vacuum,HEPAVac,537,Supplies,FALSE,SHIFT,HEPAVac
+Equipment,0,High Pressure Hose,HiPressHose,538,Equipment,FALSE,HR,HiPressHose
+"Supplies : Paint, Coating, and Thinner : High Temp",216.73,Hi-temp coating (Carlsbad Canyon tan),HTCT,539,Supplies,FALSE,GAL,HTCT
+"Supplies : Paint, Coating, and Thinner : High Temp",145,Hi-temp coating (white),HTCW,540,Supplies,FALSE,GAL,HTCW
+Tax,0,TAX:  NM - SAN YSIDRO - 000-000-2220-1245,2172,1081,Supplies,FALSE,Lump Sum,2172
+Tax,0,TAX:  NM - SANDOVAL COUNTY - 000-000-2220-1250,2163,1082,Supplies,FALSE,Lump Sum,2163
+Tax,0,TAX:  NM - SANDOVAL COUNTY - 000-000-2220-1251,2282,1083,Supplies,FALSE,Lump Sum,2282
+Tax,0,TAX:  NM - SANTA FE COUNTY - 000-000-2220-1265,2288,1084,Supplies,FALSE,Lump Sum,2288
+Tax,0,TAX:  NM - SANTA FE COUNTY - 000-000-2220-1266,2279,1085,Supplies,FALSE,Lump Sum,2279
+Tax,0,TAX:  NM - SANTO DOMINGO PUEBLO - 000-000-2220-1270,2271,1086,Supplies,FALSE,Lump Sum,2271
+Tax,0,TAX:  NM - TAOS COUNTY - 000-000-2220-1280,2173,1087,Supplies,FALSE,Lump Sum,2173
+"Supplies : Paint, Coating, and Thinner : Carboline",19,Carboline #561 (gray),C561G,341,Supplies,FALSE,GAL,C561G
+"Supplies : Paint, Coating, and Thinner : Carboline",19,Carboline #561 (white),C561W,342,Supplies,FALSE,GAL,C561W
+"Supplies : Paint, Coating, and Thinner : Carboline",26.5,Carboline #692 carboguard (white),C692CW,343,Supplies,FALSE,GAL,C692CW
+Equipment,0,"3,000 gal. poly water tank",Poly3000,111,Supplies,FALSE,SHIFT,Poly3000
+Equipment : Pressure Washers,0,"3,000 PSI Cold Pressure Wash Unit - Electric",PWUCElec,112,Equipment,FALSE,HR,PWUCElec
+Equipment : Pressure Washers,0,"3,000 PSI Cold Pressure Wash Unit - Gas",PWUCGas,113,Equipment,FALSE,HR,PWUCGas
+Equipment : Pressure Washers,0,"3,000 PSI Hot Pressure Wash Unit",PWUH,114,Equipment,FALSE,HR,PWUH
+Equipment,0,"3,100 gal. water tank (trailer mounted)",Tank3100T,115,Supplies,FALSE,SHIFT,Tank3100T
+Equipment : 3500 CFM Blowers,0,"3,500 CFM blower",Blwr3500,116,Equipment,FALSE,DAY,Blwr3500
+Supplies,0,3.5 gal. bucket,5100190,117,Supplies,FALSE,EA,5100190
+Equipment,0,"3/4"" air impact",Imp4,118,Supplies,FALSE,SHIFT,Imp4
+Equipment,0,"3/4"" electric sump pump (110 volt)",WPE,119,Supplies,FALSE,SHIFT,WPE
+Equipment,0,"3/4"" hand drill (electric)",DrillH4,120,Supplies,FALSE,SHIFT,DrillH4
+"Supplies : Paint, Coating, and Thinner : Carboline",59.8,Carboline #705 polibrid,C705P,344,Supplies,FALSE,GAL,C705P
+"Supplies : Paint, Coating, and Thinner : Carboline : Thinner",17.5,Carboline #76 thinner,C76T,345,Supplies,FALSE,GAL,C76T
+"Supplies : Paint, Coating, and Thinner : Carboline",62.5,Carboline #788 splash guard,C788SG,346,Supplies,FALSE,GAL,C788SG
+"Supplies : Paint, Coating, and Thinner : Carboline : Semstone",78,Carboline #805 semstone (gray),C805S,347,Supplies,FALSE,GAL,C805S
+"Supplies : Paint, Coating, and Thinner : Carboline",35,Carboline #859 zinc primer (green),C859ZP,348,Supplies,FALSE,GAL,C859ZP
+"Supplies : Paint, Coating, and Thinner : Carboline : Carboguard",24.5,Carboline #890 carboguard (bird egg blue),C890BEB,349,Supplies,FALSE,GAL,C890BEB
+"Supplies : Paint, Coating, and Thinner : Carboline : Carboguard",21.5,Carboline #890 carboguard (gray flannel),C890GF,350,Supplies,FALSE,GAL,C890GF
+"Supplies : Paint, Coating, and Thinner : Devoe",65,Devoe #111 devmat (mist gray),D111MG,411,Supplies,FALSE,GAL,D111MG
+"Supplies : Paint, Coating, and Thinner : Devoe",28,Devoe #17 thinner,D17T,412,Supplies,FALSE,GAL,D17T
+"Supplies : Paint, Coating, and Thinner : Devoe",31.75,Devoe #233 H (buff),D233B,413,Supplies,FALSE,GAL,D233B
+"Supplies : Paint, Coating, and Thinner : Devoe",28.37,Devoe #233 H (haze gray),D233HG,414,Supplies,FALSE,GAL,D233HG
+"Supplies : Paint, Coating, and Thinner : Devoe",31.75,Devoe #233 H (white),D233W,415,Supplies,FALSE,GAL,D233W
+"Supplies : Paint, Coating, and Thinner : Devoe",56.4,Devoe #235 (off-white),D235OW,416,Supplies,FALSE,GAL,D235OW
+"Supplies : Paint, Coating, and Thinner : Devoe",31.28,Devoe #236 bar rust (red oxide),D236BR,417,Supplies,FALSE,GAL,D236BR
+"Supplies : Paint, Coating, and Thinner : Devoe",60.25,Devoe #316 cathacoat zinc primer,D316ZP,418,Supplies,FALSE,GAL,D316ZP
+"Supplies : Paint, Coating, and Thinner : Devoe",65.59,Devoe #378 (alder white),D378AW,419,Supplies,FALSE,GAL,D378AW
+"Supplies : Paint, Coating, and Thinner : Devoe",38.5,Devoe #378 (beige),D378B,420,Supplies,FALSE,GAL,D378B
+Subsistence,30,Per Diem - $30.00,PD30,651,Supplies,FALSE,DAY,PD30
+Equipment : Bucket Trucks,0,35' Bucket Truck,BTrk35,141,Equipment,FALSE,HR,BTrk35
+Equipment : Heaters,0,"350,000 BTU heater (with fuel)",Htr350F,142,Supplies,FALSE,SHIFT,Htr350F
+Equipment : Heaters,0,"350,000 BTU heater (without fuel)",Htr350,143,Supplies,FALSE,SHIFT,Htr350
+Equipment : Air Dryers,0,375 CFM van air dryer,AD375,144,Supplies,FALSE,SHIFT,AD375
+Equipment,0,"4"" air mover exhaust horn",AH4,145,Supplies,FALSE,SHIFT,AH4
+Equipment,0,"4"" charging pump",WP4,146,Equipment,FALSE,HR,WP4
+Supplies,0,"4"" flexible vacuum pipe (100')",7100000,147,Supplies,FALSE,ROLL,7100000
+Supplies,0,"4"" metal flex hose (25')",7100200,148,Supplies,FALSE,ROLL,7100200
+Supplies,10,"4"" paint brush",5200004,149,Supplies,FALSE,EA,5200004
+Supplies,0,"4"" roller frame",5300005,150,Supplies,FALSE,EA,5300005
+Equipment,0,6 ton utility trailer (2-axle),6TTrailer,201,Supplies,FALSE,SHIFT,6TTrailer
+Equipment : Dump Trucks,0,6 yd. Ford F-600 dump truck,DT6,202,Services,FALSE,SHIFT,DT6
+Equipment,0,"6"" air mover exhaust horn",AH6,203,Supplies,FALSE,SHIFT,AH6
+Equipment,0,"6"" charging pump",WP6,204,Equipment,FALSE,HR,WP6
+Supplies,0,"6"" flexible vacuum pipe (100')",7100100,205,Supplies,FALSE,ROLL,7100100
+Supplies,0,"6"" metal flex hose (25')",7100250,206,Supplies,FALSE,ROLL,7100250
+Supplies,1.62,"6"" Plastic Vacuum Pipe (per foot)",7100105,207,Supplies,FALSE,FT,7100105
+"Equipment : Forklifts, Backhoes and Graders",0,"6,000 lb. Forklift",FL6K,208,Equipment,FALSE,HR,FL6K
+Equipment : Bucket Trucks,0,60' Bucket Truck,BTtrk60,209,Equipment,FALSE,HR,BTtrk60
+Equipment,0,60 lb. air pavement breaker,Pbreak60,210,Supplies,FALSE,SHIFT,Pbreak60
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Acrolon",92.18,Sherwin Williams  #218 acrolon (black),SW218B,740,Supplies,FALSE,GAL,SW218B
+"Supplies : Paint, Coating, and Thinner : Dupont",136.65,Dupont #5020 (freightliner white),D5020FW,451,Supplies,FALSE,GAL,D5020FW
+"Supplies : Paint, Coating, and Thinner : Dupont",32.49,Dupont #7175 mid-temp reducer,D7175R,452,Supplies,FALSE,GAL,D7175R
+"Supplies : Paint, Coating, and Thinner : Dupont",63.21,Dupont #8438 imron (desert tan),D8438I,453,Supplies,FALSE,GAL,D8438I
+"Supplies : Paint, Coating, and Thinner : Dupont",110.45,Dupont #85501 nason code 50 (white),D85501N,454,Supplies,FALSE,GAL,D85501N
+"Supplies : Paint, Coating, and Thinner : Dupont",44.87,Dupont #8944 (french blue),D8944FB,455,Supplies,FALSE,GAL,D8944FB
+"Supplies : Paint, Coating, and Thinner : Dupont",60.2,Dupont #9791 (oxford white),D9791OW,456,Supplies,FALSE,GAL,D9791OW
+Equipment,0,"Duro hydrotest chart recorder (5,000 PSI)",Duro5000,457,Supplies,FALSE,SHIFT,Duro5000
+Supplies,0,Dust masks (20 per box),8600010,458,Supplies,FALSE,BOX,8600010
+"Supplies : Paint, Coating, and Thinner : Versaflex",30.98,Dzolv cleaner,DSOLV,459,Supplies,FALSE,GAL,DSOLV
+Equipment : Air Compressors Electric,0,Electric Air Compressor,ACElec,460,Equipment,FALSE,DAY,ACElec
+Supplies,0,Miscellaneous Subcontractor (CHANGE THIS BOX TO MATCH COMPANY NAME),MISCSUB,611,Supplies,FALSE,EA,MISCSUB
+Equipment,0,Mixing Tank,MxgTank,612,Equipment,FALSE,DAY,MxgTank
+Equipment,0,Mobilization/Demobilization,MOBHR,613,Equipment,FALSE,HR,MOBHR
+Equipment,0,Mobilization/Demobilization,MOBMI,614,Supplies,FALSE,MI,MOBMI
+Equipment,0,Mobilization/Demobilization,MOB,615,Supplies,FALSE,Lump Sum,MOB
+Equipment,0,Monthly Fixed Cost for Mobile Ash Heavy Equipment,HEMNTHLYRATE,616,Services,FALSE,Lump Sum,HEMNTHLYRATE
+Subsistence,0,Motel,MOTEL,617,Supplies,FALSE,Lump Sum,MOTEL
+"Equipment : Forklifts, Backhoes and Graders",0,Motor Grader with 14' Blade,Grader,618,Equipment,FALSE,HR,Grader
+Equipment,0,Multi-gas monitor,ESMU,619,Supplies,FALSE,SHIFT,ESMU
+Labor : DT,0,NACE Level 1 Inspector - DT,NIDT,620,Labor,FALSE,,NIDT
+Tax,0,TAX:  AZ - COCONINO COUNTY - 100-000-2201-1015,2218,961,Supplies,FALSE,Lump Sum,2218
+Tax,0,TAX:  AZ - COCONINO COUNTY - 100-000-2201-1016,2226,962,Supplies,FALSE,Lump Sum,2226
+Tax,0,TAX:  AZ - GILA COUNTY - 100-000-2201-1040,2230,963,Supplies,FALSE,Lump Sum,2230
+Tax,0,TAX:  AZ - GILA COUNTY - 100-000-2201-1041,2233,964,Supplies,FALSE,Lump Sum,2233
+Tax,0,TAX:  AZ - GRAHAM COUNTY - 100-000-2201-1073,2244,965,Supplies,FALSE,Lump Sum,2244
+Tax,0,TAX:  AZ - GREENLEE COUNTY - 100-000-2201-1020,2223,966,Supplies,FALSE,Lump Sum,2223
+Tax,0,TAX:  AZ - GREENLEE COUNTY - 100-000-2201-1021,2235,967,Supplies,FALSE,Lump Sum,2235
+Tax,0,TAX:  AZ - LA PAZ COUNTY - 100-000-2201-1025,2237,968,Supplies,FALSE,Lump Sum,2237
+Tax,0,TAX:  AZ - LA PAZ COUNTY - 100-000-2201-1026,2236,969,Supplies,FALSE,Lump Sum,2236
+Tax,0,TAX:  AZ - MARICOPA COUNTY - 100-000-2201-1030,2222,970,Supplies,FALSE,Lump Sum,2222
+Tax,0,TAX:  TX - BELL COUNTY - 700-000-2245-1023,2325,1111,Supplies,FALSE,Lump Sum,2325
+Tax,0,TAX:  TX - CASTRO COUNTY - 700-000-2245-1042,2360,1112,Supplies,FALSE,Lump Sum,2360
+Tax,0,TAX:  TX - CASTRO COUNTY - 700-000-2245-1043,2361,1113,Supplies,FALSE,Lump Sum,2361
+Tax,0,TAX:  TX - CITY OF AMARILLO - 700-000-2245-1067,2402,1114,Supplies,FALSE,Lump Sum,2402
+Tax,0,TAX:  TX - CITY OF AMARILLO - 700-000-2245-1068,2403,1115,Supplies,FALSE,Lump Sum,2403
+Tax,0,TAX:  TX - CITY OF ANDREWS - 700-000-2245-1010,2259,1116,Supplies,FALSE,Lump Sum,2259
+Tax,0,TAX:  TX - CITY OF ANDREWS - 700-000-2245-1015,2267,1117,Supplies,FALSE,Lump Sum,2267
+Tax,0,TAX:  TX - CITY OF BIG LAKE - 700-000-2245-1074,2418,1118,Supplies,FALSE,Lump Sum,2418
+Tax,0,TAX:  TX - CITY OF BIG SPRING - 700-000-2245-1054,2374,1119,Supplies,FALSE,Lump Sum,2374
+Tax,0,TAX:  TX - CITY OF BIG SPRING - 700-000-2245-1059,2375,1120,Supplies,FALSE,Lump Sum,2375
+Equipment : Air Dryers,0,"1,800 CFM van air dryer",AD1800,21,Supplies,FALSE,SHIFT,AD1800
+Equipment,0,"1/2"" air impact",Imp2,22,Supplies,FALSE,SHIFT,Imp2
+Equipment,0,"1/2"" hammer drill (electric)",DrillHm,23,Supplies,FALSE,SHIFT,DrillHm
+Equipment,0,"1/2"" hand drill (electric)",DrillH2,24,Supplies,FALSE,SHIFT,DrillH2
+Equipment,0,"1/4"" die grinder (air)",Grind,25,Supplies,FALSE,SHIFT,Grind
+Equipment : 10 Ton Trucks,1.4,10 ton flat bed truck - Mileage,Trk10m,26,Supplies,FALSE,MI,Trk10m
+Equipment : 10 Ton Trucks,0,10 ton flatbed truck,Trk10,27,Services,FALSE,SHIFT,Trk10
+Equipment : 10000 CFM Blowers,0,"10,000 CFM blower",Blwr10,28,Services,FALSE,SHIFT,Blwr10
+Equipment : 10000 CFM Blowers Grit,0,"10,000 CFM blower (with cartridge filter house)",Blwr10CFH,29,Services,FALSE,SHIFT,Blwr10CFH
+"Equipment : Forklifts, Backhoes and Graders",0,"10,000 lb. Forklift - 2 Wheel Drive",FL10K2WD,30,Equipment,FALSE,HR,FL10K2WD
+Equipment : 12.5 KW Generators,0,12.5 KW Generator,Gen12,41,Equipment,FALSE,HR,Gen12
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",31.69,Sherwin Williams #110 reducer,SW110R,771,Supplies,FALSE,GAL,SW110R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",30.29,Sherwin Williams #111 DTM primer finish,SW111PF,772,Supplies,FALSE,GAL,SW111PF
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",24.2,Sherwin Williams #111 reducer,SW111R,773,Supplies,FALSE,GAL,SW111R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",30.72,Sherwin Williams #132 reducer,SW132R,774,Supplies,FALSE,GAL,SW132R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",25.89,Sherwin Williams #15 reducer,SW15R,775,Supplies,FALSE,GAL,SW15R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",69.28,Sherwin Williams #151 sherthane (white),SW151W,776,Supplies,FALSE,GAL,SW151W
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",93.68,Sherwin Williams #154 sherthane (blue),SW154B,777,Supplies,FALSE,GAL,SW154B
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",53.23,Sherwin Williams #154 sherthane (juniper green),SW154JG,778,Supplies,FALSE,GAL,SW154JG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",33.79,Sherwin Williams #155 reducer,SW155R,779,Supplies,FALSE,GAL,SW155R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",55,Sherwin Williams #202 (Foothills Bank tan),SW202FBT,780,Supplies,FALSE,GAL,SW202FBT
+Supplies,0,"3/4"" masking tape",4200050,121,Supplies,FALSE,ROLL,4200050
+Equipment,0,"3/4"" vacuum pump (air-powered)",WPAir,122,Supplies,FALSE,SHIFT,WPAir
+Equipment,0,"3/8"" air impact",Imp3,123,Supplies,FALSE,SHIFT,Imp3
+Equipment,0,"3/8"" cordless drill",DrillC,124,Supplies,FALSE,SHIFT,DrillC
+Equipment,0,30' conveyor unit,30Conv,125,Supplies,FALSE,HR,30Conv
+Equipment,0,30 lb. jackhammer,Jhamr30,126,Supplies,FALSE,SHIFT,Jhamr30
+Equipment,0,30 min. Scott air packs,AP30,127,Supplies,FALSE,SHIFT,AP30
+Equipment,0,30' rope ladder,RLadr30,128,Supplies,FALSE,SHIFT,RLadr30
+Equipment : 30 Ton Trucks,0,30 ton road truck,Trk30,129,Services,FALSE,SHIFT,Trk30
+Equipment : 30 Ton Trucks,1.5,30 ton road truck - Mileage,Trk30m,130,Supplies,FALSE,MI,Trk30m
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",62.38,Sherwin Williams #304 HS polyurethane (turbine blue),SW304TB,831,Supplies,FALSE,GAL,SW304TB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Steelmaster",48.17,Sherwin Williams #304 steelmaster,SW304S,832,Supplies,FALSE,GAL,SW304S
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",40.67,Sherwin Williams #311 HS polyurethane (bearcat beige),SW311BB,833,Supplies,FALSE,GAL,SW311BB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",75.95,Sherwin Williams #311 HS polyurethane (black),SW311B,834,Supplies,FALSE,GAL,SW311B
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",87.93,Sherwin Williams #311 HS polyurethane (ceramic buff),SW311CB,835,Supplies,FALSE,GAL,SW311CB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",59.98,Sherwin Williams #311 HS polyurethane (cirrus gray),SW311CG,836,Supplies,FALSE,GAL,SW311CG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",62.76,Sherwin Williams #311 HS polyurethane (dunes tan),SW311DT,837,Supplies,FALSE,GAL,SW311DT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",64.04,Sherwin Williams #311 HS polyurethane (Exxon beige),SW311EB,838,Supplies,FALSE,GAL,SW311EB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",60.94,Sherwin Williams #311 HS polyurethane (fed standard),SW311FS,839,Supplies,FALSE,GAL,SW311FS
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : HS Polyurethane",64.04,Sherwin Williams #311 HS polyurethane (lodestone),SW311L,840,Supplies,FALSE,GAL,SW311L
+Tax,0,TAX:  NM - MORIARTY - 000-000-2220-1195,2199,1061,Supplies,FALSE,Lump Sum,2199
+Tax,0,TAX:  NM - MORIARTY - 000-000-2220-1196,2198,1062,Supplies,FALSE,Lump Sum,2198
+Tax,0,TAX:  NM - NAVAJO RESERVATION - 925-000-2210-1001,2153,1063,Supplies,FALSE,Lump Sum,2153
+Tax,0,TAX:  NM - NAVAJO RESERVATION - 925-000-2210-1002,2154,1064,Supplies,FALSE,Lump Sum,2154
+Equipment : 125 KW Generators,0,125 KW Generator,Gen125,42,Equipment,FALSE,HR,Gen125
+Equipment : Pressure Washers,0,13 HP Steam Cleaner Unit,Steam,43,Equipment,FALSE,HR,Steam
+Equipment : 132 KW Generators,0,132 KW Whisperized Generator,Gen132,44,Equipment,FALSE,HR,Gen132
+Equipment : Dump Trucks,0,14 Yard Tandem Dump Truck,DT14,45,Equipment,FALSE,HR,DT14
+Equipment,0,"14"" cutoff saw (electric)",Saw14,46,Supplies,FALSE,SHIFT,Saw14
+Equipment : Water Trucks,0,140 Barrel Water Truck,Bbl140,47,Equipment,FALSE,HR,Bbl140
+Equipment : 15 Ton Trucks,0,15 ton road truck,Trk15,48,Services,FALSE,SHIFT,Trk15
+Equipment : 15 Ton Trucks,1.5,15 ton road truck - Mileage,Trk15m,49,Supplies,FALSE,MI,Trk15m
+Equipment : Vacuum Trucks,0,"15"" Vacuum Loader",IVL15,50,Equipment,FALSE,HR,IVL15
+Equipment,0,26' office van/trailer,26TrailerM,101,Supplies,FALSE,MONTH,26TrailerM
+Equipment,0,26' office van/trailer,26Trailer,102,Supplies,FALSE,SHIFT,26Trailer
+Equipment : Vacuum Trucks,0,"27"" Vacuum Loader",IVL27,103,Equipment,FALSE,HR,IVL27
+Equipment : Vacuum Trucks,0,"27"" Vacuum Truck - Dry Service",DVS27,104,Equipment,FALSE,HR,DVS27
+Supplies,0,3 mm Visqueen plastic (20' x 100'),7400100,105,Supplies,FALSE,ROLL,7400100
+Equipment,0,3 ton come-along,Calong3,106,Supplies,FALSE,SHIFT,Calong3
+Equipment,0,"3"" diaphragm pump (air-powered)",WP3A,107,Supplies,FALSE,SHIFT,WP3A
+Supplies,6.5,"3"" paint brush",5200003,108,Supplies,FALSE,EA,5200003
+Equipment,0,"3"" trash pump (with Honda engine)",WP3T,109,Supplies,FALSE,SHIFT,WP3T
+Equipment,0,"3"" water pump (with Honda engine)",WP3H,110,Supplies,FALSE,SHIFT,WP3H
+"Supplies : Paint, Coating, and Thinner : Ameron",37.12,Amercoat #3279 hi-heat aluminum,A3279,261,Supplies,FALSE,GAL,A3279
+Equipment,0,Electric Air Compressor (hourly),ACElecH,461,Equipment,FALSE,HR,ACElecH
+Equipment : Painting Equipment,0,Electric paint unit,SPUE,462,Equipment,FALSE,HR,SPUE
+Equipment : Pavement Cleaning,0,Elgin Street Sweeper,Elgin,463,Equipment,FALSE,HR,Elgin
+Labor : DT,76.48,Environmental Manager - DT,EMDT,464,Labor,FALSE,HR,EMDT
+Labor : OT,0,Environmental Manager - OT,EMOT,465,Labor,FALSE,,EMOT
+Labor : TT,60,Environmental Manager - PT,EMPT,466,Labor,FALSE,HR,EMPT
+Labor : ST,0,Environmental Manager - ST,EMST,467,Labor,FALSE,,EMST
+Surcharge,0,Environmental Recovery Waste Surcharge,ERWS,468,Supplies,FALSE,EA,ERWS
+Tax,0,TAX:  NM - OTERO COUNTY - 000-000-2220-1200,2243,1065,Supplies,FALSE,Lump Sum,2243
+Tax,0,TAX:  NM - OTERO COUNTY - 000-000-2220-1201,2338,1066,Supplies,FALSE,Lump Sum,2338
+Tax,0,TAX:  NM - PORTALES - 000-000-2220-1205,2178,1067,Supplies,FALSE,Lump Sum,2178
+Tax,0,TAX:  NM - PORTALES - 000-000-2220-1206,2401,1068,Supplies,FALSE,Lump Sum,2401
+Tax,0,TAX:  NM - QUAY COUNTY - 000-000-2220-1135,2376,1069,Supplies,FALSE,Lump Sum,2376
+Tax,0,TAX:  NM - RIO ARRIBA COUNTY - 000-000-2220-1210,2215,1070,Supplies,FALSE,Lump Sum,2215
+Tax,0,TAX: NM - CITY OF SANTA CLARA PUEBLO - 000-000-2220-1013,2437,1211,Supplies,FALSE,Lump Sum,2437
+Tax,0,TAX: NM - CITY OF SANTA CLARA PUEBLO - 000-000-2220-1014,2438,1212,Supplies,FALSE,Lump Sum,2438
+Tax,0,TAX: NM - TAOS COUNTY - 000-000-2220-1281,2432,1213,Supplies,FALSE,Lump Sum,2432
+Tax,0,TAX: OK - BEAVER COUNTY - 500-000-2230-1007,2422,1214,Supplies,FALSE,Lump Sum,2422
+Tax,0,TAX: OK - BEAVER COUNTY - 500-000-2230-1008,2423,1215,Supplies,FALSE,Lump Sum,2423
+Tax,0,TAX: TEXAS - TULIA (CITY) - 700-000-2245-1106,2441,1216,Supplies,FALSE,Lump Sum,2441
+Tax,0,TAX: TEXAS - TULIA (CITY) - 700-000-2245-1107,2442,1217,Supplies,FALSE,Lump Sum,2442
+Tax,0,TAX: TEXAS - WHITEFACE (CITY) - 700-000-2245-1104,2439,1218,Supplies,FALSE,Lump Sum,2439
+Tax,0,TAX: TEXAS - WHITEFACE (CITY) - 700-000-2245-1105,2440,1219,Supplies,FALSE,Lump Sum,2440
+Tax,0,TAX: TEXAS -BORGER (CITY) - 700-000-2245-1102,2435,1220,Supplies,FALSE,Lump Sum,2435
+"Supplies : Paint, Coating, and Thinner : Ameron",0,Amercoat #385 (white),A385,262,Supplies,FALSE,GAL,A385
+"Supplies : Paint, Coating, and Thinner : Ameron",87.79,Amercoat #450 H (Carlsbad tan),A450H,263,Supplies,FALSE,GAL,A450H
+"Supplies : Paint, Coating, and Thinner : Ameron",37.5,Amercoat #450 HS (white),A450HS,264,Supplies,FALSE,GAL,A450HS
+"Supplies : Paint, Coating, and Thinner : Ameron",0,Amercoat #78 HB coal tar epoxy,1010115,265,Supplies,FALSE,GAL,1010115
+"Supplies : Paint, Coating, and Thinner : Ameron",33.78,Amerlock #400 (pearl gray),A400,266,Supplies,FALSE,GAL,A400
+"Supplies : Paint, Coating, and Thinner : Ameron : Thinner",7.5,Ameron #101 thinner,A101T,267,Supplies,FALSE,GAL,A101T
+"Supplies : Paint, Coating, and Thinner : Ameron : Thinner",10.3,Ameron #12 thinner,A12T,268,Supplies,FALSE,GAL,A12T
+"Supplies : Paint, Coating, and Thinner : Ameron",60.91,Ameron #370 primer,A370P,269,Supplies,FALSE,GAL,A370P
+"Supplies : Paint, Coating, and Thinner : Ameron : Thinner",25.78,Ameron #65 thinner,A65T,270,Supplies,FALSE,GAL,A65T
+"Equipment : Forklifts, Backhoes and Graders",0,Backhoe,BaHo,281,Equipment,FALSE,HR,BaHo
+Equipment,20,Baghouse Fan,BagHouseFan,282,Equipment,FALSE,HR,BagHouseFan
+Equipment,0,Barcol harness tester,BarTest,283,Supplies,FALSE,SHIFT,BarTest
+Equipment,0,Benzene tester,Btest,284,Supplies,FALSE,SHIFT,Btest
+Equipment,0,Bid item (lump sum),BIDLS,285,Supplies,FALSE,Lump Sum,BIDLS
+Equipment,0,Billy goat blower,BGBlower,286,Supplies,FALSE,SHIFT,BGBlower
+Equipment : Abrasive Blasting,0,Black Beauty blasting unit (with compressor),BBSBUComp,287,Equipment,FALSE,HR,BBSBUComp
+Equipment : Abrasive Blasting,0,Black Beauty blasting unit (with plant air),BBSBUPA,288,Equipment,FALSE,HR,BBSBUPA
+Supplies,0,Black Magic coal slag,2010020,289,Supplies,FALSE,Sack,2010020
+Supplies,11.95,Black Magic coal slag 16/40,2010021,290,Supplies,FALSE,Sack,2010021
+Supplies,11.79,Black Magic coal slag 20/40,2010022,291,Supplies,FALSE,Sack,2010022
+Supplies,0,Bottles of breathing air,1600013,292,Supplies,FALSE,EA,1600013
+Equipment,0,Breathing air pump (100 volt),ElBreath,293,Supplies,FALSE,HR,ElBreath
+Equipment : Rescue and Breathing Support,0,Breathing air support unit,BASU,294,Equipment,FALSE,HR,BASU
+Equipment : Rescue and Breathing Support,0,Breathing Air Support Unit (Day),BASUD,295,Equipment,FALSE,DAY,BASUD
+Equipment,0,Brush unit,Bu,296,Equipment,FALSE,HR,Bu
+Equipment : Bucket Trucks,0,Bucket truck,Buck,297,Equipment,FALSE,HR,Buck
+"Supplies : Paint, Coating, and Thinner : Carboline : Thinner",10,Carboline #10 thinner,C10T,298,Supplies,FALSE,GAL,C10T
+"Supplies : Paint, Coating, and Thinner : Carboline : Semstone",63,Carboline #110 semstone (gray),C110S,299,Supplies,FALSE,GAL,C110S
+"Supplies : Paint, Coating, and Thinner : Carboline : Semstone",21,Carboline #110 semstone fabric,C110SF,300,Supplies,FALSE,ROLL,C110SF
+Supplies,3.5,"2"" paint brush",5200002,71,Supplies,FALSE,EA,5200002
+Equipment,0,"2"" trash pump (with Honda engine)",WP2T,72,Supplies,FALSE,SHIFT,WP2T
+Equipment,0,"2"" water pump (with Honda engine)",WP2H,73,Supplies,FALSE,SHIFT,WP2H
+Equipment : Water Trucks,0,"2,000 Gallon Water Truck",WT2000,74,Equipment,FALSE,HR,WT2000
+Equipment,0,"2,500 lb. capacity air tugger",AT2,75,Supplies,FALSE,SHIFT,AT2
+Equipment,0,20' extension ladder,SLadr20,76,Supplies,FALSE,SHIFT,SLadr20
+Equipment : 20 Ton Flatbed Trucks,0,20 ton flatbed sandblast truck,SBT,77,Services,FALSE,SHIFT,SBT
+Equipment,0,20 ton hydraulic jacks,Jack20,78,Supplies,FALSE,SHIFT,Jack20
+Equipment,0,20' x 20' x 40' portable blast tent,BTent20,79,Supplies,FALSE,SHIFT,BTent20
+Equipment : 20000 CFM Blowers,0,"20,000 CFM blower",Blwr20,80,Services,FALSE,SHIFT,Blwr20
+Equipment,0,Enviroscreen tarp,EnviroST,469,Supplies,FALSE,SHIFT,EnviroST
+Supplies,0,Epoxy paint,EP,470,Supplies,FALSE,GAL,EP
+Tax,0,TAX:  NM - UNION COUNTY - 000-000-2220-1295,2196,1091,Supplies,FALSE,Lump Sum,2196
+Tax,0,TAX:  NM - VALENCIA COUNTY - 000-000-2220-1300,2283,1092,Supplies,FALSE,Lump Sum,2283
+Tax,0,TAX:  NM - VALENCIA COUNTY - 000-000-2220-1301,2394,1093,Supplies,FALSE,Lump Sum,2394
+Tax,0,TAX:  NM - VAUGHN COUNTY - 000-000-2220-1305,2241,1094,Supplies,FALSE,Lump Sum,2241
+Tax,0,TAX:  NV - CLARK COUNTY - 875-000-2225-1005,2273,1095,Supplies,FALSE,Lump Sum,2273
+Tax,0,TAX:  NV - CLARK COUNTY - 875-000-2225-1006,2274,1096,Supplies,FALSE,Lump Sum,2274
+Tax,0,TAX:  NV - HUMBOLDT COUNTY - 875-000-2225-1010,2326,1097,Supplies,FALSE,Lump Sum,2326
+Tax,0,TAX:  NV - HUMBOLDT COUNTY - 875-000-2225-1011,2327,1098,Supplies,FALSE,Lump Sum,2327
+Tax,0,TAX:  OK - CITY OF LEEDEY - 500-000-2230-1015,2382,1099,Supplies,FALSE,Lump Sum,2382
+Tax,0,TAX:  OK - CITY OF LEEDEY - 500-000-2230-1016,2383,1100,Supplies,FALSE,Lump Sum,2383
+"Supplies : Paint, Coating, and Thinner : Carboline",195,Carboline #110 semstone thixotrope,C110ST,301,Supplies,FALSE,Sack,C110ST
+"Supplies : Paint, Coating, and Thinner : Carboline : Phenoline",58,Carboline #1205 phenoline,C1205P,302,Supplies,FALSE,GAL,C1205P
+"Supplies : Paint, Coating, and Thinner : Carboline",26.9,Carboline #133 (tint blue),C133TB,303,Supplies,FALSE,GAL,C133TB
+"Supplies : Paint, Coating, and Thinner : Carboline",45.25,Carboline #133 HB (river bend),C133RB,304,Supplies,FALSE,GAL,C133RB
+"Supplies : Paint, Coating, and Thinner : Carboline",50,Carboline #133 HB (safety red),C133SR,305,Supplies,FALSE,GAL,C133SR
+"Supplies : Paint, Coating, and Thinner : Carboline",50,Carboline #133 HB (safety yellow),C133SY,306,Supplies,FALSE,GAL,C133SY
+"Supplies : Paint, Coating, and Thinner : Carboline",43.6,Carboline #133 HB (white),C133W,307,Supplies,FALSE,GAL,C133W
+"Supplies : Paint, Coating, and Thinner : Carboline",34.5,Carboline #133 VOC (dark gray),C133DG,308,Supplies,FALSE,GAL,C133DG
+"Supplies : Paint, Coating, and Thinner : Carboline",34.5,Carboline #133 VOC (gray),C133G,309,Supplies,FALSE,GAL,C133G
+"Supplies : Paint, Coating, and Thinner : Carboline : Carbothane",34.5,Carboline #133 VOC carbothane (sand castle),C133SC,310,Supplies,FALSE,GAL,C133SC
+Equipment,0,Chemical cleaning unit,ChemClean,371,Equipment,FALSE,HR,ChemClean
+Equipment,0,Chemical foaming unit,ChemFoam,372,Equipment,FALSE,HR,ChemFoam
+"Supplies : Paint, Coating, and Thinner : Chemline",244,Chemline 784/32 coating material (gray),C784CM,373,Supplies,FALSE,GAL,C784CM
+Equipment,0,Chernie balls,Chern,374,Supplies,FALSE,SHIFT,Chern
+Supplies,0,CHLOR-RID,9100040,375,Supplies,FALSE,GAL,9100040
+Supplies,97.79,Chlortest (5 per kit),CHLORT,376,Supplies,FALSE,Kit,CHLORT
+"Supplies : Paint, Coating, and Thinner : CIM Industries",38.81,CIM #1000 pre mix with activator,CIM1000,377,Supplies,FALSE,GAL,CIM1000
+"Supplies : Paint, Coating, and Thinner : CIM Industries",184.01,CIM cloth,CIMCL,378,Supplies,FALSE,ROLL,CIMCL
+Equipment,0,Cleanup charge (per pack),CleanUp,379,Supplies,FALSE,SHIFT,CleanUp
+Labor : DT,0,Clerical - DT,CDT,380,Labor,FALSE,,CDT
+Labor : OT,0,Clerical - OT,COT,381,Labor,FALSE,,COT
+Labor : TT,0,Clerical - PT,CPT,382,Labor,FALSE,,CPT
+Labor : ST,0,Clerical - ST,CST,383,Labor,FALSE,,CST
+Labor : TT,0,Clerical - TT,CTT,384,Labor,FALSE,,CTT
+Equipment,0,Combination trailer,ComboTrail,385,Supplies,FALSE,SHIFT,ComboTrail
+Equipment : 750 HP Hydroblast,26.4,Computerized Air Preheater Cleaning Tool,CAPCT,386,Equipment,FALSE,HR,CAPCT
+Equipment,0,Confined space rescue tripod,CSTripod,387,Equipment,FALSE,HR,CSTripod
+Supplies,0,Consumable items,CONS,388,Supplies,FALSE,DAY,CONS
+Equipment,0,Contracted item (hourly),BIDCI,389,Equipment,FALSE,HR,BIDCI
+Equipment,0,Coppus air fans,CopAir,390,Supplies,FALSE,SHIFT,CopAir
+"Supplies : Paint, Coating, and Thinner : Devoe",38.5,Devoe #378 (chestnut),D378C,421,Supplies,FALSE,GAL,D378C
+"Supplies : Paint, Coating, and Thinner : Devoe",38.5,Devoe #378 (forest green),D378FG,422,Supplies,FALSE,GAL,D378FG
+"Supplies : Paint, Coating, and Thinner : Devoe",62.76,Devoe #378 (java),D378J,423,Supplies,FALSE,GAL,D378J
+"Supplies : Paint, Coating, and Thinner : Devoe",36.5,Devoe #378 (light gray),D378LG,424,Supplies,FALSE,GAL,D378LG
+"Supplies : Paint, Coating, and Thinner : Devoe",62.76,Devoe #378 (online),D378O,425,Supplies,FALSE,GAL,D378O
+"Supplies : Paint, Coating, and Thinner : Devoe",62.41,Devoe #379 (fed std),D379FS,426,Supplies,FALSE,GAL,D379FS
+"Supplies : Paint, Coating, and Thinner : Devoe",42.5,Devoe #379 (safety blue),D379SB,427,Supplies,FALSE,GAL,D379SB
+"Supplies : Paint, Coating, and Thinner : Devoe",28.2,Devoe #389 (brown),D389B,428,Supplies,FALSE,GAL,D389B
+"Supplies : Paint, Coating, and Thinner : Devoe",31.2,Devoe #389 (medium bronze),D389MB,429,Supplies,FALSE,GAL,D389MB
+"Supplies : Paint, Coating, and Thinner : Devoe",19.2,Devoe #5 thinner,D5T,430,Supplies,FALSE,GAL,D5T
+Supplies,0,Fire Retardant Wet Suit,8100090,481,Supplies,FALSE,EA,8100090
+Equipment,0,Firehose rental (per 50' section),Fhose,482,Supplies,FALSE,SHIFT,Fhose
+Equipment,0,Fireproofing mono pump unit,FireMono,483,Supplies,FALSE,HR,FireMono
+Equipment,0,Fisher-Klosterman dust collector cyclones,DustCC,484,Supplies,FALSE,SHIFT,DustCC
+Equipment : Painting Equipment,0,Flakeline King spray unit with hopper (with compressor),FlSPUComp,485,Equipment,FALSE,HR,FlSPUComp
+Equipment : Painting Equipment,0,Flakeline King spray unit with hopper (with plant air),FlSPUPA,486,Equipment,FALSE,HR,FlSPUPA
+Equipment,0,Flange jacks (per pair),Fjack,487,Supplies,FALSE,SHIFT,Fjack
+Equipment,0,Floodlight (150 watt),FL150,488,Supplies,FALSE,SHIFT,FL150
+Equipment,0,Floodlight (500 watt),FL500,489,Supplies,FALSE,SHIFT,FL500
+Supplies,0,Floodlight bulb (150 watt),9500100,490,Supplies,FALSE,EA,9500100
+Equipment,0,Hydroblast flex lance accessory,HBFlex,551,Supplies,FALSE,HR,HBFlex
+Labor : OT,0,Hydroblast Helper - OT,HHOT,552,Labor,FALSE,,HHOT
+Labor : ST,0,Hydroblast Helper - ST,HHST,553,Labor,FALSE,,HHST
+Labor : OT,0,Hydroblast Project Manager - OT,HPMOT,554,Labor,FALSE,,HPMOT
+Labor : ST,0,Hydroblast Project Manager - ST,HPMST,555,Labor,FALSE,,HPMST
+Labor : OT,0,Hydroblast Service Supervisor - OT,HSSOT,556,Labor,FALSE,,HSSOT
+Labor : ST,0,Hydroblast Service Supervisor - ST,HSSST,557,Labor,FALSE,,HSSST
+Labor : OT,0,Hydroblast Technician - OT,HTOT,558,Labor,FALSE,,HTOT
+Labor : ST,0,Hydroblast Technician - ST,HTST,559,Labor,FALSE,,HTST
+Equipment : GapVax,0,Hydro-excavation truck with 2-man crew (scheduled),HXTS,560,Equipment,FALSE,HR,HXTS
+Labor : ST,0,Journeyman - ST,JST,581,Labor,FALSE,,JST
+Labor : TT,0,Journeyman - TT,JTT,582,Labor,FALSE,,JTT
+Equipment,0,Journeyman Overtime Burden,JOB,583,Supplies,FALSE,HR,JOB
+Labor : DT,0,Junior Foreman - DT,JFDT,584,Labor,FALSE,,JFDT
+Labor : OT,0,Junior Foreman - OT,JFOT,585,Labor,FALSE,,JFOT
+Labor : TT,0,Junior Foreman - PT,JFPT,586,Labor,FALSE,,JFPT
+Labor : ST,0,Junior Foreman - ST,JFST,587,Labor,FALSE,,JFST
+Labor : TT,0,Junior Foreman - TT,JFTT,588,Labor,FALSE,,JFTT
+"Supplies : Paint, Coating, and Thinner",4.99,Krylon spray paint (red),KRSP,589,Supplies,FALSE,EA,KRSP
+Supplies,0,KTA-Tator Press-O-Film,9700700,590,Supplies,FALSE,ROLL,9700700
+Labor : OT,0,NACE Level 1 Inspector - OT,NIOT,621,Labor,FALSE,,NIOT
+Labor : ST,0,NACE Level 1 Inspector - ST,NIST,622,Labor,FALSE,,NIST
+Labor : TT,0,NACE Level 1 Inspector - TT,NITT,623,Labor,FALSE,,NITT
+Equipment,0,Needle scalers (air-powered),Nscaler,624,Supplies,FALSE,SHIFT,Nscaler
+Equipment,0,Needle scalers (HEPA vacuum),HEPANS,625,Supplies,FALSE,SHIFT,HEPANS
+Equipment,0,Non-Heated Paint Shop,Bldg,626,Supplies,FALSE,SHIFT,Bldg
+Equipment,0,NORM tester,NormTest,627,Supplies,FALSE,SHIFT,NormTest
+Equipment,0,Nozzle light (150 Watt),NL150,628,Supplies,FALSE,SHIFT,NL150
+Equipment,0,Office trailer,OfficeTrail,629,Supplies,FALSE,SHIFT,OfficeTrail
+Equipment,0,Ohm meter,Ohm,630,Supplies,FALSE,SHIFT,Ohm
+Equipment : Painting Equipment,0,Polibrid paint unit (does not include generator or compressor),PolyPU,671,Equipment,FALSE,HR,PolyPU
+Supplies,0,Polyester putty,3100070,672,Supplies,FALSE,GAL,3100070
+Equipment : Abrasive Blasting,0,Portable bead blast cabinet (with compressor),BBCabComp,673,Equipment,FALSE,HR,BBCabComp
+Equipment : Abrasive Blasting,0,Portable bead blast cabinet (with plant air),BBCabPA,674,Equipment,FALSE,HR,BBCabPA
+Equipment,0,Portable trough-type water tank,TankTr,675,Supplies,FALSE,SHIFT,TankTr
+Equipment,0,Porta-power unit,PortaP,676,Supplies,FALSE,SHIFT,PortaP
+Equipment,0,Potable water hauling truck,PotWatTrk,677,Equipment,FALSE,DAY,PotWatTrk
+"Supplies : Paint, Coating, and Thinner : Power Crete",39.96,Power Crete,PC,678,Supplies,FALSE,Sack,PC
+"Supplies : Paint, Coating, and Thinner : Power Crete",105,Power Crete #95A (10 lb. kit),PC95A,679,Supplies,FALSE,Kit,PC95A
+"Supplies : Paint, Coating, and Thinner : Power Crete",64.91,Power Crete J epoxy,PCJE,680,Supplies,FALSE,GAL,PCJE
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",27.95,Sherwin Williams #401 (plaza beige),SW401PB,851,Supplies,FALSE,GAL,SW401PB
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",31.67,Sherwin Williams #404 (Durango water green),SW404DWG,852,Supplies,FALSE,GAL,SW404DWG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",30.85,Sherwin Williams #404 derby turf,SW404DT,853,Supplies,FALSE,GAL,SW404DT
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Macropoxy",36.64,Sherwin Williams #404 macropoxy HS (juniper green),SW404M,854,Supplies,FALSE,GAL,SW404M
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",33.19,Sherwin Williams #43 reducer,SW43R,855,Supplies,FALSE,GAL,SW43R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",74,Sherwin Williams #450 corcote (gray),SW450G,856,Supplies,FALSE,GAL,SW450G
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams : Thinners",30,Sherwin Williams #5 reducer,SW5R,857,Supplies,FALSE,GAL,SW5R
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",38.21,Sherwin Williams #501 polylon,SW501P,858,Supplies,FALSE,GAL,SW501P
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",207.91,Sherwin Williams #525 hi-temp (juniper green),SW525JG,859,Supplies,FALSE,GAL,SW525JG
+"Supplies : Paint, Coating, and Thinner : Sherwin Williams",49.47,Sherwin Williams #525 sherglass,SW525S,860,Supplies,FALSE,GAL,SW525S
+"Equipment : Forklifts, Backhoes and Graders",0,Forklift,FL,501,Equipment,FALSE,HR,FL
+Equipment : Front End Loaders,0,Front end loader,FrEndLoad,502,Supplies,FALSE,SHIFT,FrEndLoad
+Surcharge,0,Fuel Surcharge,FSUR,503,Supplies,FALSE,EA,FSUR
+Equipment,0,Fully-rigged & supplied tool van or toolbox units for shutdowns,RiggedVan,504,Supplies,FALSE,MONTH,RiggedVan
+Equipment : GapVax,0,GapVax Combo Unit,Combo,505,Equipment,FALSE,HR,Combo
+Equipment : GapVax,0,GapVax Vacuum Unit w/ Attached Pressure Washer,GapVax,506,Equipment,FALSE,HR,GapVax
+Equipment,0,Geiger counter,GeigCounter,507,Supplies,FALSE,SHIFT,GeigCounter
+Equipment,0,Ground fault box,GroundF,508,Supplies,FALSE,SHIFT,GroundF
+Equipment,0,Gyro Shot Gun Unit,GyroShot,509,Equipment,FALSE,HR,GyroShot
+Equipment,0,H2S personal gas monitor,H2SPers,510,Supplies,FALSE,SHIFT,H2SPers
+Tax,0,TAX:  NM - RIO ARRIBA COUNTY - 000-000-2220-1211,2214,1071,Supplies,FALSE,Lump Sum,2214
+Tax,0,TAX:  NM - RIO RANCHO (BERNALILLO COUNTY) - 000-000-2220-1220,2286,1072,Supplies,FALSE,Lump Sum,2286
+Tax,0,TAX:  NM - RIO RANCHO (BERNALILLO COUNTY) - 000-000-2220-1221,2287,1073,Supplies,FALSE,Lump Sum,2287
+Tax,0,TAX:  NM - RIO RANCHO (SANDOVAL COUNTY) - 000-000-2220-1225,2289,1074,Supplies,FALSE,Lump Sum,2289
+Tax,0,TAX:  NM - ROSWELL - 000-000-2220-1230,2290,1075,Supplies,FALSE,Lump Sum,2290
+Tax,0,TAX:  NM - ROSWELL - 000-000-2220-1231,2291,1076,Supplies,FALSE,Lump Sum,2291
+Tax,0,TAX:  NM - SAN JUAN COUNTY - 000-000-2220-1235,2190,1077,Supplies,FALSE,Lump Sum,2190
+Tax,0,TAX:  NM - SAN JUAN COUNTY - 000-000-2220-1236,2191,1078,Supplies,FALSE,Lump Sum,2191
+Tax,0,TAX:  NM - SAN MIGUEL COUNTY - 000-000-2220-1240,2217,1079,Supplies,FALSE,Lump Sum,2217
+Tax,0,TAX:  NM - SAN MIGUEL COUNTY - 000-000-2220-1241,2406,1080,Supplies,FALSE,Lump Sum,2406
+Tax,0,TAX:  TX - DEAF SMITH COUNTY - 700-000-2245-1041,2309,1151,Supplies,FALSE,Lump Sum,2309
+Tax,0,TAX:  TX - ECTOR COUNTY - 700-000-2245-1009,2377,1152,Supplies,FALSE,Lump Sum,2377
+Tax,0,TAX:  TX - EL PASO COUNTY - 700-000-2245-1092,2390,1153,Supplies,FALSE,Lump Sum,2390
+Tax,0,TAX:  TX - EL PASO COUNTY - 700-000-2245-1093,2391,1154,Supplies,FALSE,Lump Sum,2391
+Tax,0,TAX:  TX - GAINES COUNTY - 700-000-2245-1035,2306,1155,Supplies,FALSE,Lump Sum,2306
+Tax,0,TAX:  TX - GAINES COUNTY - 700-000-2245-1036,2307,1156,Supplies,FALSE,Lump Sum,2307
+Tax,0,TAX:  TX - GRIMES COUNTY - 700-000-2245-1007,2322,1157,Supplies,FALSE,Lump Sum,2322
+Tax,0,TAX:  TX - GRIMES COUNTY - 700-000-2245-1008,2323,1158,Supplies,FALSE,Lump Sum,2323
+Tax,0,TAX:  TX - HALE COUNTY - 700-000-2245-1032,2356,1159,Supplies,FALSE,Lump Sum,2356
+Tax,0,TAX:  TX - HALE COUNTY - 700-000-2245-1033,2357,1160,Supplies,FALSE,Lump Sum,2357
+Supplies,0,Water,1900200,1311,Supplies,FALSE,GAL,1900200
+Equipment,0,Water truck support unit for hydro-excavation,WTSupport,1312,Supplies,FALSE,HR,WTSupport
+Equipment : Abrasive Blasting,0,Wet blast nozzle attachment,WBNA,1313,Equipment,FALSE,HR,WBNA
+Equipment : Vacuum Trucks,0,Wet Vacuum Service,WVS,1314,Equipment,FALSE,HR,WVS
+Supplies,0,Spray socks,8700200,921,Supplies,FALSE,EA,8700200
+Equipment : Painting Equipment,0,Standard paint unit (with compressor),SPU,922,Equipment,FALSE,HR,SPU
+Equipment : Painting Equipment,0,Standard paint unit (with plant air),SPUPA,923,Equipment,FALSE,HR,SPUPA
+Equipment,0,Standby,STBY,924,Supplies,FALSE,DAY,STBY
+Equipment,0,Standby,STBYH,925,Equipment,FALSE,HR,STBYH
+Equipment : Reclaimers,0,Steel Shot Reclaimer Unit,StShRecl,926,Equipment,FALSE,HR,StShRecl
+Equipment,0,Step Ladder (all sizes),SLadr,927,Supplies,FALSE,SHIFT,SLadr
+Equipment,0,Sterilization Unit,SterUnit,928,Equipment,FALSE,HR,SterUnit
+Equipment,0,Subcontracted item (edit line item),SubContr,929,Supplies,FALSE,EA,SubContr
+Equipment : Specialty Cleaning Tools,0,Suction roll cleaning machine,Suction,930,Equipment,FALSE,DAY,Suction
+Equipment : Vacuum Trucks,0,Wet vacuum services - HW,WVSH,1315,Equipment,FALSE,HR,WVSH
+Equipment,0,Wheelbarrow (rubber tired),Wbrw,1316,Supplies,FALSE,SHIFT,Wbrw
+"Supplies : Paint, Coating, and Thinner : Wilko",16.95,Wilko #44 thinner,W44T,1317,Supplies,FALSE,GAL,W44T
+"Supplies : Paint, Coating, and Thinner : Wilko",13.95,Wilko #71 thinner,W71T,1318,Supplies,FALSE,GAL,W71T
+"Supplies : Paint, Coating, and Thinner : Wilko",66.6,Wilko clear coat,WCC,1319,Supplies,FALSE,GAL,WCC
+"Supplies : Paint, Coating, and Thinner : Wilko",36.61,Wilko epoxy primer,WEP,1320,Supplies,FALSE,GAL,WEP
+,24.99,"10 Pack of 1"" Paint Brushes",10x1PntBrsh,0,Equipment,FALSE,,10x1PntBrsh
+,8.32,"5 Pack of 1"" Paint Brushes (Dynamic Parent)",5PB,0,Equipment,FALSE,EA,5PB
+,48.99,Item with ParentReq. and Dyn.Parent checked.,ParentReqDyn,465,Equipment,FALSE,EA,ParentReqDyn
+,,4003 item,4003,0,Equipment,FALSE,,4003
+Equipment: Trucks: Scania: R490,81.74,Scania R490,SR490,4.49,Equipment,FALSE,DAY,SR490
+GTI:APR,549,APR Stage 2+ Tune,APRSTG2+,2,Services,FALSE,EA,APRSTG2+
+GTI:APR,289,APR Cast Downpipe,APRDP,0,Equipment,FALSE,EA,APRDP
+Equipment,18.35,Incremental Sync Item 1,IncSync1,0,Equipment,FALSE,EA,IncSync1
+,,test 838,has838,0,Equipment,FALSE,,has838
+Supplies,210,Matt's Temporary Item,TempItem,54,Supplies,FALSE,EA,TempItem
+,109,Window Tint,WinTint,154,Equipment,FALSE,EA,WinTint
+,14.99,Dynamic Parent,Dynamic,1,Equipment,FALSE,EA,Dynamic
+,1234.56,Test Item for 4.0.1.3383,3383,3383,Equipment,FALSE,EA,3383
+Equipment:Copied:Default,1234.56,Copied By Default,CopByDef,0,Equipment,FALSE,HR,CopByDef
+,25.46,Volkswagen GTI,VW-GTI,0,Equipment,FALSE,DAY,VW-GTI
+,3500,Dec12_3906_PD,Dec12_3906_PD,0,Equipment,FALSE,,Dec12_3906_PD
+,499.99,Parent Item,ParentItem,0,Equipment,FALSE,EA,ParentItem
+Equipment,299.99,Required Item,Required,3,Equipment,FALSE,EA,Required
+Equipment,199.99,Recommended Item,Recommended,2,Equipment,FALSE,EA,Recommended
+,21.99,Disallowed Item,Disallowed,5,Equipment,FALSE,EA,Disallowed
+Equipment,129.99,Allowed Item,Allowed,1,Equipment,FALSE,EA,Allowed
+,,incremental test 2,UPV3925_PD2,0,Equipment,FALSE,,UPV3925_PD2
+,,3925 regression Item,3925,0,Supplies,FALSE,,3925
+,1.49,M&Ms - Large Bag,LgMnMs,1888,Supplies,FALSE,EA,LgMnMs
+,0.49,M&Ms,MnMs,1887,Hourly_Labor,FALSE,EA,MnMs
+,2500,new cat item for PD,UPV3925_PD,0,Equipment,FALSE,,UPV3925_PD
+,1000,Car rental,11111,1.2765,Equipment,TRUE,DAY,11111
+none,,test,44847,1.00E-04,Equipment,FALSE,,44847
+,65.56,*New* Scania R480,SR480,2,Equipment,FALSE,DAY,SR480
+,,Parent item,123123,0,Labor,FALSE,HR,123123
+,245,APR Carbon Fiber Intake System - Stage 1,APRIntakeStage1,888,Equipment,FALSE,EA,APRIntakeStage1
+Equipment,80.42,Scania R730 Topline,SR730-T,7.73,Equipment,TRUE,DAY,SR730-T
+Equipment,82.67,Scania R730 Highline,SR730-H,7.73,Equipment,TRUE,DAY,SR730-H
+,4000,PD 3989 incre 2,PD 3989 incre2,0,Equipment,FALSE,,PD 3989 incre2
+,100,PD 3989 incre1,PD3989_1,0,Equipment,FALSE,,PD3989_1
+,,Quote parent required child 1,QPRC1,0,Equipment,FALSE,,QPRC1
+,,Quote parent recommended,QPR,4,Equipment,FALSE,,QPR
+,,Quote required,QR01,17,Equipment,FALSE,,QR01
+,,Quote Parent Required,QPR003,0,Equipment,FALSE,,QPR003
+,,Quote child item recomended,QCIR,9,Equipment,FALSE,,QCIR
+,,Quote parent required child 2,QPRC2,0,Equipment,FALSE,,QPRC2
+,,Quote Recommended,QR02,6,Equipment,FALSE,,QR02
+,,PD_test_it125-R3,PD_125,0,Equipment,FALSE,,PD_125
+,,PDtest_required,PDtest_required,0,Equipment,FALSE,,PDtest_required

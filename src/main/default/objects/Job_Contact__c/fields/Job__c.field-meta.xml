@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Job for which the customer's representative is the contact.</inlineHelpText>
+    <label>Job</label>
+    <referenceTo>Job__c</referenceTo>
+    <relationshipLabel>Job Contact</relationshipLabel>
+    <relationshipName>Job_Contact</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>true</trackHistory>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

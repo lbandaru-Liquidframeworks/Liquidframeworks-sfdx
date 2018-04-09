@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Cost+ Markup percent, calculates ext amt by grossing up the user entered Cost by Markup%. Cost+ Markup Amt, ext amt is sum of user entered Cost and Cost+ Markup Amt.  Straight price does not consider Cost related fields. --></help>
+    <label>Methode de prissement</label>
+    <name>Pricing_Method__c</name>
+    <picklistValues>
+        <masterLabel>Cost Plus Markup Amount</masterLabel>
+        <translation><!-- Cost Plus Markup Amount --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cost Plus Markup Percent</masterLabel>
+        <translation><!-- Cost Plus Markup Percent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Straight Price</masterLabel>
+        <translation><!-- Straight Price --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

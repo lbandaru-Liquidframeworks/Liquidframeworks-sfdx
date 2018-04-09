@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Screen__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Page in FieldFX Mobile that displays when a user selects the step on a checklist.</inlineHelpText>
+    <label>Screen</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Labor</fullName>
+                <default>false</default>
+                <label>Labor</label>
+            </value>
+            <value>
+                <fullName>Equipment</fullName>
+                <default>false</default>
+                <label>Equipment</label>
+            </value>
+            <value>
+                <fullName>Sign</fullName>
+                <default>false</default>
+                <label>Sign</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

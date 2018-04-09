@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The cost is copied down from the catalog on initial item add.  Depending on the pricing method, this value may be visible and/or editable on the ticket item. --></help>
+    <label><!-- Cost --></label>
+    <name>Cost__c</name>
+</CustomFieldTranslation>

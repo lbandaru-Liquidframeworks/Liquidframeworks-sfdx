@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the minimum charge allowed for this ticket item regardless of qty, price, discount%, etc. This field gets copied from the selected price book item only on ticket item create. It cannot and should not be changed by the user on the ticket item. --></help>
+    <label><!-- PBI Minimum Charge --></label>
+    <name>PBI_Minimum_Charge__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available_for_Scheduling__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If this property is checked then this status will be available within the Job Scheduling module.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>(Job statuses only) If selected, users can schedule crew and equipment for jobs with this status. Select this checkbox if you use the Job Scheduling feature.</inlineHelpText>
+    <label>Available for Scheduling</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

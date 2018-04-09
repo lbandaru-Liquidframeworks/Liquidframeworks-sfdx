@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the number of items included at no charge.  It is the number of items that you get for free before getting charged.  The most common example is a demurrage charge where the 1st 3 hours are free and then $50/hr thereafter - Included Qty would be 3 --></help>
+    <label><!-- PBI Included Quantity --></label>
+    <name>PBI_Included_Quantity__c</name>
+</CustomFieldTranslation>

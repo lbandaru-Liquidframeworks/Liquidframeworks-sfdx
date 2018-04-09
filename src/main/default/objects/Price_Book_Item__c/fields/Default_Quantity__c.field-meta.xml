@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Quantity__c</fullName>
+    <defaultValue>1</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Default quantity added when adding the item to a ticket.</inlineHelpText>
+    <label>Default Quantity</label>
+    <precision>18</precision>
+    <required>true</required>
+    <scale>2</scale>
+    <trackHistory>true</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

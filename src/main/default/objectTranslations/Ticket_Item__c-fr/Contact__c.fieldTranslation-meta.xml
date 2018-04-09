@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If this item has its catalog contact selector picklist set to optional or required, this field is used to indicate which contact is associated with this item. --></help>
+    <label><!-- Contact --></label>
+    <name>Contact__c</name>
+    <relationshipLabel><!-- Ticket Items --></relationshipLabel>
+</CustomFieldTranslation>

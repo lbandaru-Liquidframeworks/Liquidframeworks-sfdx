@@ -1,0 +1,188 @@
+<apex:page standardController="Price_Book_Rule__c" tabStyle="Price_Book_Rule__c" extensions="FXEditorController" sidebar="false">
+<apex:sectionHeader title="Edit {!EntityTypeDisplayLabel}" rendered="{!NOT(IsInsert)}"/>
+<apex:sectionHeader title="New {!EntityTypeDisplayLabel}" rendered="{!IsInsert}"/> 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script src="https://cdn.fieldfx.com/{!$Api.Session_ID}/{!FXNamespaceWithoutUnderscores + '__'}/formulaforce/1/formula-force.js?orgid={!$organization.id}&orgname={!$organization.name}&loginname={!$User.UserName}&userid={!$User.id}&username={!$User.FirstName + ' ' + $User.LastName}" type="text/javascript"></script>
+
+<script src="https://cdn.fieldfx.com/{!$Api.Session_ID}/{!FXNamespaceWithoutUnderscores + '__'}/customeditor/1/main.js" type="text/javascript"></script> 
+
+
+<apex:form id="editorForm">     
+    <apex:pageMessages />
+      <apex:pageBlock mode="masterdetail" id="pbMain">
+            <apex:pageBlockButtons >               
+                    <apex:commandButton action="{!save}" value="Save" id="cmdSave" />
+                    <apex:commandButton action="{!saveAndNew}" value="Save & New" id="cmdSaveAndNew" />
+                    <apex:commandButton action="{!doCancel}" value="Cancel" immediate="true"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection columns="2">
+                 <apex:repeat value="{!LayoutFields}" var="f">
+                   <apex:inputField value="{!EntityObj[f.fieldName]}" styleClass="fxdatafield {!f.fieldName}" required="{!f.required}" html-data-fieldname="{!f.fieldName}" />
+                </apex:repeat> 
+            </apex:pageBlockSection>        
+        </apex:pageBlock>        
+        <apex:inputHidden value="{!LayoutJsonString}" />       
+</apex:form>
+<script type="text/javascript"> 
+    
+  var ast = window['formula-force'].ast;
+  var j$ = jQuery.noConflict();    
+  j$(document).ready(function(){      
+        j$('.{!FXNamespace}Criteria__c').change(function(){
+          console.log('criteria: ' + this.value);
+          processCriteria(this.value);
+        });
+  });   
+
+  function processCriteria(criteria){      
+      var criteriaStack = j$('.{!FXNamespace}CriteriaStack__c')[0];
+      if(criteria){
+        var r = ast(criteria);
+        cleanupMemberExp(r);
+        var rStack = [];
+        buildEvalStack(rStack, r);       
+        var s = JSON.stringify(rStack);
+       
+        j$(criteriaStack).val(s);
+        console.log(s);
+      }
+      else {
+        j$(criteriaStack).val('');
+      }
+  }
+
+    
+
+  function cleanupMemberExp(exp) {
+        if(exp.type =='BinaryExpression'){
+          cleanupMemberExp(exp.left);
+          cleanupMemberExp(exp.right);
+        }
+        else if(exp.type =='CallExpression'){
+          console.log('call expression: ' + exp);
+          for(i=0; i<exp.args.length; i++)
+            cleanupMemberExp(exp.args[i]);
+        }
+        else if(exp.type == 'MemberExpression'){
+          var fields = [];
+          var m = exp;
+            //fields.push(m.property.value);
+          while(m.type == 'MemberExpression'){           
+            fields.push(m.property.value);
+            m = m.value;
+            if(m.type == 'Identifier'){
+              fields.push(m.value);
+            }
+          }
+          var fieldPath = '';
+          var sep = '';
+          for(i=0; i<fields.length; i++)
+          {
+            fieldPath = fields[i] + sep + fieldPath;
+            sep='.';
+          }
+          exp.value=fieldPath;      
+
+          if(exp.property) {
+            delete exp.property;
+          }
+          console.log('fullPath:' + fieldPath);          
+                
+    }
+  }
+
+  function buildEvalStack(astStack, exp) {        
+        //console.log('exp:' + exp);
+        if(exp.operator == '&&' || exp.operator =='||'){          
+          buildEvalStack(astStack, exp.left);
+          buildEvalStack(astStack, exp.right);
+          astStack.push(exp.operator);
+        }
+        else{
+          astStack.push(JSON.stringify(exp));
+        }                        
+  }
+
+  function openLookup(baseURL, width, modified, searchParam){
+
+    var customSearch = '{!FXNamespace}Price_Book_Item__c,{!FXNamespace}Price_Book__c';
+
+    var searchAttrs = `{
+  "{!FXNamespace}Price_Book__c" : {
+    "QueryFilter" : "{!FXNamespace}Is_Active__c=true",
+    "QueryFields" : "Name,{!FXNamespace}Account__r.Name,{!FXNamespace}Office__r.Name,{!FXNamespace}Segment__c",
+    "KeywordSearchFields" : "Name,{!FXNamespace}Account__r.Name,{!FXNamespace}Office__r.Name,{!FXNamespace}Segment__c",
+    "OrderBy" : "Name"
+  },  
+  "{!FXNamespace}Price_Book_Item__c" : {
+    "QueryFilter" : "({!FXNamespace}Price_Book__c='@@this.{!FXNamespace}Price_Book__c@@')",
+    "QueryFields" : "Id,Name,{!FXNamespace}Catalog_Item_Code__c,{!FXNamespace}Catalog_Description__c, {!FXNamespace}Price_Book__r.Name",
+    "KeywordSearchFields" : "{!FXNamespace}Catalog_Description__c,{!FXNamespace}Catalog_Item_Code__c",
+    "OrderBy" : "{!FXNamespace}Catalog_Item_Code__c"
+  }
+}`;
+    var originalbaseURL = baseURL;
+    var originalwidth = width;
+    var originalmodified = modified;
+    var originalsearchParam = searchParam;
+    var entityType = '{!EntityType}';
+    var entityId = '{!EntityId}';
+    var originatorId = '{!ReturnUrlObjectId}';
+    
+    console.log(searchAttrs);
+    console.log('baseURL: ' + baseURL);
+    
+    var lookupType = getParameterByName('lktp', baseURL);
+    console.log('lookup Type: ' + lookupType);
+
+    var lookupCustomFieldId = getParameterByName('lknm', baseURL);
+    var ctrl = j$('[Id$="' + lookupCustomFieldId +'"]')[0];
+    var lookupCustomField = j$(ctrl).data('fieldname');
+    console.log('lookupCustomField: ' + lookupCustomField);
+
+
+    if (modified == '1') baseURL = baseURL + searchParam;
+
+    var pIndex = baseURL.indexOf('?');
+    var params = baseURL.substring(pIndex);
+    
+    var isCustomLookup = customSearch.indexOf(lookupCustomField) !== -1;     
+    
+    console.log('isCustomLookup for ' + lookupCustomField + ' : ' + isCustomLookup);
+    
+    if(isCustomLookup == true){
+      var urlArr = baseURL.split("&");
+      var txtId = '';
+      if(urlArr.length > 2) {
+        urlArr = urlArr[1].split('=');
+        txtId = urlArr[1];
+      }
+
+      params = params.replace('&lknm=' + encodeURIComponent(lookupCustomFieldId), '&lknm='+lookupCustomField);
+      console.log('params: ' + params);
+      var jsonSubjectEntity = getContextEntity();
+      // Following is the url of Custom Lookup page. You need to change that accordingly
+      baseURL = "/apex/FXEditorSearcher"  + params;
+      baseURL += "&txt=" + txtId;
+      baseURL +="&subjectType={!EntityType}&subjectId={!EntityId}&originatorId={!ReturnUrlObjectId}";
+      baseURL +="&subjectEntity=" + escapeUTF(jsonSubjectEntity);
+      // Following is the id of apex:form control "myForm". You need to change that accordingly
+      baseURL = baseURL + "&frm=" + escapeUTF("{!$Component.editorForm}");
+      
+      if (modified == '1') {
+        baseURL = baseURL + "&lksearch=" + searchParam;
+      }  
+      
+      baseURL = baseURL + "&searchAttrs="+searchAttrs;
+   
+
+      openPopup(baseURL, "lookup", 350, 480, "width="+width+",height=480,toolbar=no,status=no,directories=no,menubar=no,resizable=yes,scrollable=no", true);
+    }
+    else {
+      if (modified == '1') originalbaseURL = originalbaseURL + originalsearchParam;
+      openPopup(originalbaseURL, "lookup", 350, 480, "width="+originalwidth+",height=480,toolbar=no,status=no,directories=no,menubar=no,resizable=yes,scrollable=no", true);
+    } 
+  }    
+</script>
+</apex:page>

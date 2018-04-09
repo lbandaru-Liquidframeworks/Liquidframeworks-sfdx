@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When this is checked, this item will automatically be added to all new Tickets. --></help>
+    <label><!-- Required Item --></label>
+    <name>Required_Item__c</name>
+</CustomFieldTranslation>

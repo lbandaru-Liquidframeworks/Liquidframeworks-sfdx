@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When checked, this item can be added to a warehouse and have its inventory levels tracked.  Track Inventory cannot be checked when the Catalog Item is a Labor record type. --></help>
+    <label>Fr Track Inventory</label>
+    <name>Track_Inventory__c</name>
+</CustomFieldTranslation>

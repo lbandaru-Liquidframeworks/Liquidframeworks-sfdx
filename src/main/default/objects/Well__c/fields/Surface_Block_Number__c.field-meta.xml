@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surface_Block_Number__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of the block in which the well site is located within a quadrant.</inlineHelpText>
+    <label>Surface Block Number</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

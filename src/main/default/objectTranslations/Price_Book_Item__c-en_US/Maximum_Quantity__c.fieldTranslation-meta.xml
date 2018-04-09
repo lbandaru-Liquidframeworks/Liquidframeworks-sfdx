@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the maximum quantity value that can be entered when this item is used on a ticket.  If this is set to nothing, there is no maximum. --></help>
+    <label><!-- Maximum Quantity --></label>
+    <name>Maximum_Quantity__c</name>
+</CustomFieldTranslation>

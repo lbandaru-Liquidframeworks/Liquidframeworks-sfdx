@@ -1,0 +1,262 @@
+<apex:component controller="AttachmentExtController" allowDML="true" access="global" >
+<!--apex:attribute name="showHeader" description="Flag to turn header on/off"
+                    type="Boolean" required="true"/> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+  <apex:form Id="attachmentExtMainPane" styleclass="fxmainform"> 
+  <div class="noStandardTab">
+<div class="bPageBlock brandSecondaryBrd secondaryPalette">
+      <div class="pbHeader">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="pbTitle">
+<!--apex:outputPanel id="paneHeader" rendered="{!showHeader}">
+<h3>Notes &amp; Attachments &nbsp; {!ItemsCountStr}</h3>
+</apex:outputPanel> -->
+
+</td>
+<td class="pbButton"> 
+<input value="{!$Label.AttachmentExt_New_Note}" class="btn" name="newNote" onclick="window.open('/002/e?parent_id={!JSENCODE(ParentObjId15)}&retURL=%2F{!JSENCODE(ParentObjId15)}', '_top');" title="New Note" type="button" />
+&nbsp;
+<input value="{!$Label.AttachmentExt_Attach_File}" class="btn" name="attachFile" onclick="window.open('/p/attach/NoteAttach?pid={!JSENCODE(ParentObjId15)}&parentname={!JSENCODE(ParentEntityName)}&retURL=%2F{!ParentObj.Id}','_top');" 
+title="Attach File 2" type="button" />
+&nbsp;
+<input value="{!$Label.AttachmentExt_View_All}" class="btn" name="viewAll" onclick="window.open('/ui/content/ViewAllNotesPage?id={!JSENCODE(ParentObjId15)}','_top');" title="View All Notes &amp; Attachments" type="button" />
+
+&nbsp;
+&nbsp;
+
+<apex:outputPanel rendered="{!IsFeedEnabled}">
+  <input id='newChatterFeed' value="{!$Label.AttachmentExt_New_Chatter_File}" class="btn" name="chatterFeed" title="New Chatter File" type="button" /> 
+  &nbsp;
+  &nbsp;
+  <input id='btnRefreshList' value="Refresh" class="btn" title="Refresh List" type="button" onclick="refreshAttachmentList();" /> 
+</apex:outputPanel>
+</td>
+
+
+<td class="pbHelp"></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+      <table class="list docListTableWithLockedHeader" border="0" cellspacing="0" cellpadding="0" style="display:block">     
+          <tbody>
+          <tr class="HeadeRow,docListLockedHeader" style="opacity:0;">
+              <th class="actionColumn" scope="col">Action</th>
+              <th scope="col">Type</th>
+              <th scope="col">Title</th> 
+              <th scope="col">Last Modified</th>             
+              <th scope="col">Created By</th> 
+              <apex:repeat value="{!ExtFields}" var="f">
+                  <th  scope="col" class=" zen-deemphasize">{!f.label}</th>
+              </apex:repeat>                            
+          </tr>
+          </tbody>
+          </table>
+          
+         <apex:outputPanel id="mainPane"> 
+      <table class="list attachmenttablelist" border="0" cellspacing="0" cellpadding="0" style="overflow-y:scroll;height:130px; display:block">         
+          <tbody id='tablebody' >
+          <tr class="HeaderRow docListFloatingHeader" style="opacity:1;">
+              <th class="actionColumn" scope="col">Action</th>
+              <th scope="col">Type</th>
+              <th scope="col">Title</th> 
+              <th scope="col">Last Modified</th>             
+              <th scope="col">Created By</th> 
+              <apex:repeat value="{!ExtFields}" var="f">
+                  <th  scope="col" class=" zen-deemphasize">{!f.label}</th>
+              </apex:repeat>                           
+          </tr>
+          <apex:repeat value="{!AttachmentInfoItems}" var="a">
+              <tr bgcolor="white">
+                  <td class="actionColumn">
+                   <span style="{!a.AttachmentActionStyle}">
+                      <a href="{!SiteUrl}/{!a.CoreObject.Id}/e?retURL=%2F{!a.AttachmentExtension.ParentID__c}" class="actionLink"  target="_parent">Edit</a>
+                      &nbsp;|&nbsp; 
+                      <a href="{!SiteUrl}/servlet/servlet.FileDownload?file={!a.NoteAttachmentID}" class="actionLink" target="_blank">View</a>
+                      &nbsp;|&nbsp;
+                      <apex:commandLink action="{!DeleteAttachment}" value="Del" styleclass="actionLink"  onclick="return confirm('Are you sure?');">
+                        <apex:param name="coreid" value="{!a.NoteAttachmentID}"/> 
+                        <apex:param name="extid" value="{!a.ExtensionID}"/> 
+                      </apex:commandLink>                     
+                  </span>
+                  <span style="{!a.NoteActionStyle}">
+                      <a href="/{!a.CoreObject.Id}/e?retURL=%2F{!a.AttachmentExtension.ParentID__c}" class="actionLink"  target="_parent">Edit</a>
+                      &nbsp;|&nbsp;                      
+                      <apex:commandLink action="{!DeleteAttachment}" value="Del" styleclass="actionLink"  onclick="return confirm('Are you sure?');">
+                        <apex:param name="coreid" value="{!a.NoteAttachmentID}"/> 
+                        <apex:param name="extid" value="{!a.ExtensionID}"/> 
+                      </apex:commandLink>                   
+                  </span>
+                  <span style="{!a.FeedItemActionStyle}">               
+                      
+                      <a href="{!SiteUrl}/sfc/servlet.shepherd/version/download/{!a.RelatedRecordId}?asPdf=false&operationContext=CHATTER" class="actionLink" target="_blank">Download</a>
+                      &nbsp;|&nbsp;                     
+                      <apex:commandLink action="{!DeleteAttachment}" value="Del" styleclass="actionLink"  onclick="return window.confirm('This file was attached from a feed. Deleting it here also deletes it from the original post. Do you want to continue?');">
+                        <apex:param name="coreid" value="{!a.NoteAttachmentID15}"/> 
+                        <apex:param name="extid" value="{!a.ExtensionID}"/> 
+                      </apex:commandLink>                   
+                  </span>                
+                  
+
+                 </td>
+                  <td class=" dataCell  ">{!a.ObjectTypeLabel}</td>
+                  <td class=" dataCell  ">
+                    <apex:outputLink value="/{!a.TitleUrl}" rendered="{!NOT(ISNULL(a.TitleUrl))}" target="_parent">{!a.Title}</apex:outputLink>
+                    <apex:outputText value="{!a.Title}"  rendered="{!ISNULL(a.TitleUrl)}"/>
+                    <!--a href='/{!a.TitleUrl}' target="_parent">{!a.Title}</a> -->
+                  </td>
+                  <td class=" dataCell  ">
+                    <apex:outputField value="{!a.CoreObject['LastModifiedDate']}" id="LastModifiedDate"/>
+                  </td>
+                  <td class=" dataCell  "><a href="{!SiteUrl}/{!a.CreatedByID}" target="_top">{!a.CreatedBy}</a></td>   
+
+                  <apex:repeat value="{!ExtFields}" var="f">
+                  
+                  <td class=" dataCell  ">
+                      <apex:inputField styleclass="inputfield" value="{!a.AttachmentExtension[f]}" rendered="{!f.fieldPath=='SyncToMobile__c'}" style="{!a.FeedItemActionStyle}" />
+                      <apex:inputField styleclass="inputfield" value="{!a.AttachmentExtension[f]}" rendered="{!f.fieldPath!='SyncToMobile__c'}"/>
+                  </td>
+                  </apex:repeat>  
+              </tr>
+          </apex:repeat>  
+          </tbody>
+      </table>   
+        </apex:outputPanel>
+       <apex:actionFunction action="{!SaveAttachmentExt}" name="jsSaveAttachmentExt" reRender="none" />
+       <apex:actionFunction action="{!RefreshDocList}" name="jsRefreshDocList" reRender="mainPane" oncomplete="onRefreshDocListCompleted();" />
+     
+      </div>
+      </div>  
+      
+  </apex:form>
+
+  <script>
+
+
+function showPreviewDialogForContentDocument(contentDocumentId, titleElementId) {
+    var query = "SELECT Id, ContentDocumentId, FileType, CreatedDate ";
+    query += "FROM ContentVersion ";
+    query += "WHERE ContentDocumentId = '" + contentId + "' ";
+    query += "ORDER BY CreatedDate DESC LIMIT 1";
+    var record = sforce.connection.query(query).records;
+    showPreviewDialog(record.Id, titleElementId, record.FileType)
+}
+ 
+function showPreviewDialog(contentVersionId, titleElementId, fileFormat) {
+    OverlayDialogElement.showFilePreview(
+        'docViewerOverlay',
+        titleElementId,
+        '/_swf/121310/sfc',
+        contentVersionId,
+        'chatter_bubble',
+        'false',
+        'docViewerContainer',
+        false,
+        fileFormat,
+        false);
+};
+
+function alignHeaders()
+{   
+    var headerWidths =[];
+
+    var lefts =[];
+
+    $('table.attachmenttablelist').find('tbody tr:first').children().each(function(i){   
+      var offset = $(this).offset();
+      lefts[i] = offset.left;
+       headerWidths[i] =  $(this).width();
+    });
+
+    $('table.docListTableWithLockedHeader').find('tbody tr:first').children().each(function(i){      
+       var myOffset = $(this).offset();
+       $(this).offset({top: myOffset.top, left:lefts[i]});
+       $(this).width(headerWidths[i]);
+    });
+    
+    $('table.attachmenttablelist').find('tbody tr:first').css('opacity', '0');
+    $('table.docListTableWithLockedHeader').find('tbody tr:first').css('opacity', '1');
+    
+}
+
+$(window).resize(function(){
+    
+  refreshAttachmentList();
+});
+
+$(document).ready(function(){
+
+
+
+    $('[Id$="attachmentExtMainPane"]').find("div.bPageBlock.brandSecondaryBrd.secondaryPalette").css({"border-color": "#eaeaea"});
+   
+    $("table.attachmenttablelist").scroll(function(){
+        alignHeaders();
+    });
+});
+         
+function refreshAttachmentList()
+{  
+     jsRefreshDocList();    
+    
+}
+function onRefreshDocListCompleted()
+{
+     maxSizeTable();
+   
+    $('table.attachmenttablelist').scrollTop();
+    $('table.attachmenttablelist').find('tbody tr:first').css('opacity', '1');
+    $('table.docListTableWithLockedHeader').find('tbody tr:first').css('opacity', '0');  
+    $("table.attachmenttablelist").scroll(function(){
+        alignHeaders();
+    });
+    $('.inputfield').change(function(){
+      //console.log('get here jsSaveAttachmentExt');
+      jsSaveAttachmentExt();
+    }); 
+    
+}
+
+function maxSizeTable()
+{
+   var ctrl = $('table.attachmenttablelist');      
+   var parentHeight =  $(window).height();   
+
+   var heightStr = (parentHeight - ctrl.position().top - 8)  + "px";
+   ctrl.css({"height":heightStr});
+      
+   //console.log('maxSizeTable cssHeight='  + heightStr );  
+  
+}
+function bindEvent(el, eventName, eventHandler) {
+  if (el.addEventListener){
+    el.addEventListener(eventName, eventHandler, false); 
+  } 
+  else if (el.attachEvent){
+    el.attachEvent('on'+eventName, eventHandler);
+  }
+}
+
+$(window).load(function(){
+ 
+   maxSizeTable();
+   alignHeaders();
+  $('.inputfield').change(function(){
+        jsSaveAttachmentExt();
+    });   
+
+  $('[id$="newChatterFeed"]').click(function(){
+     
+    var w = window.open("/apex/{!JSENCODE(PackageNamespace)}ChatterFeedAttachment?Id={!JSENCODE(ParentObjId15)}&chatterfeed=1", "_blank", "width=600,height={!JSENCODE(TEXT(ChatterAttachmentPopupHeight))},toolbar=no,status=no,directories=no,menubar=no,resizable=yes,scrollable=no", true);    
+    bindEvent(w, "unload", refreshAttachmentList);  
+    return false;
+  }); 
+  //setInterval(refreshDocList, 2000);  
+});
+
+  </script>
+</apex:component>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The percentage to be assessed against the Ticket Item subtotal when the ticket line item is added from a price book item where the price book item&apos;s Surcharge Fuel field is checked. This field is copied down from the price book level on tkt item create. --></help>
+    <label><!-- Surcharge Rate Fuel --></label>
+    <name>Surcharge_Rate_Fuel__c</name>
+</CustomFieldTranslation>

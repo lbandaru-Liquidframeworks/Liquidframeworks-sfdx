@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>User's syncable Jobs</description>
+    <enableActivities>false</enableActivities>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableSearch>true</enableSearch>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <label>Sync Assignment</label>
+    <nameField>
+        <displayFormat>{0000}</displayFormat>
+        <label>Sync Assignment Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Sync Assignments</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Job__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Contact__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Job__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Contact__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Job__c</searchFilterFields>
+        <searchFilterFields>Contact__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

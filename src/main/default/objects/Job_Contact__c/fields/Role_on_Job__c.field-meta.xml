@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role_on_Job__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Role performed on the job by the customer's representative.</inlineHelpText>
+    <label>Role on Job</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AP Contact</fullName>
+                <default>false</default>
+                <label>AP Contact</label>
+            </value>
+            <value>
+                <fullName>Company Man</fullName>
+                <default>false</default>
+                <label>Company Man</label>
+            </value>
+            <value>
+                <fullName>Drilling Engineer</fullName>
+                <default>false</default>
+                <label>Drilling Engineer</label>
+            </value>
+            <value>
+                <fullName>Mud Engineer</fullName>
+                <default>false</default>
+                <label>Mud Engineer</label>
+            </value>
+            <value>
+                <fullName>Safety Supervisor</fullName>
+                <default>false</default>
+                <label>Safety Supervisor</label>
+            </value>
+            <value>
+                <fullName>Site Supervisor</fullName>
+                <default>false</default>
+                <label>Site Supervisor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

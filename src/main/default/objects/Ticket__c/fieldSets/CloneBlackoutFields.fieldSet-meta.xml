@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CloneBlackoutFields</fullName>
+    <description>Exclude fields in DeepCopy</description>
+    <displayedFields>
+        <field>Created_in_Mobile__c</field>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>Checklist_Name__c</field>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>CloneBlackoutFields</label>
+</FieldSet>

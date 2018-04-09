@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This value is copied down from price book item level on item create.  The user can override it if Locked Price = false and they have permissions.  This is the price to use when the item is marked &quot;On Standby&quot;.  Any type of item can be placed on stand by. --></help>
+    <label><!-- Standby Price --></label>
+    <name>Standby_Price__c</name>
+</CustomFieldTranslation>

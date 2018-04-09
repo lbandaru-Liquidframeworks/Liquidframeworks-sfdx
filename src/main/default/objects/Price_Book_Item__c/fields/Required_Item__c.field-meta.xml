@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Item__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When this is checked, this item will automatically be added to all new Tickets.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If selected, the item gets added automatically to all new tickets.</inlineHelpText>
+    <label>Required Item</label>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

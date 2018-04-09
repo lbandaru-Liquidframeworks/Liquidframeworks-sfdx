@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manufacturer__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Manufacturer of the equipment.</inlineHelpText>
+    <label>Manufacturer</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Equipment Manufactured</relationshipLabel>
+    <relationshipName>Equipment_Manufactured</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

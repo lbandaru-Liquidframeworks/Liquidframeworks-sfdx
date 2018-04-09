@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Service type linked to the price book item service type. You must link a price book item service type to a service type.</inlineHelpText>
+    <label>Service Type</label>
+    <referenceTo>Service_Type__c</referenceTo>
+    <relationshipLabel>Price Book Item Service Types</relationshipLabel>
+    <relationshipName>Price_Book_Item_Service_Types</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>true</trackHistory>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

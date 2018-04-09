@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the list price of the item on the ticket.  It is copied down from the price book item level on tkt item create and can only be changed if the price book item&apos;s Locked Price field is unchecked and user has a profile that has right to update price --></help>
+    <label>prix</label>
+    <name>Price__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Planned_Start__c</fullName>
+    <description>The planned start date/time for this equipment.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date and time the equipment is due to start being used on the job.</inlineHelpText>
+    <label>Planned Start</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>DateTime</type>
+</CustomField>

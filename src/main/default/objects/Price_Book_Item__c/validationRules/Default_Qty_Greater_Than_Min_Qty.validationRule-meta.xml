@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Qty_Greater_Than_Min_Qty</fullName>
+    <active>true</active>
+    <errorConditionFormula>!ISBLANK(Default_Quantity__c) &amp;&amp; !ISBLANK(Minimum_Quantity__c) &amp;&amp; Default_Quantity__c  &lt;  Minimum_Quantity__c</errorConditionFormula>
+    <errorMessage>The Default Quantity must be greater than or equal to the Minimum Quantity.</errorMessage>
+</ValidationRule>

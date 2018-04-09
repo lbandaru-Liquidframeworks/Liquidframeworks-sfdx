@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Catalog_Record_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>Catalog_Item__r.RecordType.DeveloperName</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Catalog record type for the price book item. The price book item inherits this record type from the linked catalog item.</inlineHelpText>
+    <label>Catalog Record Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

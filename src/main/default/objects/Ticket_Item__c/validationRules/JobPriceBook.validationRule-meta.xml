@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JobPriceBook</fullName>
+    <active>true</active>
+    <errorConditionFormula>Price_Book_Item__r.Price_Book__c   &lt;>   Ticket__r.Job__r.Price_Book__c</errorConditionFormula>
+    <errorMessage>The Item must be from the Job Price Book. Please use Ticket Item Builder to add new Ticket Item.</errorMessage>
+</ValidationRule>

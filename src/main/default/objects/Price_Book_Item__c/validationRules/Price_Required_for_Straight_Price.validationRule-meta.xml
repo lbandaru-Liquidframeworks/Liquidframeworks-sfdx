@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Required_for_Straight_Price</fullName>
+    <active>true</active>
+    <description>If the Pricing Method is Straight Price, the Price field is required.</description>
+    <errorConditionFormula>IsPickVal(Pricing_Method__c , "Straight Price") &amp;&amp; IsNull(Price__c)</errorConditionFormula>
+    <errorMessage>You must provide a price since you have set the Pricing Method to "Straight Price"</errorMessage>
+</ValidationRule>

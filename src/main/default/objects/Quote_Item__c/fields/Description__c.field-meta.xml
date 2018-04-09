@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Catalog description for the quote item. The quote item inherits this description from the linked catalog item by default. If the linked price book item has a description override, the quote item inherits that description.</inlineHelpText>
+    <label>Description</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

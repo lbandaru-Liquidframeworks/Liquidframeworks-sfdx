@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Contact record for the user granted access through the price book assignment.</inlineHelpText>
+    <label>Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Price Book Assignments</relationshipLabel>
+    <relationshipName>Price_Book_Assignments</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

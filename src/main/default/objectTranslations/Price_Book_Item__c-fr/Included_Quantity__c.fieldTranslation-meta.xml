@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When used on a ticket, this is the quantity that is given to the customer at no charge. --></help>
+    <label>Fr Included Qty</label>
+    <name>Included_Quantity__c</name>
+</CustomFieldTranslation>

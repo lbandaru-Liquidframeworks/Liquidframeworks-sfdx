@@ -1,0 +1,48 @@
+<apex:page controller="FXBaseController" extensions="FXRemoter" sidebar="false" showChat="false">
+<html>
+<head>
+<title>Packet Viewer</title>
+<style>
+    body,html{background:#f3f3f3;padding:0;margin:0;width:100%;height:100%}
+    @keyframes sk-rotateplane{0%{transform:perspective(120px) rotateX(0) rotateY(0)}50%{transform:perspective(120px) rotateX(-180.1deg) rotateY(0)}100%{transform:perspective(120px) rotateX(-180deg) rotateY(-179.9deg)}}
+</style>
+<link rel="stylesheet" href="https://cdn.fieldfx.com/{!$Api.Session_ID}/{!namespaceWithoutUnderscores + '__'}/{!fxCustomSettings.CDN_PacketViewer_Resource_URL}/main.css?orgid={!$organization.id}&orgname={!$organization.name}&loginname={!$User.UserName}&userid={!$User.id}&username={!$User.FirstName + ' ' + $User.LastName}" />
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/redmond/jquery-ui.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css" />
+<script>
+
+//https://name1--name2--(c|fx5).(cs##|na##).visual.force.com/services/Soap/u/29.0/[orgId]
+//https://(c|fx5).(cs##|na##).visual.force.com/services/Soap/u/29.0/[orgId]
+    window.salesforce = {
+        userId: '{!$User.Id}',
+        userName: '{!$User.Username}',
+        fxNamespace: '{!namespaceWithoutUnderscores}',
+        sessionId: '{!$Api.Session_ID}',
+        organizationId: '{!$Organization.Id}',
+        rawUrl: '{!$Api.Partner_Server_URL_290}',
+        instanceUrl: '{!$Api.Partner_Server_URL_290}'
+            .replace(/\/(c|fx5)\./,'/')
+            .replace(/--(c|fx5)/,'')
+            .replace('visual.','sales')
+            .replace(/\/services.*/,'')
+            .replace('.salesforce', '.cloudforce'),
+
+    };
+
+    // set the PacketViewer_Instance_URL_Override value in FX_Settings is instanceUrl setting doesn't work
+    var instanceUrlOverride = '{!fxCustomSettings.PacketViewer_Instance_URL_Override}';
+    if (instanceUrlOverride != '')
+    {
+        salesforce.instanceUrl = instanceUrlOverride;
+    }
+
+    window.postEnv = 'https://www.fieldfx.com';
+</script>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="https://cdn.fieldfx.com/{!$Api.Session_ID}/{!namespaceWithoutUnderscores + '__'}/{!fxCustomSettings.CDN_PacketViewer_Resource_URL}/jsforce.min.js?orgid={!$organization.id}&orgname={!$organization.name}&loginname={!$User.UserName}&userid={!$User.id}&username={!$User.FirstName + ' ' + $User.LastName}" type="text/javascript"></script>
+    <script src="https://cdn.fieldfx.com/{!$Api.Session_ID}/{!namespaceWithoutUnderscores + '__'}/{!fxCustomSettings.CDN_PacketViewer_Resource_URL}/main.js?orgid={!$organization.id}&orgname={!$organization.name}&loginname={!$User.UserName}&userid={!$User.id}&username={!$User.FirstName + ' ' + $User.LastName}" type="text/javascript"></script>
+</body>
+</html>
+</apex:page>

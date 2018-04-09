@@ -1,0 +1,20 @@
+{
+  "namespace": "FX5QA",
+  "sfdcLoginUrl": "https://liquidframeworks.my.salesforce.com/",
+  "sourceApiVersion": "42.0",
+  "packageDirectories": [        
+      {
+          "path": "src",
+          "default": true,
+          "id": "0Ho3A0000008OIASA2",
+          "versionName": "Package 01",
+          "versionDescription": "Experimental Unlocked DCP for our Managed Package",
+          "versionNumber": "0.0.0.NEXT"
+      }
+  ],
+  "features": ["API", "AuthorApex", "CustomApps", "CustomTabs", "DebugApex", "DefaultWorkflowUser", "ForceComPlatform", "MultiCurrency", "PersonAccounts", "LightningSalesConsole"],
+  "orgPreferences": {
+    "enabled": ["S1DesktopEnabled", "AsyncSaveEnabled", "ChatterEnabled", "Translation", "ShowViewHierarchyLink", "IsChatterProfileEnabled"],
+    "disabled": ["IsNameSuffixEnabled"]
+  }
+}

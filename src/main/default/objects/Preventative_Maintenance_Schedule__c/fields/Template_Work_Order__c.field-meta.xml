@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Template_Work_Order__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Template Work Order</label>
+    <referenceTo>Work_Order__c</referenceTo>
+    <relationshipLabel>Preventative Maintenance Schedules</relationshipLabel>
+    <relationshipName>Preventative_Maintenance_Schedules</relationshipName>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

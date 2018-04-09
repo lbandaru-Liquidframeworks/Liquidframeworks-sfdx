@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Role on Job --></label>
+    <name>Role_on_Job__c</name>
+    <picklistValues>
+        <masterLabel>AP Contact</masterLabel>
+        <translation><!-- AP Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Company Man</masterLabel>
+        <translation><!-- Company Man --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drilling Engineer</masterLabel>
+        <translation><!-- Drilling Engineer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mud Engineer</masterLabel>
+        <translation><!-- Mud Engineer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Safety Supervisor</masterLabel>
+        <translation><!-- Safety Supervisor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Site Supervisor</masterLabel>
+        <translation><!-- Site Supervisor --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

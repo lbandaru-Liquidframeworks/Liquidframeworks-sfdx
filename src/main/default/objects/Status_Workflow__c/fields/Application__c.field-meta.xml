@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Application where the transition between statuses in the status workflow occurs.</inlineHelpText>
+    <label>Application</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Console</fullName>
+                <default>true</default>
+                <label>Console</label>
+            </value>
+            <value>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+                <label>Mobile</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

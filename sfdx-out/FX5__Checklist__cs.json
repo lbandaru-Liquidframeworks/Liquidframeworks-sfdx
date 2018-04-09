@@ -1,0 +1,169 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist__c",
+                "referenceId": "FX5QA__Checklist__cRef1"
+            },
+            "FX5QA__Job_Type__c": "General",
+            "FX5QA__Ticket_Type__c": "Field_Ticket",
+            "FX5QA__UniqueIdentifier__c": "TTField_TicketAJTGeneralSOJC",
+            "FX5QA__WeightingFactor__c": 20,
+            "Name": "Field Ticket Checklist"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist__c",
+                "referenceId": "FX5QA__Checklist__cRef2"
+            },
+            "FX5QA__Account__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v42.0/sobjects/Account/0013600000Kd4HCAAZ"
+                },
+                "Name": "5D Mining & Construction, Inc. (F0025)"
+            },
+            "FX5QA__Job_Type__c": "HD",
+            "FX5QA__Office__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v42.0/sobjects/Account/0013600000Kd4MjAAJ"
+                },
+                "Name": "Farmington"
+            },
+            "FX5QA__Segment__c": "Chemical Cleaning",
+            "FX5QA__Ticket_Type__c": "Field Ticket",
+            "FX5QA__UniqueIdentifier__c": "TTField TicketA0013600000Kd4HCJTHDSChemical CleaningO0013600000Kd4MjJC",
+            "FX5QA__WeightingFactor__c": 31,
+            "Name": "Checklist 1"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist__c",
+                "referenceId": "FX5QA__Checklist__cRef3"
+            },
+            "FX5QA__Account__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v42.0/sobjects/Account/0013600000Kd428AAB"
+                },
+                "Name": "3-D Services (T0005)"
+            },
+            "FX5QA__Job_Type__c": "General",
+            "FX5QA__Office__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v42.0/sobjects/Account/0013600000Kd4MiAAJ"
+                },
+                "Name": "Farmington-Administrative"
+            },
+            "FX5QA__Ticket_Type__c": "Field Ticket",
+            "FX5QA__UniqueIdentifier__c": "TTField TicketA0013600000Kd428JTGeneralSO0013600000Kd4MiJC",
+            "FX5QA__WeightingFactor__c": 30,
+            "Name": "Checklist"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist__c",
+                "referenceId": "FX5QA__Checklist__cRef4"
+            },
+            "FX5QA__Job_Type__c": "General",
+            "FX5QA__Ticket_Type__c": "Tax_Surcharge",
+            "FX5QA__UniqueIdentifier__c": "TTTax_SurchargeAJTGeneralSOJC",
+            "FX5QA__WeightingFactor__c": 20,
+            "Name": "Test PD checklist"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist__c",
+                "referenceId": "FX5QA__Checklist__cRef5"
+            },
+            "FX5QA__Account__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v42.0/sobjects/Account/0013600000vrrmiAAA"
+                },
+                "Name": "Regression Test"
+            },
+            "FX5QA__Job_Type__c": "General",
+            "FX5QA__Office__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v42.0/sobjects/Account/0013600000WnWCkAAN"
+                },
+                "Name": "Houston"
+            },
+            "FX5QA__UniqueIdentifier__c": "TTA0013600000vrrmiJTGeneralSO0013600000WnWCkJC",
+            "FX5QA__WeightingFactor__c": 14,
+            "Name": "Which Checklist?"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist__c",
+                "referenceId": "FX5QA__Checklist__cRef6"
+            },
+            "FX5QA__Account__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v42.0/sobjects/Account/0013600000vrrmiAAA"
+                },
+                "Name": "Regression Test"
+            },
+            "FX5QA__Job_Type__c": "General",
+            "FX5QA__Office__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v42.0/sobjects/Account/0013600000WnWCkAAN"
+                },
+                "Name": "Houston"
+            },
+            "FX5QA__Ticket_Type__c": "Field Ticket",
+            "FX5QA__UniqueIdentifier__c": "TTField TicketA0013600000vrrmiJTGeneralSO0013600000WnWCkJC",
+            "FX5QA__WeightingFactor__c": 30,
+            "Name": "Quote Checklist"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist__c",
+                "referenceId": "FX5QA__Checklist__cRef7"
+            },
+            "FX5QA__Account__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v42.0/sobjects/Account/0013600000IweO4AAJ"
+                },
+                "Name": "Dalehead Foods"
+            },
+            "FX5QA__Job_Type__c": "General",
+            "FX5QA__Ticket_Type__c": "Field Ticket",
+            "FX5QA__UniqueIdentifier__c": "TTField TicketA0013600000IweO4JTGeneralSOJC",
+            "FX5QA__WeightingFactor__c": 28,
+            "Name": "Shunting Checklist"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist__c",
+                "referenceId": "FX5QA__Checklist__cRef8"
+            },
+            "FX5QA__Account__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v42.0/sobjects/Account/0013600000Kd428AAB"
+                },
+                "Name": "3-D Services (T0005)"
+            },
+            "FX5QA__Job_Type__c": "General",
+            "FX5QA__Office__r": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v42.0/sobjects/Account/0013600000WnWCkAAN"
+                },
+                "Name": "Houston"
+            },
+            "FX5QA__Ticket_Type__c": "Service",
+            "FX5QA__UniqueIdentifier__c": "TTServiceA0013600000Kd428JTGeneralSO0013600000WnWCkJC",
+            "FX5QA__WeightingFactor__c": 30,
+            "Name": "Will checklist"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Value does not exist or does not match filter criteria.</errorMessage>
+        <filterItems>
+            <field>Status__c.SObject__c</field>
+            <operation>equals</operation>
+            <value>Credit_Memo__c</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Status__c</referenceTo>
+    <relationshipLabel>Credit Memo</relationshipLabel>
+    <relationshipName>Credit_Memo</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

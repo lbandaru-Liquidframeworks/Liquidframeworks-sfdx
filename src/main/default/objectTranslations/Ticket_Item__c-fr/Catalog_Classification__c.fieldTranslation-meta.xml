@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This lookup value is set on ticket item creation when the item is added from the price book to a ticket.  It cannot be changed by the user and is only here for historical and reporting purposes.  This field should be READ ONLY. --></help>
+    <label><!-- Catalog Classification --></label>
+    <name>Catalog_Classification__c</name>
+    <relationshipLabel><!-- Ticket Items --></relationshipLabel>
+</CustomFieldTranslation>

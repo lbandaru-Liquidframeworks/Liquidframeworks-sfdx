@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Employee holding the qualification.</inlineHelpText>
+    <label>Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Contact Qualifications</relationshipLabel>
+    <relationshipName>Contact_Qualifications</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

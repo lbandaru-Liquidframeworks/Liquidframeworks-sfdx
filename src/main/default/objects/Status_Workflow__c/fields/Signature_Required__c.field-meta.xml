@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Signature_Required__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>(Ticket workflows only) If selected, the field employee and/or customer representative must add a digital signature to a ticket report before the transition can occur.</inlineHelpText>
+    <label>Signature Required</label>
+    <type>Checkbox</type>
+</CustomField>

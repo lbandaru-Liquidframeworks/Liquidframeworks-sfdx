@@ -1,0 +1,57 @@
+<apex:page controller="PriceBookItemLookupController" title="Search Price Book Item" showHeader="false" sideBar="false" tabStyle="Price_Book_Item__c" id="pg">
+  <apex:sectionHeader title="Search Price Book Item" rendered="true"/>
+ 
+  <apex:form >
+  <apex:outputPanel id="page" layout="block" style="margin:5px;padding:10px;padding-top:2px;">
+    <apex:actionRegion >  
+          <apex:outputPanel id="top" layout="block" style="margin:5px;padding:10px;padding-top:2px;">
+            <apex:outputLabel value="Type" style="font-weight:Bold;padding-right:10px;" />
+                    <apex:selectList id="itemType" value="{!selectedItemType}"  multiselect="false" size="1" >
+                        <apex:selectOptions value="{!itemTypes}" />
+            </apex:selectList>
+            <apex:outputLabel value="Keyword" style="font-weight:Bold;padding-right:10px;" for="txtSearch"/>
+            <apex:inputText id="txtSearch" value="{!searchString}" />
+            <span style="padding-left:5px"><apex:commandButton id="btnGo" value="Go" action="{!Search}" rerender="searchResults"></apex:commandButton></span>           
+            <apex:outputLabel style="padding-left:25px" value="Wildcard '*' search is not supported." />
+          </apex:outputPanel>
+
+ 
+          <apex:outputPanel id="pnlSearchResults" style="margin:10px;height:350px;overflow-Y:auto;" layout="block">
+            
+            <apex:pageBlock id="searchResults"> 
+              <apex:pageBlockTable value="{!results}" var="a" id="tblResults">
+                <apex:column >
+                  <apex:facet name="header">
+                    <apex:outputPanel >Name</apex:outputPanel>
+                  </apex:facet>
+                   <apex:outputLink value="javascript:top.window.opener.lookupPick2('{!FormTag}','{!TextBox}_lkid','{!TextBox}','{!a.Id}','{!a.Name}', false)" rendered="{!NOT(ISNULL(a.Id))}">{!a.Name}</apex:outputLink>     
+                </apex:column>
+                <apex:column >
+                  <apex:facet name="header">
+                    <apex:outputPanel >Item Code</apex:outputPanel>
+                  </apex:facet>
+                   <apex:outputLabel value="{!a.Catalog_Item_Code__c}" rendered="true" />    
+                </apex:column>
+
+                 <apex:column >
+                  <apex:facet name="header">
+                    <apex:outputPanel >Description</apex:outputPanel>
+                  </apex:facet>
+                   <apex:outputLabel value="{!a.Catalog_Description__c}" rendered="true" />    
+                </apex:column>
+
+                <apex:column >
+                  <apex:facet name="header">
+                    <apex:outputPanel >Classification</apex:outputPanel>
+                  </apex:facet>
+                   <apex:outputLabel value="{!a.Breadcrumb__c}" rendered="true" />    
+                </apex:column>
+
+
+              </apex:pageBlockTable>
+            </apex:pageBlock>
+          </apex:outputPanel>
+        </apex:actionRegion>
+  </apex:outputPanel>
+  </apex:form>
+</apex:page>

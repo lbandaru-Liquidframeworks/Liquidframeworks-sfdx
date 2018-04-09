@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Minimum_Quantity</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED(Input_Qty__c), AND(NOT( ISNULL(PBI_Minimum_Quantity__c)), Input_Qty__c &lt; PBI_Minimum_Quantity__c))</errorConditionFormula>
+    <errorDisplayField>Input_Qty__c</errorDisplayField>
+    <errorMessage>The input quantity must be greater than or equal to the minimum quantity.</errorMessage>
+</ValidationRule>

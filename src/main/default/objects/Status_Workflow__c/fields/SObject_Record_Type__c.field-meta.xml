@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SObject_Record_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Record type for which the workflow is used.</inlineHelpText>
+    <label>SObject Record Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SObject__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Field_Ticket</fullName>
+                <default>false</default>
+                <label>Field_Ticket</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Job__c</controllingFieldValue>
+            <valueName>Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket__c</controllingFieldValue>
+            <valueName>Field_Ticket</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

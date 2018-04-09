@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This value is copied down from the price book item level on ticket item create for historical purposes.  This value cannot and should not be changed by the user or through code.  When selected, the user cannot change the discount% regardless of security --></help>
+    <label><!-- PBI Locked Discount --></label>
+    <name>PBI_Locked_Discount__c</name>
+</CustomFieldTranslation>

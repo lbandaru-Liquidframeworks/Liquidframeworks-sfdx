@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Well</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Wells</value>
+    </caseValues>
+    <layouts>
+        <layout>Well Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Driving Directions --></label>
+            <section>Driving Directions</section>
+        </sections>
+        <sections>
+            <label><!-- Operator and Driller --></label>
+            <section>Operator and Driller</section>
+        </sections>
+        <sections>
+            <label><!-- Surface Location --></label>
+            <section>Surface Location</section>
+        </sections>
+        <sections>
+            <label><!-- Well Depth --></label>
+            <section>Well Depth</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

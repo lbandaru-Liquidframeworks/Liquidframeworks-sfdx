@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This only applies for an item with a pricing method of Straight Price.  For that kind of item, this value is the price less the discount percentage. --></help>
+    <label><!-- Discounted Price --></label>
+    <name>Discounted_Price__c</name>
+</CustomFieldTranslation>

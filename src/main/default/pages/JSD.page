@@ -1,0 +1,102 @@
+<apex:page controller="FXBaseController" extensions="FXJSDHandler"
+    docType="html-5.0"
+    applyHtmlTag="false"
+    applyBodyTag="false"
+    showChat="false"
+    showHeader="false"
+    showQuickActionVfHeader="false"
+    sidebar="false"
+    standardStylesheets="false">
+
+<html>
+<head>
+<title>Scheduling &amp; Dispatch</title>
+<style>
+    body,html{background:#f3f3f3;padding:0;margin:0;width:100%;height:100%}
+    .spinner-container{position:absolute;top:50%;left:50%;margin-left:-50px}
+    .spinner{background-color:#337ab7;width:100px;height:100px;margin:-50px auto 0;animation:sk-rotateplane 1.2s infinite ease-in-out}
+    @keyframes sk-rotateplane{0%{transform:perspective(120px) rotateX(0) rotateY(0)}50%{transform:perspective(120px) rotateX(-180.1deg) rotateY(0)}100%{transform:perspective(120px) rotateX(-180deg) rotateY(-179.9deg)}}
+</style>
+<script>
+
+    window.salesforce = {
+        userId: '{!$User.Id}',
+        namespace: '{!namespace}',
+        sessionId: '{!$Api.Session_ID}',
+        organizationId: '{!$Organization.Id}',
+        jsdLicense: '{!jsdLicense}',
+        fxmapLicense: '{!fxmapLicense}',
+        baseManagedPackageVersion: '{!baseManagedPackageVersion}',
+        apiVersion: '39.0',
+        mixpanelId: '{!JSENCODE(fxCustomSettings.mixPanelSecurityToken)}',
+        userInfo: JSON.parse('{!fxUserInfo}')
+    };
+
+    window.salesforce.remote = {
+        userInfo: function (callback) {
+            try {
+                callback(JSON.parse('{!FxUserInfoEscaped}'), { status: true });
+            } catch (err) {
+                callback(null, err);
+            }
+        },
+        query: function (soql, callback) {
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.FXJSDHandler.queryObject}', soql,
+                callback, { buffer: false, escape: false }
+            );
+        },
+        insert: function (sobject, callback) {
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.FXJSDHandler.insertObject}', sobject,
+                callback, { buffer: false, escape: false }
+            );
+        },
+        update: function (sobject, fieldsToNull, callback) {
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.FXJSDHandler.updateObject}', sobject, fieldsToNull,
+                callback, { buffer: false, escape: false }
+            );
+        },
+        delete: function (sobject, callback) {
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.FXJSDHandler.deleteObject}', sobject,
+                callback, { buffer: false, escape: false }
+            );
+        },
+        getJobQualifications: function (jobId, callback) {
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.FXJSDHandler.getJobQualifications}', jobId,
+                callback, { buffer: false, escape: false }
+            );
+        },
+         getQualifiedContacts: function (jobId, callback) {
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.FXJSDHandler.getQualifiedContacts}', jobId,
+                callback, { buffer: false, escape: false }
+            );
+        },
+         getQualifiedEquipment: function (jobId, callback) {
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.FXJSDHandler.getQualifiedEquipment}', jobId,
+                callback, { buffer: false, escape: false }
+            );
+        },
+	doWork: function (service, param, callback) {
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.FXJSDHandler.doWork}', service, param,
+                callback, { buffer: false, escape: false }
+            );
+        }
+    };
+
+</script>
+<script type="text/javascript" src="https://www.bing.com/api/maps/mapcontrol"></script>
+</head>
+<body>
+    <div class="spinner-container"><div class="spinner"></div></div>
+    <script type="text/javascript" src="https://cdn.fieldfx.com/{!$Api.Session_ID}/{!namespaceWithoutUnderscores + '__'}/{!FxCustomSettings.CDN_JSD_Resource_URL}/app.js"></script>
+</body>
+</html>
+
+</apex:page>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplies</fullName>
+    <active>true</active>
+    <label>Supplies</label>
+    <picklistValues>
+        <picklist>PBI_Pricing_Method__c</picklist>
+        <values>
+            <fullName>Cost Plus Markup Amount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cost Plus Markup Percent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Straight Price</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Job that had its status changed.</inlineHelpText>
+    <label>Job</label>
+    <referenceTo>Job__c</referenceTo>
+    <relationshipLabel>Status History</relationshipLabel>
+    <relationshipName>Status_History</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

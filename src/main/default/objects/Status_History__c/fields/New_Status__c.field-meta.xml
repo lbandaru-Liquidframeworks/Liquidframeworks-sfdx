@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Status__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>New status of the job/ticket.</inlineHelpText>
+    <label>New Status</label>
+    <referenceTo>Status__c</referenceTo>
+    <relationshipLabel>Status History</relationshipLabel>
+    <relationshipName>StatusHistory_NewStatus</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

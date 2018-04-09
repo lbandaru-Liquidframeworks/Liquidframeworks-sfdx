@@ -1,0 +1,117 @@
+
+.image_add {
+	background: no-repeat url('images/add.png');
+}
+
+.image_ani_loading {
+	background: no-repeat url('images/load.gif');
+}
+
+.image_ani_loadingText {
+	background: no-repeat url('images/loading.gif');
+}
+
+.image_ani_loading_roller_F9BG01 {
+	background: no-repeat url('images/ani_loading_roller_F9BG01.gif');
+}
+
+.image_antenna {
+	background: no-repeat url('images/antenna.png');
+}
+
+.image_calendarGif {
+	background: no-repeat url('images/calendar.gif');
+}
+
+.image_CheckAll {
+	background: no-repeat url('images/CHECKALL.GIF');
+}
+
+.image_CheckNone {
+	background: no-repeat url('images/UnCheckAll.gif');
+}
+
+.image_filteroff {
+	background: no-repeat url('images/filteroff.gif');
+}
+
+.image_filter_16x16 {
+	background: no-repeat url('images/filter_16x16.gif');
+}
+
+.image_gear {
+	background: no-repeat url('images/gear.png');
+}
+
+.image_gears {
+	background: no-repeat url('images/gears.gif');
+}
+
+.image_gear_silhouette2 {
+	background: no-repeat url('images/gear_silhouette2.png');
+}
+
+.image_ico_cancel {
+	background: no-repeat url('images/ico_cancel.gif');
+}
+
+.image_ico_delete {
+	background: no-repeat url('images/ico_delete.gif');
+}
+
+.image_ico_delete_black {
+	background: no-repeat url('images/ico_delete_black.gif');
+}
+
+.image_ico_delete2_black {
+	background: no-repeat url('images/ico_delete2_black.gif');
+}
+
+.image_info {
+	background: no-repeat url('images/info.gif');
+}
+
+.image_notify_allUsers {
+	background: no-repeat url('images/notify_allUsers.png');
+}
+
+.image_notify_newUsers {
+	background: no-repeat url('images/notify_newUsers.png');
+}
+
+.image_Recur {
+	background: no-repeat url('images/RECUR.GIF');
+}
+
+.image_status_cancelled {
+	background: no-repeat url('images/status_cancelled.gif');
+}
+
+.image_status_failed-sm {
+	background: no-repeat url('images/status_failed-sm.gif');
+}
+
+.image_status_remaining-sm {
+	background: no-repeat url('images/status_remaining-sm.gif');
+}
+
+.image_status_success-sm {
+	background: no-repeat url('images/status_success-sm.gif');
+}
+
+.image_topleft {
+	background: no-repeat url('images/topleft.png');
+}
+
+.image_unpin {
+	background: no-repeat url('images/unpin.png');
+}
+
+.image_user-silhouette-question {
+	background: no-repeat url('images/user-silhouette-question.png');
+}
+
+.image_user-worker {
+	background: no-repeat url('images/user-worker.png');
+}
+

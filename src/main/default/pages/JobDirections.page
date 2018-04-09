@@ -1,0 +1,186 @@
+<apex:page lightningStyleSheets="true" standardController="Job__c" showHeader="true" standardStylesheets="true">
+<apex:sectionHeader title="Job Direction - {!Job__c.Name} ({!Job__c.Tracking_Number__c})" rendered="true"/>
+<script src="/soap/ajax/15.0/connection.js" type="text/javascript"></script>
+<script src="/soap/ajax/15.0/apex.js" type="text/javascript"></script>
+    <apex:form id="form" >
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.8&sensor=false"></script>
+
+    <script type="text/javascript">
+      var componentLocation = '{!$Component.form}';
+      
+      var callback = {
+          //call layoutResult if the request is successful
+          onSuccess: layoutResults,
+
+          //call queryFailed if the api request fails
+          onFailure: function() { alert('oops'); }
+      };
+      
+      function layoutResults(queryResult, source) {
+        if (queryResult.size > 0) {
+    
+          //get the records array
+          var records = queryResult.getArray('records');
+    
+          //loop through the records and construct html string
+          for (var i = 0; i < records.length; i++) {
+            var account = records[i];
+            alert (account.Name);
+          }
+    
+        }
+      }
+      
+
+      var geocoder = new google.maps.Geocoder();
+      var marker;
+      var map;
+      
+      function initialize() {
+      
+        var lat = document.getElementById(componentLocation + ':address:addressblock:latitude').value;
+        var lng = document.getElementById(componentLocation + ':address:addressblock:longitude').value;
+        
+        if (lat == null || lat == '')
+            lat = 29.73009292636784;
+        if (lng == null || lng == '')
+            lng = -95.44084506607055;
+            
+        var mapOptions = {
+          center: new google.maps.LatLng(lat, lng),
+          zoom: 13,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        
+        map = new google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+            
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(lat, lng),
+            title: 'Point A',
+            map: map,
+            draggable: true
+        });
+        
+        google.maps.event.addListener(marker, 'dragend', function() {
+            updateMarkerPosition(marker.getPosition());
+            geocodePosition(marker.getPosition());
+      });
+      
+      }
+      
+      
+      function updateMarkerPosition(latLng) {
+          document.getElementById(componentLocation + ':address:addressblock:latitude').value = latLng.lat();
+          document.getElementById(componentLocation + ':address:addressblock:longitude').value = latLng.lng();
+      }
+      
+    function geocodePosition(pos) {
+        geocoder.geocode({
+            latLng: pos
+        }, function(responses) {
+            if (responses && responses.length > 0) {
+                document.getElementById(componentLocation + ':address:addressblock:address1').value = [ getAddressComponent(responses[0], 'street_number'), getAddressComponent(responses[0], 'route') ].join(' ').trim();
+                document.getElementById(componentLocation + ':address:addressblock:city').value = getAddressComponent(responses[0], 'locality');
+                document.getElementById(componentLocation + ':address:addressblock:state').value = getAddressComponent(responses[0], 'administrative_area_level_1');
+                document.getElementById(componentLocation + ':address:addressblock:zip').value = getAddressComponent(responses[0], 'postal_code');
+                document.getElementById(componentLocation + ':address:addressblock:country').value = getAddressComponent(responses[0], 'country');
+            } else {
+                //updateMarkerAddress('Cannot determine address at this location.');
+            }
+        });
+    }
+    
+    function geocodeaddress() { 
+        var address1 = document.getElementById(componentLocation + ':address:addressblock:address1').value;
+        var city = document.getElementById(componentLocation + ':address:addressblock:city').value;
+        var state = document.getElementById(componentLocation + ':address:addressblock:state').value;
+        var zip = document.getElementById(componentLocation + ':address:addressblock:zip').value;
+        var country = document.getElementById(componentLocation + ':address:addressblock:country').value;
+        
+        if (address1 == null) address1 = '';
+        if (city == null) city = '';
+        if (state == null) state = '';
+        if (zip == null) zip = '';
+        if (country == null) country = '';
+        
+        var address = address1 + ';' + city + ',' + state + ' ' + zip + ' ' + country;
+        
+        geocoder.geocode({
+            address: address
+        }, function(responses) { 
+            if (responses && responses.length > 0 && responses[0].geometry && responses[0].geometry.location)
+            {
+                var lat = responses[0].geometry.location.hb;
+                var lon = responses[0].geometry.location.ib;
+                
+                if (lat != null && lat != '' && lon != null && lon != '')
+                {
+                    document.getElementById(componentLocation + ':address:addressblock:latitude').value = lat;
+                    document.getElementById(componentLocation + ':address:addressblock:longitude').value = lon;
+                    
+                    marker.setPosition(responses[0].geometry.location);
+                    map.setCenter(responses[0].geometry.location);
+                }
+            }
+        });
+    }
+    
+    function getAddressComponent(response, type) { 
+        if (response.address_components) { 
+            for (var i in response.address_components) { 
+                var component = response.address_components[i];
+                if (component && component.types) { 
+                    for (var t in component.types) { 
+                        if (component.types[t] == type) 
+                        {
+                            return component.short_name;
+                        }
+                    }
+                }
+            }
+        }
+        return '';
+    }
+
+      
+      google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+    <style type="text/css">
+
+  #map-canvas { 
+      width:400px;
+      height:250px;
+      position:absolute;
+  }
+  </style>
+       <apex:pageBlock title="Address" id="address" mode="maindetail">
+          
+          <apex:inputHidden value="{!Job__c.Id}" id="id"/>
+          <apex:pageBlockSection columns="2" id="addressblock">
+              <apex:inputField value="{!Job__c.Site_Address1__c}" id="address1" onblur="geocodeaddress()" taborderhint="1"/>
+              <apex:pageBlockSectionItem dataStyleClass="empty"><div id="map-canvas"/></apex:pageBlockSectionItem>
+              <apex:inputField value="{!Job__c.Site_Address_2__c}" id="address2" onblur="geocodeaddress()" taborderhint="2"/>
+              <apex:pageBlockSectionItem />
+              <apex:inputField value="{!Job__c.Site_City__c}" id="city" onblur="geocodeaddress()" taborderhint="3"/>
+              <apex:pageBlockSectionItem />
+              <apex:inputField value="{!Job__c.Site_State__c}" id="state" onblur="geocodeaddress()" taborderhint="4"/>
+              <apex:pageBlockSectionItem />
+              <apex:inputField value="{!Job__c.Site_Zip__c}" id="zip" onblur="geocodeaddress()" taborderhint="5"/>
+              <apex:pageBlockSectionItem />
+              <apex:inputField value="{!Job__c.Site_Country__c}" id="country" onblur="geocodeaddress()" taborderhint="6"/>
+              <apex:pageBlockSectionItem />
+              <apex:inputField value="{!Job__c.Site_Latitude__c}" id="latitude" taborderhint="7"/>
+              <apex:pageBlockSectionItem />
+              <apex:inputField value="{!Job__c.Site_Longitude__c}" id="longitude" taborderhint="8"/>
+          </apex:pageBlockSection>
+      </apex:pageBlock>
+      <apex:commandButton value="Save" action="{!save}"/>
+      <apex:commandButton value="Cancel" action="{!cancel}"/>
+   </apex:form>
+   <script type="text/javascript">
+         sforce.connection.query("select Name from Account where Id = '" + document.getElementById(componentLocation + ":address:id").value + "'");
+      
+   </script>
+</apex:page>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Markup_Percent_Rqd_for_CostPlusPercent</fullName>
+    <active>true</active>
+    <description>If the Pricing Method is Cost Plus Markup Percent, the Cost Plus Markup Percent field is required.</description>
+    <errorConditionFormula>IsPickVal(Pricing_Method__c , "Cost Plus Markup Percent") &amp;&amp; IsNull( Cost_Plus_Markup_Percent__c )</errorConditionFormula>
+    <errorDisplayField>Cost_Plus_Markup_Percent__c</errorDisplayField>
+    <errorMessage>You must provide a value for the "Cost Plus Markup Percent" field since you have set the Pricing Method to "Cost Plus Markup Percent"</errorMessage>
+</ValidationRule>

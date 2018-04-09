@@ -1,0 +1,40 @@
+<apex:page controller="sObjectCloningController" action="{!redirect}" >  
+   <apex:pageMessages />
+
+   <apex:form >
+    <!--apex:actionFunction name="doDeepCopy" action="{!DeepCopy}" rerender="allPanel"/> -->
+
+    
+
+    <apex:outputPanel id="allPanel">
+      <apex:outputPanel >
+        <strong>  Deep Copy - {!DescribeInfo.ObjectType}</strong><br /><br />
+
+		    <strong>Source:</strong><a href='{!SourceObjUrl}'>{!SourceEntity['Name']} </a><br/><br/>
+
+   
+
+        <apex:outputPanel rendered="{!HasChildTypesForCloning}">
+			  The following child type items are being copied asychronously and it might take a while, depending on the server load and the number of items.
+        </apex:outputPanel>
+         <br /><br />
+	       <ul>
+            <apex:repeat value="{!DescribeInfoItems}" var="f"><li>{!f.ObjectType}</li></apex:repeat>
+			   </ul>
+
+        
+
+      </apex:outputPanel>
+      <apex:outputPanel rendered="{!EntityCopy!=null}">
+       		<strong>Copy:</strong> <a href='{!CopyObjUrl}'>{!EntityCopy['Name']} </a>     
+
+      </apex:outputPanel>   
+      <apex:outputPanel >
+         <apex:outputtext value="{!PageMessage}" escape="false"/>
+      </apex:outputPanel>
+
+    </apex:outputPanel>
+    <apex:message />
+  </apex:form> 
+
+</apex:page>

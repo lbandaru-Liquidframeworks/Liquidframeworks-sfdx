@@ -1,0 +1,257 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef1"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef1",
+            "FX5QA__Description__c": "this is a gate pass check updated",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 0,
+            "Name": "Check GatePass-updated"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef2"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef2",
+            "FX5QA__Description__c": "Leave the room",
+            "FX5QA__Required_Step__c": true,
+            "FX5QA__Sequence_Number__c": 1,
+            "Name": "1. Exit Room"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef3"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef2",
+            "FX5QA__Description__c": "Panic!!!!",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 2,
+            "Name": "2. Panic"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef4"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef3",
+            "FX5QA__Description__c": "Have you started?",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 0,
+            "Name": "New checklist"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef5"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef4",
+            "FX5QA__Description__c": "dest",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 0,
+            "Name": "steps"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef6"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef5",
+            "FX5QA__Description__c": "75% Complete",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 4,
+            "Name": "4"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef7"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef5",
+            "FX5QA__Description__c": "25% Complete",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 2,
+            "Name": "2"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef8"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef5",
+            "FX5QA__Description__c": "Have you started?",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 1,
+            "Name": "1"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef9"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef5",
+            "FX5QA__Description__c": "100% Complete",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 5,
+            "Name": "5"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef10"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef5",
+            "FX5QA__Description__c": "Sign Off!!!",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 6,
+            "Name": "6"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef11"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef5",
+            "FX5QA__Description__c": "50% Complete",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 3,
+            "Name": "3"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef12"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef6",
+            "FX5QA__Description__c": "Review Quote with Client",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 1,
+            "Name": "1"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef13"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef6",
+            "FX5QA__Description__c": "Confirmation Received",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 4,
+            "Name": "4"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef14"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef6",
+            "FX5QA__Description__c": "Sync to Back Office",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 3,
+            "Name": "3"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef15"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef6",
+            "FX5QA__Description__c": "Convert to Job",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 5,
+            "Name": "5"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef16"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef6",
+            "FX5QA__Description__c": "Client Signs 'Quote Report'",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 2,
+            "Name": "2"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef17"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef7",
+            "FX5QA__Description__c": "Complete Shift",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 4,
+            "Name": "4"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef18"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef7",
+            "FX5QA__Description__c": "Check in with Transport Manager",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 1,
+            "Name": "1"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef19"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef7",
+            "FX5QA__Description__c": "Photograph Vehicle",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 3,
+            "Name": "3"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef20"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef7",
+            "FX5QA__Description__c": "Complete Vehicle Inspection",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 2,
+            "Name": "2"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef21"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef7",
+            "FX5QA__Description__c": "Complete Paperwork",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 5,
+            "Name": "5"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef22"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef7",
+            "FX5QA__Description__c": "Have Transport Manager Sign Paperwork",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 6,
+            "Name": "6"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Checklist_Step__c",
+                "referenceId": "FX5QA__Checklist_Step__cRef23"
+            },
+            "FX5QA__Checklist__c": "@FX5QA__Checklist__cRef8",
+            "FX5QA__Description__c": "Ticket check",
+            "FX5QA__Required_Step__c": false,
+            "FX5QA__Sequence_Number__c": 0,
+            "Name": "Ticket check"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UserTriggerSkipPackageLicenseCleanup__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If true, skip package license clean up for inactive users. The packages include 'FX5', 'FXTKT', 'FXEAM', 'FXT2', 'FXJSD', 'FXMAP'.</description>
+    <externalId>false</externalId>
+    <label>UserTriggerSkipPackageLicenseCleanup</label>
+    <type>Checkbox</type>
+</CustomField>

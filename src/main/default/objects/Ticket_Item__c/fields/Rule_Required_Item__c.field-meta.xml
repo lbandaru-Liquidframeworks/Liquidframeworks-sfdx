@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rule_Required_Item__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field will indicate that the item is required by the rule engine.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field will indicate that the item is required by the rule engine.</inlineHelpText>
+    <label>Rule Required Item</label>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

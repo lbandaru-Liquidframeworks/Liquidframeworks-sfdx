@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Breadcrumb__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Unique identifier used to categorize the item in ticket item lists.</inlineHelpText>
+    <label>Breadcrumb</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

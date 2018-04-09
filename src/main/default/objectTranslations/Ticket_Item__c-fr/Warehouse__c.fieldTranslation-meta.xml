@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the warehouse from where we are picking this item.  This field should be defaulted to a warehouse lookup that gets set at the ticket level.  The user (if they have the permissions) can override this item level warehouse selection. --></help>
+    <label><!-- Warehouse --></label>
+    <name>Warehouse__c</name>
+    <relationshipLabel><!-- Ticket Items --></relationshipLabel>
+</CustomFieldTranslation>

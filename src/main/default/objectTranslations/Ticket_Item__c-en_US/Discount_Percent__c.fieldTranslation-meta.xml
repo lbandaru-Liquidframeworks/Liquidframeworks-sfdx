@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The percent discount for the ticket item.  This value is copied from the price book item to the ticket item on item add to the ticket from the price book.  If the user has the security access, this value can be overridden. --></help>
+    <label><!-- Discount Percent --></label>
+    <name>Discount_Percent__c</name>
+</CustomFieldTranslation>

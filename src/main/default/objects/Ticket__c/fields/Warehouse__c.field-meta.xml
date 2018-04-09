@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warehouse__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Warehouse where equipment included on the ticket is stored. When you select a warehouse, ticket items will be from the specified warehouse by default.</inlineHelpText>
+    <label>Warehouse</label>
+    <referenceTo>Warehouse__c</referenceTo>
+    <relationshipLabel>Tickets</relationshipLabel>
+    <relationshipName>Tickets</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

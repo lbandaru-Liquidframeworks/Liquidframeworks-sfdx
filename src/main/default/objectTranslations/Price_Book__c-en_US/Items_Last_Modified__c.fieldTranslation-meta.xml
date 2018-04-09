@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field displayed the last date and time that any item in this price book was modified.  In other words, it is the last time this price book was modified - not the header record, but the items. --></help>
+    <label><!-- Items Last Modified --></label>
+    <name>Items_Last_Modified__c</name>
+</CustomFieldTranslation>

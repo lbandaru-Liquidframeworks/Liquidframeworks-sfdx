@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SObject__c</fullName>
+    <description>Select the sobject for this status.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Object for which the status is used. You must make an entry in this field.</inlineHelpText>
+    <label>SObject</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Job__c</fullName>
+                <default>false</default>
+                <label>Job__c</label>
+            </value>
+            <value>
+                <fullName>Ticket__c</fullName>
+                <default>false</default>
+                <label>Ticket__c</label>
+            </value>
+            <value>
+                <fullName>Quote__c</fullName>
+                <default>false</default>
+                <label>Quote__c</label>
+            </value>
+            <value>
+                <fullName>Invoice__c</fullName>
+                <default>false</default>
+                <label>Invoice__c</label>
+            </value>
+            <value>
+                <fullName>Credit_Memo__c</fullName>
+                <default>false</default>
+                <label>Credit_Memo__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

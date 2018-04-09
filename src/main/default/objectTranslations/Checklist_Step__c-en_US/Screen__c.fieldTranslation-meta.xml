@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Screen --></label>
+    <name>Screen__c</name>
+    <picklistValues>
+        <masterLabel>ticket/{trackingNumber}?tab=details</masterLabel>
+        <translation><!-- ticket/{trackingNumber}?tab=details --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ticket/{trackingNumber}?tab=items</masterLabel>
+        <translation><!-- ticket/{trackingNumber}?tab=items --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ticket/{trackingNumber}?tab=log</masterLabel>
+        <translation><!-- ticket/{trackingNumber}?tab=log --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ticket/{trackingNumber}?tab=reports</masterLabel>
+        <translation><!-- ticket/{trackingNumber}?tab=reports --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

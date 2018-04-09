@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SyncID__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Trigger will populate this property when it is null. It should populate with a guid.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Unique identifier assigned automatically after syncing.</inlineHelpText>
+    <label>SyncID</label>
+    <length>50</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

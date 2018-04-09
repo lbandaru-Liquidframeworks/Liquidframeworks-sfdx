@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Price Book Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Price Book Items</value>
+    </caseValues>
+    <layouts>
+        <layout>Field Engineer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Price Book Item Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>Default</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The Default Quantity must be greater than or equal to the Minimum Quantity. --></errorMessage>
+        <name>Default_Qty_Greater_Than_Min_Qty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Default Quantity must be less than or equal to the Maximum Quantity. --></errorMessage>
+        <name>Default_Qty_Less_Than_Max_Qty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a value for the &quot;Cost Plus Markup Amount&quot; field since you have set the Pricing Method to &quot;Cost Plus Markup Amount&quot; --></errorMessage>
+        <name>Markup_Amount_Rqd_for_CostPlusAmount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a value for the &quot;Cost Plus Markup Percent&quot; field since you have set the Pricing Method to &quot;Cost Plus Markup Percent&quot; --></errorMessage>
+        <name>Markup_Percent_Rqd_for_CostPlusPercent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Minimum Quantity must be either less than or equal to Maximum Quantity or set to nothing. --></errorMessage>
+        <name>Min_Qty_Cannot_Exceed_Max_Qty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a price since you have set the Pricing Method to &quot;Straight Price&quot; --></errorMessage>
+        <name>Price_Required_for_Straight_Price</name>
+    </validationRules>
+</CustomObjectTranslation>

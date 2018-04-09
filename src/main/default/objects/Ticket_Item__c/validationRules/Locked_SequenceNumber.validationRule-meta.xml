@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Locked_SequenceNumber</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Price_Book_Item__r.Price_Book__r.AddTktItemsByPBSeqNum__c, ISCHANGED(Sequence_Number__c))</errorConditionFormula>
+    <errorDisplayField>Sequence_Number__c</errorDisplayField>
+    <errorMessage>Cannot change the sequence number as its Price Book requires copying over sequence number.</errorMessage>
+</ValidationRule>

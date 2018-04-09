@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When this item is used on a ticket and the item on the ticket is placed on Stand By, the Extended Amount for the line item is calculated using the Stand By price and no Discount Percentage is applied. --></help>
+    <label><!-- Standby Price --></label>
+    <name>Standby_Price__c</name>
+</CustomFieldTranslation>

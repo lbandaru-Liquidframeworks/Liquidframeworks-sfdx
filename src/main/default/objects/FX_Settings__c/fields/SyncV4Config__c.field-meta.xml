@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SyncV4Config__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Enable Sync Config option for Sync V4</description>
+    <externalId>false</externalId>
+    <label>Sync v4 Config</label>
+    <type>Checkbox</type>
+</CustomField>

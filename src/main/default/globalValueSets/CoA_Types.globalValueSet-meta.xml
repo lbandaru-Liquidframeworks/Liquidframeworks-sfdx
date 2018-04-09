@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Income</fullName>
+        <default>false</default>
+        <label>Income</label>
+    </customValue>
+    <customValue>
+        <fullName>COGS</fullName>
+        <default>false</default>
+        <label>COGS</label>
+    </customValue>
+    <customValue>
+        <fullName>AR</fullName>
+        <default>false</default>
+        <label>AR</label>
+    </customValue>
+    <customValue>
+        <fullName>Bank</fullName>
+        <default>false</default>
+        <label>Bank</label>
+    </customValue>
+    <masterLabel>CoA Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

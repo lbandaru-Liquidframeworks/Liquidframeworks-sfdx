@@ -1,0 +1,384 @@
+<apex:page standardController="Sync_Configuration__c" extensions="SyncConfigBuilderController"
+sidebar="false" tabStyle="Sync_Configuration__c" doctype="html-5.0">
+<apex:sectionHeader title="Sync Configuration Builder" rendered="true"/>
+<!--link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/redmond/jquery-ui.css" /> -->
+<script src="../../soap/ajax/27.0/connection.js" type="text/javascript"></script>
+<!--apex:includeScript value="{!$Resource.FX5__jquery1102minjs}"/> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<style type="text/css"> 
+    .col1 {width:20%; align:left;vertical-align:top;}
+    .col2 {width:80%; align:left; vertical-align:top; }    
+    .pbTitle { white-space: nowrap; }
+
+
+      
+</style>
+
+
+
+<apex:form id="syncconfigform">
+     <apex:actionFunction action="{!FilterSyncConfigs}" name="jsFilterSyncConfigs" rerender="syncConfingTable" oncomplete="rebindSyncConfigGrid();" />
+
+     <apex:actionFunction action="{!DeleteSyncConfigs}" name="jsDeleteSyncConfigs" rerender="syncConfingTable" oncomplete="rebindSyncConfigGrid();" />
+    <apex:panelGrid columns="2" columnClasses="col1,col2" width="100%">
+    <apex:pageBlock title="CONTACTS" >     
+       
+        
+        <apex:pageBlock title="Search Contacts" id="contactSearchPane"> 
+            <apex:pageBlockButtons >
+                 <input type='button' value='Add Selected Contact(s)' id='btnAddContacts' class="btn" />
+            </apex:pageBlockButtons>         
+
+            <apex:outputPanel style="white-space: nowrap;" id="contactSearcher">
+                Office&nbsp; <apex:inputField value="{!contactObj.Office__c}" /> &nbsp; &nbsp; 
+                Keyword&nbsp;
+                <apex:inputText value="{!keyword}" style="width:80px" id="keyword" />
+                &nbsp; &nbsp; &nbsp;&nbsp;  
+                <apex:commandButton value="Search" id="cmdSearch" reRender="contactSearchResults" action="{!SearchContacts}" oncomplete="hookupContactCheckboxChangeEvent();" /> 
+
+                <apex:commandButton value="Reset" id="cmdReset" reRender="contactSearcher,contactSearchResults" action="{!resetSearcher}" oncomplete="hookupContactCheckboxChangeEvent();" /> 
+
+            </apex:outputPanel>
+           
+            <apex:pageBlockTable value="{!contacts}" var="c" Id="contactSearchResults">  
+
+                <apex:column style="white-space: nowrap;" >   
+                    <apex:facet name="header">                         
+                        <label><input type='checkbox' id='toggleContactsAll' class='toggleallcontacts' />Name</label>
+                    </apex:facet>                     
+                    <label title="{!c.User__r.Username}" ><input type='checkbox' id='contactentry' data-contactId="{!c.Id}" data-contactname="{!c.Name}" class='contactentry' title="{!c.User__r.Username}" />{!c.Name}</label>
+                </apex:column> 
+
+                  <apex:column headerValue="Office">                       
+                    <apex:outputField value="{!c.Office__r.Name}" />
+                 </apex:column>                 
+                               
+            </apex:pageBlockTable>
+            
+        </apex:pageBlock>          
+      
+            
+    </apex:pageBlock>
+    <apex:pageBlock title="SYNC CONFIGURATION" id="syncconfigspane">  
+        <apex:PageMessages />
+        <apex:pageBlock title="Contacts for Sync Configuration"> 
+            <apex:pageBlockButtons location="Top">
+                 <input type='button' value='Clear All' id='btnClearSyncContacts' class="btn" />
+            </apex:pageBlockButtons>  
+            <apex:outputPanel id="contactspane" />
+        </apex:pageBlock>
+         <apex:pageBlock title="New Sync Configuration for Contact(s)">
+            <apex:pageBlockButtons location="Top">
+                    <apex:commandButton value="Save" id="cmdSave" action="{!save}" reRender="existingSyncConfigPane" oncomplete="rebindSyncConfigGrid();" />
+            </apex:pageBlockButtons> 
+
+            <apex:pageBlockTable value="{!syncConfigObj}" var="f" id="newSyncConfingTable">           
+                       
+              <apex:column headerValue="Job Crew Only">                      
+                <apex:inputField value="{!f.Sync_JobCrewOnly__c}" />
+             </apex:column>
+              <apex:column headerValue="Account">                       
+                <apex:inputField value="{!f.Account__c}" />
+             </apex:column>
+              <apex:column headerValue="Office">                       
+                <apex:inputField value="{!f.Office__c}" />
+             </apex:column>
+              <apex:column headerValue="Segment">                       
+                <apex:inputField value="{!f.Segment__c}" />
+             </apex:column>
+              <apex:column headerValue="Job Type">                       
+                <apex:inputField value="{!f.Job_Type__c}" />
+             </apex:column>
+
+        </apex:pageBlockTable>
+        </apex:pageBlock>
+        <apex:pageBlock title="Existing Sync Configurations" id="existingSyncConfigPane">     
+        <apex:pageBlockButtons >
+            <apex:commandButton value="Save" action="{!SaveGridEdit}" reRender="syncConfingTable" oncomplete="rebindSyncConfigGrid();" />
+            <apex:commandButton value="Cancel" action="{!CancelGridEdit}" reRender="syncConfingTable" oncomplete="rebindSyncConfigGrid();" />
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             
+            <input type='button' value="Delete Selected Item(s)" id="cmdDelete" class="btn" />
+
+        </apex:pageBlockButtons>   
+          <apex:outputPanel style="white-space: nowrap;" id="syncConfigSearcher">
+            Account&nbsp; <apex:inputField value="{!syncConfigFilter.Account__c}" /> &nbsp;&nbsp;
+            Office&nbsp; <apex:inputField value="{!syncConfigFilter.Office__c}" /> &nbsp; &nbsp; 
+            Segment&nbsp; <apex:inputField value="{!syncConfigFilter.Segment__c}" /> &nbsp; &nbsp;
+            Job Type&nbsp; <apex:inputField value="{!syncConfigFilter.Job_Type__c}" /> &nbsp; &nbsp; 
+
+                <apex:commandButton value="Search" id="cmdFilterSyncConfigs" reRender="syncConfingTable" action="{!FilterSyncConfigs}" oncomplete="rebindSyncConfigGrid();" /> 
+
+                <apex:commandButton value="Reset" id="cmdResetSyncConfigFilter" reRender="existingSyncConfigPane" action="{!ResetSyncConfigFilter}" oncomplete="rebindSyncConfigGrid();"  />  
+
+            </apex:outputPanel>
+           
+
+        <apex:pageBlockTable value="{!SyncConfigs}" var="f" id="syncConfingTable">
+
+             <apex:column >  
+               <apex:facet name="header">                         
+                        <label><input type='checkbox' id='toggleSyncConfigAll' class='togglesyncconfigall' />Item</label>
+                </apex:facet>  
+                 <label><input type='checkbox' data-syncconfigid='{!f.Id}' class='sync_config' />{!f.Name}</label>
+             </apex:column> 
+
+             <apex:column headerValue="User">                                     
+                <apex:outputText value="{!f.Contact__r.Name}" title="{!f.User_Login_Name__c}" />
+             </apex:column>
+                       
+              <apex:column >  
+                <apex:facet name="header">                         
+                    <label><input type='checkbox' id='toggleJobCrewOnly' class='togglejobcrewonly' />Job Crew Only</label>
+                </apex:facet>  
+                <apex:inputField value="{!f.Sync_JobCrewOnly__c}" styleclass="jobcrewonly" />
+             </apex:column>
+              <apex:column headerValue="Account">                       
+                <apex:inputField value="{!f.Account__c}" />
+             </apex:column>
+              <apex:column headerValue="Office">                       
+                <apex:inputField value="{!f.Office__c}" />
+             </apex:column>
+              <apex:column headerValue="Segment">                       
+                <apex:inputField value="{!f.Segment__c}" />
+             </apex:column>
+              <apex:column headerValue="Job Type">                       
+                <apex:inputField value="{!f.Job_Type__c}" />
+             </apex:column>
+
+        </apex:pageBlockTable>
+        </apex:pageBlock> 
+    </apex:pageBlock>
+    
+    </apex:panelGrid>
+
+  
+    <apex:inputHidden id="selectedcontacts" />
+    <apex:inputHidden id="SyncConfigContacts" value="{!SyncConfigContacts}" />
+    <apex:inputHidden id="SelectedSyncConfigIds" value="{!SelectedSyncConfigIds}" />
+</apex:form>
+
+<script>
+
+
+
+
+     var j$ = jQuery.noConflict();                 
+
+        
+        function rebindSyncConfigGrid()
+        {
+            j$('input:checkbox.togglejobcrewonly').change(function(){
+                
+                var checked = j$(this).prop('checked');
+                j$('input:checkbox.jobcrewonly').prop('checked', checked);                                                
+            });
+
+            j$('input:checkbox.togglesyncconfigall').change(function(){
+                
+                var checked = j$(this).prop('checked');
+                j$('input:checkbox.sync_config').prop('checked', checked);                                                
+            });
+
+            j$('[Id$="cmdDelete"]').click(function(e){
+               
+
+               var result = window.confirm('Are you sure?');
+               if (result == false) 
+               {
+                 e.preventDefault();
+               }
+               else
+               {
+                 var items = '';
+                 var sep='';
+                 j$('input:checkbox.sync_config').each(function(){
+
+                        if(j$(this).prop('checked'))
+                        {
+                           var itemId = j$(this).attr("data-syncconfigid");
+                           items += sep + itemId;  
+                           sep = ',';
+                        }
+                   });
+                j$('[Id$="SelectedSyncConfigIds"]').val(items);
+
+                if(items!='') jsDeleteSyncConfigs();
+              }
+
+            });
+
+        }
+
+
+        function hookupContactCheckboxChangeEvent()
+        {            
+             j$('input:checkbox.toggleallcontacts').change(function(){
+
+                 console.log('onToggleContactsAll');
+                var checked = j$(this).prop('checked');
+                j$('.contactentry').prop('checked', checked);
+                var contacts = '';
+                if(checked)
+                {
+                   j$('.contactentry').each(function(){
+                       var contactid = j$(this).attr("data-contactid");
+                       var contactname = j$(this).attr("data-contactname");
+                       var sep = (contacts && contacts.length>0)? ',' : '';
+                       contacts += sep + contactid + ':' + contactname;
+                   });
+                }
+                j$('[Id$="selectedcontacts"]').val(contacts);                
+            });
+
+
+             j$('[Id$="btnAddContacts"').click( function(){
+                var syncConfigContacts = j$('[Id$="SyncConfigContacts"]')[0].value;  
+
+                var selectedContacts = j$('[Id$="selectedcontacts"]')[0];           
+                var newSyncConfigContacts = selectedContacts.value;
+                if(newSyncConfigContacts.length>0)
+                {
+                    //var contactPane = j$('[Id$="contactspane"]')[0];
+
+                    var container = j$('[Id$="contactspane"]')[0];
+                    j$('.syncconfig_contact').remove();
+                    j$('.syncconfig_contactname').remove();
+                
+                    var contacts = newSyncConfigContacts;
+
+                    if(syncConfigContacts && syncConfigContacts.length>0)
+                    {                       
+                        contacts = syncConfigContacts + ',' + contacts;
+                    }
+
+                    renderSyncConfigContacts(container, contacts);                         
+                }
+
+                //selectedContacts.val('');
+                j$('.contactentry').prop('checked', false);
+                j$('input:checkbox.toggleallcontacts').prop('checked', false);
+                 
+                jsFilterSyncConfigs();
+            });
+
+          
+
+
+
+
+             j$('[Id$="selectedcontacts"]').val('');
+             j$("input:checkbox.contactentry").change(function (){
+
+                    var ctrl = j$('[Id$="selectedcontacts"]')[0];
+                    var str = ctrl.value;
+                    var contact = j$(this).attr("data-contactid") + ':' + j$(this).attr("data-contactname") 
+                    var sep = (str && str.length>0)? ',' : '';
+
+                    if(j$(this).is(':checked'))
+                    {
+                        str += sep + contact;
+                    }
+                    else
+                    {
+                        str = str.replace(contact, '');
+                    }
+                    if(str.length>0)
+                    {
+                        if(str[0]===',') str = str.substr(1);        
+                        else if(str[str.length-1]===',') str = str.substr(0, str.length-1);             
+                    }                   
+                    ctrl.value = str;
+                    console.log("selected contacts=" + str);                   
+                
+            });   
+        }
+    
+        function addContact(container, contact) {
+          
+            var fields = contact.split(':');
+            var name = fields[1];
+            var contactid = fields[0];
+            j$('<input />', 
+                { type: 'checkbox', 
+                  'data-contactid':contactid,  
+                  'data-contactname': name, 
+                  class:'syncconfig_contact',                   
+                  checked: "checked",
+                  change: function(){
+                    var checked = j$(this).prop('checked');
+                    if(!checked)
+                    {
+                        var contactid = j$(this).attr("data-contactid");
+                        var contactname = j$(this).attr("data-contactname");
+
+                        var contactEntry = contactid + ':' + contactname;
+
+                        var selectedContacts = j$('[Id$="selectedcontacts"]')[0].value;
+                        selectedContacts = selectedContacts.replace(contactEntry, '');    
+                        j$(this).next().remove();
+                        j$(this).remove(); 
+                        
+                        var syncContacts = j$('[Id$="SyncConfigContacts"]')[0].value;
+                        syncContacts = syncContacts.replace(contactEntry, '').replace(',,', ',');
+                        if(syncContacts!='' && syncContacts.charAt(0)==',')
+                        {
+                            syncContacts = syncContacts.substring(1, syncContacts.length);
+                        }
+                        if(syncContacts!='' && syncContacts.charAt(syncContacts.length-1)==',')
+                        {
+                            syncContacts = syncContacts.substring(0, syncContacts.length-1);
+                        }
+
+                        j$('[Id$="SyncConfigContacts"]').val(syncContacts);
+
+                        jsFilterSyncConfigs();
+
+                    }
+                  } 
+                }).appendTo(container);
+            j$('<label />', { 'for': contactid,  class:'syncconfig_contactname', text: name }).appendTo(container);
+        }
+
+         function renderSyncConfigContacts(container, contacts) {   
+            if(!container || !contacts || contacts.length==0) return;
+
+            var contactsAdded = {};
+            var syncContactsStr = '';
+            var sep = '';
+
+            var items = contacts.split(',');
+            for(var i=0; i<items.length; i++)
+            {
+                if(!items[i] || items[i].length==0 || contactsAdded[items[i]]) continue;
+                addContact(container, items[i]);
+                contactsAdded[items[i]] = true;
+                syncContactsStr += sep + items[i];
+                sep = ',';
+            } 
+            j$('[Id$="SyncConfigContacts"]').val(syncContactsStr);      
+        }
+
+
+        j$(document).ready(function(){           
+           
+            hookupContactCheckboxChangeEvent();
+
+            /*
+            j$('[Id$="syncconfigform"]').find('table.detailList tr:last').after('<tr><th class="labelCol vfLabelColTextWrap" scope="row">Contact(s)</th><td><span id="contactspane" /></td></tr>');
+            */
+
+            j$('[Id$="btnClearSyncContacts"').click( function(){
+                j$('.syncconfig_contact').remove();
+                j$('.syncconfig_contactname').remove();
+                j$('[Id$="SyncConfigContacts"]').val('');                 
+                jsFilterSyncConfigs();
+            });
+
+            rebindSyncConfigGrid();
+
+        });          
+        
+
+</script> 
+ 
+</apex:page>

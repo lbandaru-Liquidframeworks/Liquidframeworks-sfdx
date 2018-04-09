@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If this item&apos;s pricing method is &quot;Cost+ Amount&quot;, this is the default markup amount when the item is used on a ticket. If the item is marked as a &quot;Locked Price/Markup&quot;, this cannot be changed on the ticket; otherwise, the user can override the markup amt. --></help>
+    <label><!-- Cost Plus Markup Amount --></label>
+    <name>Cost_Plus_Markup_Amount__c</name>
+</CustomFieldTranslation>

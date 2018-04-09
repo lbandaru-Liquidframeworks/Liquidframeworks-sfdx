@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Maximum_Quantity</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED(Input_Qty__c), AND(NOT( ISNULL(PBI_Maximum_Quantity__c)), Input_Qty__c >PBI_Maximum_Quantity__c))</errorConditionFormula>
+    <errorDisplayField>Input_Qty__c</errorDisplayField>
+    <errorMessage>The input quantity must be less than or equal to the maximum quantity.</errorMessage>
+</ValidationRule>

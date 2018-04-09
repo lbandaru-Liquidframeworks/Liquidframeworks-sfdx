@@ -1,0 +1,79 @@
+<apex:page standardController="Crew_Planning__c" extensions="CrewPlanningControllerExtension" sidebar="false" tabStyle="Crew_Planning__c">
+<apex:sectionHeader title="Job Crew Planning - {!crewPlanning.Job__r.Name}" rendered="true"/>
+<apex:stylesheet value="{!$Resource.ticketbuilderstylescss}"/>
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/redmond/jquery-ui.css" />
+<script src="../../soap/ajax/27.0/connection.js" type="text/javascript"></script>
+<apex:includeScript value="{!$Resource.jquery1102minjs}"/>
+<div id="applicationHost"></div>
+
+<apex:form id="crewPlanningForm">          
+     <apex:pageMessages />
+      <apex:pageBlock mode="masterdetail">
+
+            <apex:pageBlockButtons >               
+                    <apex:commandButton action="{!save}" value="Save" id="cmdSave" />
+                    <apex:commandButton action="{!saveAndNew}" value="Save & New" id="cmdSaveAndNew" />
+                    <apex:commandButton action="{!doCancel}" value="Cancel" immediate="true"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection columns="1">
+                <apex:inputField value="{!crewPlanning.Job__c}"/>
+                <apex:inputField value="{!crewPlanning.Crew_Member__c}"/>
+                <apex:inputField value="{!crewPlanning.Role_on_Job__c}"/>
+                <apex:inputField value="{!crewPlanning.Planned_Start_Date__c}"/>
+                <apex:inputField value="{!crewPlanning.Planned_End_Date__c}"/>
+            </apex:pageBlockSection>                     
+        </apex:pageBlock>
+        <apex:inputHidden id="priceBookItemKeyPrefix" value="{!priceBookItemKeyPrefix}" />
+        <apex:inputHidden id="contactKeyPrefix" value="{!contactKeyPrefix}" />
+        <apex:inputHidden id="priceBookId" value="{!priceBookId}" />
+</apex:form>
+<script type="text/javascript"> 
+  function openLookup(baseURL, width, modified, searchParam){
+    var originalbaseURL = baseURL;
+    var originalwidth = width;
+    var originalmodified = modified;
+    var originalsearchParam = searchParam;
+    
+    var lookupType = baseURL.substr(baseURL.length-3, 3);
+    if (modified == '1') baseURL = baseURL + searchParam;
+    
+    var isCustomLookup = false;   
+
+    var priceBookItemKeyPrefix = document.querySelectorAll("[id$='priceBookItemKeyPrefix']")[0].value;
+
+    // Following "001" is the lookup type for Account object so change this as per your standard or custom object
+    if(lookupType == priceBookItemKeyPrefix){
+  
+      var urlArr = baseURL.split("&");
+      var txtId = '';
+      if(urlArr.length > 2) {
+        urlArr = urlArr[1].split('=');
+        txtId = urlArr[1];
+      }
+      
+      // Following is the url of Custom Lookup page. You need to change that accordingly
+      baseURL = "/apex/PriceBookItemSearcher?txt=" + txtId;
+      
+      // Following is the id of apex:form control "myForm". You need to change that accordingly
+      baseURL = baseURL + "&frm=" + escapeUTF("{!$Component.crewPlanningForm}");
+      if (modified == '1') {
+        baseURL = baseURL + "&lksearch=" + searchParam;
+      }  
+      
+      baseURL = baseURL + "&priceBookId=" + document.querySelectorAll("[id$='priceBookId']")[0].value;
+      baseURL = baseURL + "&defaultItemType=labor";
+      isCustomLookup = true;
+    }
+    
+    
+    if(isCustomLookup == true){
+      openPopup(baseURL, "lookup", 350, 480, "width="+width+",height=480,toolbar=no,status=no,directories=no,menubar=no,resizable=yes,scrollable=no", true);
+    }
+    else {
+      if (modified == '1') originalbaseURL = originalbaseURL + originalsearchParam;
+      openPopup(originalbaseURL, "lookup", 350, 480, "width="+originalwidth+",height=480,toolbar=no,status=no,directories=no,menubar=no,resizable=yes,scrollable=no", true);
+    } 
+  }
+</script>
+
+</apex:page>

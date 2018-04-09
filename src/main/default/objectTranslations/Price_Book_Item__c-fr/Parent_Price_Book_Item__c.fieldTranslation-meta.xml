@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the item&apos;s parent price book item.  The system only supports parent-child relationships.  In other words, only 2 levels are supported. --></help>
+    <label>Fr Parent Price Book Item</label>
+    <name>Parent_Price_Book_Item__c</name>
+    <relationshipLabel><!-- Child Price Book Items --></relationshipLabel>
+</CustomFieldTranslation>

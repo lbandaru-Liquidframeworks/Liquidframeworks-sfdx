@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the indicator to charge a fuel surcharge% against the item subtotal based on the price book item. This field gets copied from the price book item only on ticket item create. It cannot and should not be changed by the user on the ticket item. --></help>
+    <label><!-- PBI Surcharge Fuel --></label>
+    <name>PBI_Surcharge_Fuel__c</name>
+</CustomFieldTranslation>

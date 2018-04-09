@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Catalog_UOM__c</fullName>
+    <description>The Unit of Measure copied from the corresponding catalog item.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Unit of measurement used for the quote item. The quote item inherits this unit of measurement from the linked catalog item.</inlineHelpText>
+    <label>Catalog UOM</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

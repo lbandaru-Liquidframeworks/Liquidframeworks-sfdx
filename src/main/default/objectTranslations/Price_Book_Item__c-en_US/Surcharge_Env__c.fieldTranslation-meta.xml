@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When an item with this field checked is added to a ticket, the Subtotal of the ticket line item is multiplied by the price book&apos;s Surcharge Fuel percentage and that surcharge amt is added to the ticket line item&apos;s ext amt. --></help>
+    <label><!-- Surcharge Env --></label>
+    <name>Surcharge_Env__c</name>
+</CustomFieldTranslation>

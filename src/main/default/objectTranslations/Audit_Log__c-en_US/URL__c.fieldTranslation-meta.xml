@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- ​In the case of a sync upload failure this will be a link to the sync errors page in Mobile --></help>
+    <label><!-- URL --></label>
+    <name>URL__c</name>
+</CustomFieldTranslation>

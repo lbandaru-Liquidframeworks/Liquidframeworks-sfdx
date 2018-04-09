@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If the use of this price book should be restricted to only a certain office, specify that office here. --></help>
+    <label><!-- Office --></label>
+    <name>Office__c</name>
+    <relationshipLabel><!-- Price Books --></relationshipLabel>
+</CustomFieldTranslation>

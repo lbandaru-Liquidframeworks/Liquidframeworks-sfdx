@@ -1,0 +1,1688 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef1"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-05-18",
+            "FX5QA__Global_Price_Book__c": true,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef2"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-07-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef3"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-02",
+            "FX5QA__Expiration_Date__c": "2017-04-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef4"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-02",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef5"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2011-01-02",
+            "FX5QA__Expiration_Date__c": "2014-12-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef6"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2009-01-02",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef7"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2009-01-02",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef8"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-10-01",
+            "FX5QA__Expiration_Date__c": "2016-08-11",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef9"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2014-02-01",
+            "FX5QA__Expiration_Date__c": "2016-08-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef10"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2014-01-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef11"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-08-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef12"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2009-01-01",
+            "FX5QA__Expiration_Date__c": "2012-08-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef13"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-01",
+            "FX5QA__Expiration_Date__c": "2012-12-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef14"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-04-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef15"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-01-14",
+            "FX5QA__Expiration_Date__c": "2013-02-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef16"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-03-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef17"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-10-01",
+            "FX5QA__Expiration_Date__c": "2014-01-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef18"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-01-29",
+            "FX5QA__Expiration_Date__c": "2013-12-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef19"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-01",
+            "FX5QA__Expiration_Date__c": "2013-01-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef20"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-03-18",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef21"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-01",
+            "FX5QA__Expiration_Date__c": "2013-01-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef22"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-03-11",
+            "FX5QA__Expiration_Date__c": "2013-05-25",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef23"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-09-01",
+            "FX5QA__Expiration_Date__c": "2012-12-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef24"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-08-17",
+            "FX5QA__Expiration_Date__c": "2012-12-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef25"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2014-01-01",
+            "FX5QA__Expiration_Date__c": "2014-12-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef26"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-02",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef27"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef28"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2014-01-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef29"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-01",
+            "FX5QA__Expiration_Date__c": "2012-12-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef30"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-04-15",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef31"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-04-15",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef32"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-01",
+            "FX5QA__Expiration_Date__c": "2016-04-12",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef33"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-07-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef34"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-01-18",
+            "FX5QA__Expiration_Date__c": "2014-01-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef35"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef36"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2011-08-01",
+            "FX5QA__Expiration_Date__c": "2012-08-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef37"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2009-01-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef38"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-05-21",
+            "FX5QA__Expiration_Date__c": "2013-01-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef39"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-08-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef40"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2014-05-18",
+            "FX5QA__Expiration_Date__c": "2017-04-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef41"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-04-15",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef42"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-01",
+            "FX5QA__Expiration_Date__c": "2013-08-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef43"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-01-01",
+            "FX5QA__Expiration_Date__c": "2013-12-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef44"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef45"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-07-01",
+            "FX5QA__Expiration_Date__c": "2013-12-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef46"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-12-01",
+            "FX5QA__Expiration_Date__c": "2014-01-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef47"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2014-06-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef48"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-05-24",
+            "FX5QA__Expiration_Date__c": "2013-10-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef49"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-05-17",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef50"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-02",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef51"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-03",
+            "FX5QA__Expiration_Date__c": "2014-12-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef52"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-01",
+            "FX5QA__Expiration_Date__c": "2017-11-19",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef53"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-08-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef54"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-02",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef55"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2014-01-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef56"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-08-17",
+            "FX5QA__Expiration_Date__c": "2012-12-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef57"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-05-21",
+            "FX5QA__Expiration_Date__c": "2012-09-03",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef58"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef59"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2011-08-01",
+            "FX5QA__Expiration_Date__c": "2012-08-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef60"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-01-01",
+            "FX5QA__Expiration_Date__c": "2013-12-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef61"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-01-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef62"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2014-01-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef63"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2014-04-01",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef64"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2012-07-10",
+            "FX5QA__Expiration_Date__c": "2016-08-18",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef65"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-01-01",
+            "FX5QA__Expiration_Date__c": "2014-02-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef66"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-05-12",
+            "FX5QA__Expiration_Date__c": "2016-06-30",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef67"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-06-15",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef68"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-06-21",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef69"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-06-22",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef70"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-06-20",
+            "FX5QA__Expiration_Date__c": "2016-06-21",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef71"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-06-22",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef72"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-06-22",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef73"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-06-23",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef74"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-08-12",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef75"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-08-10",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef76"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-08-12",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef77"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-12-15",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef78"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-11-23",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef79"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-11-28",
+            "FX5QA__Global_Price_Book__c": true,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef80"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-12-02",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef81"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2016-12-02",
+            "FX5QA__Global_Price_Book__c": true,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef82"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-03-13",
+            "FX5QA__Expiration_Date__c": "2017-12-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "FX5QA__Items_Last_Modified__c": "2018-03-21T18:41:39.000+0000",
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef83"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-04-09",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef84"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-01",
+            "FX5QA__Expiration_Date__c": "2021-10-12",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef85"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-01",
+            "FX5QA__Expiration_Date__c": "2017-04-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef86"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-01",
+            "FX5QA__Expiration_Date__c": "2022-04-06",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef87"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-01",
+            "FX5QA__Expiration_Date__c": "2017-04-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef88"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-01",
+            "FX5QA__Expiration_Date__c": "2017-04-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef89"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-01",
+            "FX5QA__Expiration_Date__c": "2017-04-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef90"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-01",
+            "FX5QA__Expiration_Date__c": "2017-04-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef91"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef92"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-01",
+            "FX5QA__Expiration_Date__c": "2017-04-01",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef93"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-02",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef94"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-04-27",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef95"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-06-13",
+            "FX5QA__Expiration_Date__c": "2018-06-11",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef96"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-07-25",
+            "FX5QA__Expiration_Date__c": "2017-08-30",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef97"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-08-11",
+            "FX5QA__Expiration_Date__c": "2021-01-30",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef98"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-09-25",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef99"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-09-25",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef100"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-02",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef101"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-02",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef102"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-02",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef103"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-09-25",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef104"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-09-25",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef105"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-10-13",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef106"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-10-24",
+            "FX5QA__Expiration_Date__c": "2018-10-11",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef107"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-10-26",
+            "FX5QA__Expiration_Date__c": "2018-10-11",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef108"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-10-26",
+            "FX5QA__Expiration_Date__c": "2018-10-16",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef109"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-10-27",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef110"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-10-27",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef111"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-10-27",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef112"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-10-27",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef113"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-11-08",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef114"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-12-06",
+            "FX5QA__Expiration_Date__c": "2018-12-11",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef115"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-12-13",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef116"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2018-01-09",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef117"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2018-01-01",
+            "FX5QA__Expiration_Date__c": "2018-01-07",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef118"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2018-01-10",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef119"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2019-01-15",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": false,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef120"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2018-01-10",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef121"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2018-01-16",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef122"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2013-02-01",
+            "FX5QA__Expiration_Date__c": "2021-04-12",
+            "FX5QA__Global_Price_Book__c": true,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef123"
+            },
+            "CurrencyIsoCode": "USD",
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2018-01-30",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Is_Active__c": true,
+            "IsDeleted": false
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The quantity value to set at the ticket item level when the ticket item is initially added to the ticket.  This end user can of course overwrite the default quantity value. --></help>
+    <label><!-- PBI Default Quantity --></label>
+    <name>PBI_Default_Quantity__c</name>
+</CustomFieldTranslation>

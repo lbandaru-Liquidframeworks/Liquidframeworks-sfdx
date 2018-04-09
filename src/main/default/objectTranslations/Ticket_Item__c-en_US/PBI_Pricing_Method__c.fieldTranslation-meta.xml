@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is copied down from the price book item level on ticket item create for historicals.  This value should never be changed by the user or through code. --></help>
+    <label><!-- PBI Pricing Method --></label>
+    <name>PBI_Pricing_Method__c</name>
+    <picklistValues>
+        <masterLabel>Cost Plus Markup Amount</masterLabel>
+        <translation><!-- Cost Plus Markup Amount --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cost Plus Markup Percent</masterLabel>
+        <translation><!-- Cost Plus Markup Percent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Straight Price</masterLabel>
+        <translation><!-- Straight Price --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

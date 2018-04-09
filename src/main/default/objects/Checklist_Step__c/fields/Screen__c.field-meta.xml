@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Screen__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Tab on the Tickets page in FieldFX Mobile that displays when a user selects the step on a checklist.</inlineHelpText>
+    <label>Screen</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ticket/{trackingNumber}?tab=details</fullName>
+                <default>false</default>
+                <label>ticket/{trackingNumber}?tab=details</label>
+            </value>
+            <value>
+                <fullName>ticket/{trackingNumber}?tab=log</fullName>
+                <default>false</default>
+                <label>ticket/{trackingNumber}?tab=log</label>
+            </value>
+            <value>
+                <fullName>ticket/{trackingNumber}?tab=items</fullName>
+                <default>false</default>
+                <label>ticket/{trackingNumber}?tab=items</label>
+            </value>
+            <value>
+                <fullName>ticket/{trackingNumber}?tab=reports</fullName>
+                <default>false</default>
+                <label>ticket/{trackingNumber}?tab=reports</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

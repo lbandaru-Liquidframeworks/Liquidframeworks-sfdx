@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SkipCrewPlanningTriggerOnQualification__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If true, resources do not meet the job’s qualification requirements will be allowed.</description>
+    <externalId>false</externalId>
+    <label>SkipCrewPlanningTriggerOnQualification</label>
+    <type>Checkbox</type>
+</CustomField>

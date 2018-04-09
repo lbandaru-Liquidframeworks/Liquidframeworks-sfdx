@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Job to which the user is granted access in FieldFX Mobile through the sync assignment.</inlineHelpText>
+    <label>Job</label>
+    <referenceTo>Job__c</referenceTo>
+    <relationshipLabel>User Sync Assignments</relationshipLabel>
+    <relationshipName>Sync_Assignment_Job</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

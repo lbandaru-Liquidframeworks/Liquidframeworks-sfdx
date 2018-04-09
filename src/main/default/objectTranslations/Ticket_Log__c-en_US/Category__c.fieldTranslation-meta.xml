@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category --></label>
+    <name>Category__c</name>
+    <picklistValues>
+        <masterLabel>Rig Down</masterLabel>
+        <translation><!-- Rig Down --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rig Up</masterLabel>
+        <translation><!-- Rig Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Run Job</masterLabel>
+        <translation><!-- Run Job --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Safe Meeting</masterLabel>
+        <translation><!-- Safe Meeting --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

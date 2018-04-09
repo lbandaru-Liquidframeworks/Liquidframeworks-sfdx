@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>These actions are triggered by the criteria on the Rule object for the CPQ module.</description>
+    <enableActivities>true</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <label>Rule Action</label>
+    <nameField>
+        <displayFormat>ACT-{0000}</displayFormat>
+        <label>Rule Action Name</label>
+        <trackHistory>true</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Rule Actions</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Price_Book_Rule__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Price_Book__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Price_Book_Item__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Price_Book_Item_Catalog_Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IsActive__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

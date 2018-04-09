@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Customer for which the checklist displays on tickets. If no customer is specified, the checklist displays on the tickets for every customer.</inlineHelpText>
+    <label>Account</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Checklists (Account)</relationshipLabel>
+    <relationshipName>Ticket_Check_Lists</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

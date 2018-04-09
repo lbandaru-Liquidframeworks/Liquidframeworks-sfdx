@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Checking this box includes this contact on the field user&apos;s mobile device.  If this box is not checked, the field user will not see this job contact on their mobile device. --></help>
+    <label><!-- Available to Field --></label>
+    <name>Available_to_Field__c</name>
+</CustomFieldTranslation>

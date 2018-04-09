@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When a job is in this status and viewed within any of the selected apps, the job will be read-only. --></help>
+    <label><!-- Read Only Apps --></label>
+    <name>Read_Only_Apps__c</name>
+    <picklistValues>
+        <masterLabel>Console</masterLabel>
+        <translation><!-- Console --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mobile</masterLabel>
+        <translation><!-- Mobile --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portal</masterLabel>
+        <translation><!-- Portal --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

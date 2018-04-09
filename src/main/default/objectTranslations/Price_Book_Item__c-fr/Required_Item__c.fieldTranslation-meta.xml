@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lorsque cette option est activée, cette option sera ajoutée automatiquement à tous les nouveaux billets.</help>
+    <label>Obligatoire Article</label>
+    <name>Required_Item__c</name>
+</CustomFieldTranslation>

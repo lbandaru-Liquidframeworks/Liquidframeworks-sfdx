@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surcharge_Rate_Env__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Percentage of a ticket item's subtotal to apply as a surcharge for environmental cleanup costs when users add an item from the price book to a ticket. To apply the surcharge on a price book item, you must select "Surcharge Env" for the price book item.</inlineHelpText>
+    <label>Surcharge Rate Env</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>true</trackHistory>
+    <type>Percent</type>
+</CustomField>

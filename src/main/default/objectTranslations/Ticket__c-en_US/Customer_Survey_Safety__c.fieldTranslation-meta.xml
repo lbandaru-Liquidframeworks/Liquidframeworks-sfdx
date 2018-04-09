@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Customer Survey Safety --></label>
+    <name>Customer_Survey_Safety__c</name>
+    <picklistValues>
+        <masterLabel>No Safety Issues</masterLabel>
+        <translation><!-- No Safety Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Safety Issues were a Problem</masterLabel>
+        <translation><!-- Safety Issues were a Problem --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

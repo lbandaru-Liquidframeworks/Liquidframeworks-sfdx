@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sync_to_Mobile__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Select this option to always send this account to all Mobile devices.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Visual indicator that shows whether the account syncs to FieldFX Mobile. You can only control the accounts that sync to FieldFX Mobile using sharing settings and lookup filters.</inlineHelpText>
+    <label>Sync to Mobile</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

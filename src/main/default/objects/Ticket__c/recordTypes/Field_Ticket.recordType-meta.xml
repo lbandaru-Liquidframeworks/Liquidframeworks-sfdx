@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_Ticket</fullName>
+    <active>true</active>
+    <label>Field Ticket</label>
+    <picklistValues>
+        <picklist>Customer_Survey_Performance__c</picklist>
+        <values>
+            <fullName>Average</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Below Average</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excellent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Very Good</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Survey_Safety__c</picklist>
+        <values>
+            <fullName>No Safety Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety Issues were a Problem</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Survey_Satisfaction__c</picklist>
+        <values>
+            <fullName>Disappointed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Satisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Very Satisfied</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

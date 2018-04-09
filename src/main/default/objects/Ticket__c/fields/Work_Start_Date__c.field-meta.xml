@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Start_Date__c</fullName>
+    <defaultValue>now()</defaultValue>
+    <description>The date/time the work started for this ticket.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date and time that work started on the ticket.</inlineHelpText>
+    <label>Work Start Date</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>DateTime</type>
+</CustomField>

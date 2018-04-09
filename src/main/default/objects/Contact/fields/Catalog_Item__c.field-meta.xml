@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Catalog_Item__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This links the person to a specific catalog item so that this person can be added to a field ticket and the app will automatically lookup the person's catalog item in the ticket's job's price book in order to automatically select the correct price book item to add to the ticket.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Labor catalog item for the user's job title.</inlineHelpText>
+    <label>Job Title from Catalog</label>
+    <referenceTo>Catalog_Item__c</referenceTo>
+    <relationshipLabel>Contacts</relationshipLabel>
+    <relationshipName>Contacts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

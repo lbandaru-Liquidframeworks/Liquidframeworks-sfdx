@@ -1,0 +1,15 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "FX5QA__Price_Book__c",
+                "referenceId": "FX5QA__Price_Book__cRef1"
+            },
+            "FX5QA__AddTktItemsByPBSeqNum__c": true,
+            "FX5QA__Effective_Date__c": "2017-03-13",
+            "FX5QA__Expiration_Date__c": "2017-12-31",
+            "FX5QA__Global_Price_Book__c": false,
+            "FX5QA__IsArchived__c": false
+        }
+    ]
+}

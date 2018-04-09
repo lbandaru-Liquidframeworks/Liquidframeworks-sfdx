@@ -1,0 +1,35 @@
+<apex:page controller="FXEditorSearchController" title="{!SearcherTitle}" showHeader="false" sideBar="false"  id="pg">
+  <apex:sectionHeader title="{!SearcherTitle}" rendered="true"/> 
+  <apex:form >
+  <apex:outputPanel id="page" layout="block" style="margin:5px;padding:5px;padding-top:2px;">
+    <apex:actionRegion >  
+          <apex:outputPanel id="top" layout="block" style="margin:5px;padding:5px;padding-top:2px;">           
+            <apex:outputLabel value="Keyword" style="font-weight:Bold;padding-right:5px;" for="txtSearch"/>
+            <apex:inputText id="txtSearch" value="{!KeywordString}" />
+            <span style="padding-left:5px"><apex:commandButton id="btnGo" value="Go" action="{!Search}" rerender="searchResults"></apex:commandButton></span>           
+            <apex:outputLabel style="padding-left:25px" value="Wildcard '*' search is not supported." />
+          </apex:outputPanel> 
+          <apex:outputPanel id="pnlSearchResults" style="margin:5px;height:350px;overflow-Y:auto;" layout="block">           
+            <apex:pageBlock id="searchResults"> 
+              <apex:pageBlockTable value="{!results}" var="a" id="tblResults">
+                <apex:column >
+                  <apex:facet name="header">
+                    <apex:outputPanel >Name</apex:outputPanel>
+                  </apex:facet>
+                   <apex:outputLink value="javascript:top.window.opener.lookupPick2('{!FormTag}','{!TextBox}_lkid','{!TextBox}','{!a.Id}', &#39;{!a['Name']}&#39;, false)" rendered="{!NOT(ISNULL(a.Id))}">{!a["Name"]}</apex:outputLink>    
+                </apex:column>                
+                <apex:repeat value="{!DisplayColumns}" var="f">
+                  <apex:column >
+                    <apex:facet name="header">
+                      <apex:outputPanel >{!f.Label}</apex:outputPanel>
+                    </apex:facet>
+                    <apex:outputLabel value="{!a[f.FieldPath]}" rendered="{!NOT(ISNULL(a[f.FieldPath]))}" />
+                    </apex:column>
+              </apex:repeat>
+              </apex:pageBlockTable>
+            </apex:pageBlock>
+          </apex:outputPanel>
+        </apex:actionRegion>
+  </apex:outputPanel>
+  </apex:form>
+</apex:page>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Locked_Price</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR(PBI_Locked_Price_Markup__c , On_Standby__c), ISCHANGED(Price__c))</errorConditionFormula>
+    <errorDisplayField>Price__c</errorDisplayField>
+    <errorMessage>Cannot change the price as it is locked or the item is on standby pricing.</errorMessage>
+</ValidationRule>

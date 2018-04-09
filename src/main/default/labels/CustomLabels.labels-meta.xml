@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AttachmentExt_Attach_File</fullName>
+        <categories>Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AttachmentExt Attach File</shortDescription>
+        <value>Attach File</value>
+    </labels>
+    <labels>
+        <fullName>AttachmentExt_New_Chatter_File</fullName>
+        <categories>Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AttachmentExt New Chatter File</shortDescription>
+        <value>New Chatter File</value>
+    </labels>
+    <labels>
+        <fullName>AttachmentExt_New_Note</fullName>
+        <categories>Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AttachmentExt New Note</shortDescription>
+        <value>New Note</value>
+    </labels>
+    <labels>
+        <fullName>AttachmentExt_View_All</fullName>
+        <categories>Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AttachmentExt View All</shortDescription>
+        <value>View All</value>
+    </labels>
+</CustomLabels>

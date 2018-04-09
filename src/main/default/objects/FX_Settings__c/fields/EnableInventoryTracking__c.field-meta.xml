@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EnableInventoryTracking__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Set it to true to turn on Inventory Tracking. When it is set to false, the Inventory Tracking module won't run even the Catalog Items have Track Inventory checked.</description>
+    <externalId>false</externalId>
+    <label>EnableInventoryTracking</label>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Price_Book__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Parent price book for the price book. When a price book has a parent, you can select items from its parent price book when building tickets.</inlineHelpText>
+    <label>Parent Price Book</label>
+    <referenceTo>Price_Book__c</referenceTo>
+    <relationshipLabel>Price Books</relationshipLabel>
+    <relationshipName>Price_Books</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,50 @@
+<apex:page controller="ReportingController" sidebar="false">
+<input style="opacity: 0.0; height: 0px" type="submit" onclick="return false;" />
+
+<link rel="stylesheet" href="https://cdn.fieldfx.com/{!$Api.Session_ID}/{!namespaceWithoutUnderscores + '__'}/{!fxCustomSettings.CDN_RV_Resource_URL}/stylescss.css?orgid={!$organization.id}&orgname={!$organization.name}&loginname={!$User.UserName}&userid={!$User.id}&username={!$User.FirstName + ' ' + $User.LastName}" />
+
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/redmond/jquery-ui.css" />
+<script src="../../soap/ajax/34.0/connection.js" type="text/javascript"></script>
+
+<div id="applicationHost"></div>
+<apex:outputPanel Id="isSubjectNotEditable" rendered="{!IsSubjectNotEditable}"></apex:outputPanel>
+  <!-- TRANSFORM PARTNER URL INTO TRUE PROXY URL -->
+  <apex:variable var="PARTNER_URL" value="{!$Api.Partner_Server_URL_290}" />
+  <apex:variable var="PARTNER_URL_SPLIT" value="{!
+    LEFT(PARTNER_URL,FIND('.visual.force.com',PARTNER_URL)-1)
+  }"/>
+  <apex:variable var="POD" value="{!
+    MID(PARTNER_URL_SPLIT,FIND('.',PARTNER_URL_SPLIT)+1,LEN(PARTNER_URL_SPLIT))
+  }"/>
+<apex:variable var="INSTANCE_URL" value="{!'https://' & POD & '.salesforce.com/'}"/>
+
+<script>
+    sforce.connection.sessionId = '{!$Api.Session_ID}'; //required
+    window.sessionId = sforce.connection.sessionId;
+    window.instanceUrl = '{!INSTANCE_URL}';
+
+    var fxUserInfo = JSON.parse('{!fxUserInfoEscaped}');
+    
+    window.user = {
+        language: fxUserInfo.language,
+        locale: fxUserInfo.locale,
+        currency: fxUserInfo.usercurrency,
+        info: fxUserInfo,
+        infoRaw: JSON.parse('{!fxUserInfo}')
+    };
+    
+    window.fxNamespacePrefix = '';
+    window.fxNamespace = '{!namespaceWithoutUnderscores}';
+    
+    if (window.fxNamespace){
+        window.fxNamespacePrefix = window.fxNamespace + '__';
+    }
+
+    window.baseManagedPackageVersion = '{!baseManagedPackageVersion}';
+    window.postEnv = 'https://www.fieldfx.com';
+
+</script>
+
+<script src="https://cdn.fieldfx.com/{!$Api.Session_ID}/{!namespaceWithoutUnderscores + '__'}/{!fxCustomSettings.CDN_RV_Resource_URL}/mainjs.js?orgid={!$organization.id}&orgname={!$organization.name}&loginname={!$User.UserName}&userid={!$User.id}&username={!$User.FirstName + ' ' + $User.LastName}" type="text/javascript"></script>
+
+</apex:page>

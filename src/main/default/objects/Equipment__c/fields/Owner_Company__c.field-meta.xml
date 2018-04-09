@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner_Company__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>What account owns this equipment.  We should by default set this to the user's Account if possible.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Customer that owns the equipment.</inlineHelpText>
+    <label>Owner Company</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Equipment Owner Company</relationshipLabel>
+    <relationshipName>Equipment_Owner</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

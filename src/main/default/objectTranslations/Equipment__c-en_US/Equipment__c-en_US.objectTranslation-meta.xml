@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Equipment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Equipment</value>
+    </caseValues>
+    <layouts>
+        <layout>Equipment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Field Engineer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>Default</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

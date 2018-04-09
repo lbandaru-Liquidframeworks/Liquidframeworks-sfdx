@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sequence_Number__c</fullName>
+    <defaultValue>0</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Number used to determine the order in which the "New Status" displays in Status fields. Status fields sort statuses by the sequence number of their status workflow and then by status name.</inlineHelpText>
+    <label>Sequence Number</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Criteria__c</fullName>
+    <description>This criteria should be a valid Salesforce formula and will be used to determine if actions should be applied in the CPQ module.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Formula that specifies when any linked rule actions apply.</inlineHelpText>
+    <label>Criteria</label>
+    <length>32768</length>
+    <trackHistory>true</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

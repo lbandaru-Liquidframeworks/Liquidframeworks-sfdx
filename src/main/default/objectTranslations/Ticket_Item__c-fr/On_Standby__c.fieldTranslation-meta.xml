@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When checked, this indicates that the item is on standby and the standby pricing should be used. --></help>
+    <label>On Veille</label>
+    <name>On_Standby__c</name>
+</CustomFieldTranslation>

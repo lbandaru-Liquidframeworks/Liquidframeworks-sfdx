@@ -1,0 +1,46 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "FX5QA__Warehouse__c",
+                "referenceId": "FX5QA__Warehouse__cRef1"
+            },
+            "FX5QA__Address_1__c": "24 Greenway Plaza",
+            "FX5QA__Address_2__c": "Suite 405",
+            "FX5QA__City__c": "Houston",
+            "FX5QA__Country__c": "United States",
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Phone__c": "555-8745",
+            "FX5QA__Postal_code__c": "77046",
+            "FX5QA__State__c": "TX",
+            "Name": "Houston (Main)"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Warehouse__c",
+                "referenceId": "FX5QA__Warehouse__cRef2"
+            },
+            "FX5QA__Address_1__c": "24 Greenway Plaza",
+            "FX5QA__Address_2__c": "Suite 405 1/2",
+            "FX5QA__City__c": "Houston",
+            "FX5QA__Country__c": "United States",
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Phone__c": "(281) 555-8746",
+            "FX5QA__Postal_code__c": "77040",
+            "FX5QA__State__c": "TX",
+            "Name": "Houston (Overflow)"
+        },
+        {
+            "attributes": {
+                "type": "FX5QA__Warehouse__c",
+                "referenceId": "FX5QA__Warehouse__cRef3"
+            },
+            "FX5QA__Address_1__c": "501 Crawford St",
+            "FX5QA__City__c": "Houston",
+            "FX5QA__IsArchived__c": false,
+            "FX5QA__Postal_code__c": "77002",
+            "FX5QA__State__c": "Texas",
+            "Name": "Minute Maid Park"
+        }
+    ]
+}

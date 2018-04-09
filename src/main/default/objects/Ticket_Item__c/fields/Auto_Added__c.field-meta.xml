@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Added__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This property indicates that the item was automatically added to the ticket.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If selected, the item was added to the ticket automatically. An item gets added to a ticket automatically if the linked price book item has a default quantity or the linked price book item has a parent price book item.</inlineHelpText>
+    <label>Auto Added</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

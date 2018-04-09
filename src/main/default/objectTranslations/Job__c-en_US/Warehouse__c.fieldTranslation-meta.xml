@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the default warehouse for all tickets created under this job.  This value can be overridden at the ticket and ticket line item level. --></help>
+    <label><!-- Warehouse --></label>
+    <name>Warehouse__c</name>
+    <relationshipLabel><!-- Jobs --></relationshipLabel>
+</CustomFieldTranslation>

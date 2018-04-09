@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "FX5__Price_Book__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "FX5__Price_Book__cs.json"
+        ]
+    }
+]

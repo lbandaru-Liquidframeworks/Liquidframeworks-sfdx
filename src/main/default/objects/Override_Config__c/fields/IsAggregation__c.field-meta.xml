@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsAggregation__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(CONTAINS(UPPER(Override_Fields__c), 'MAX('),CONTAINS(UPPER(Override_Fields__c), 'MIN('),CONTAINS(UPPER(Override_Fields__c), 'SUM('),CONTAINS(UPPER(Override_Fields__c), 'AVG('))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>IsAggregation</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

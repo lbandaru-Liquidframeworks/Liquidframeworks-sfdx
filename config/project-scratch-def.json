@@ -1,0 +1,12 @@
+{
+    "namespace": "FX5QA",
+    "orgName": "SFDX MP Testing",
+    "country": "US",
+    "edition": "Enterprise",
+    "hasSampleData": "false",
+    "features": ["API", "AuthorApex", "CustomApps", "CustomTabs", "DebugApex", "DefaultWorkflowUser", "ForceComPlatform", "MultiCurrency", "PersonAccounts", "LightningSalesConsole"],
+    "orgPreferences": {
+      "enabled": ["S1DesktopEnabled", "AsyncSaveEnabled", "ChatterEnabled", "Translation", "ShowViewHierarchyLink", "IsChatterProfileEnabled"],
+      "disabled": ["IsNameSuffixEnabled"]
+    }
+}

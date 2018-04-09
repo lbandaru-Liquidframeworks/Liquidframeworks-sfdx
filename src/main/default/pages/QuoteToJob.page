@@ -1,0 +1,50 @@
+<apex:page standardController="Ticket__c" extensions="QuoteExtension" id="quoteToJobPage">
+    <apex:includeScript value="{!$Resource.jquery1102minjs}"/>
+    <style type="text/css">
+        div.apexp { 
+           margin-left:-10px;
+        }
+        body { 
+           margin-left:0px !important;
+        }
+        a
+        {
+            text-decoration:none;
+        }
+    </style>
+    <script type="text/javascript">
+            
+       $('td.labelCol.empty').remove();
+       $('td.dataCol.empty').css('width','50%');
+       $('td.labelCol.first').css('vertical-align', 'bottom');
+       $('td.dataCol.first').css('vertical-align', 'bottom');
+       $('input[type=submit]').appendTo('td.dataCol.empty');
+
+       function jsSetNewJobRecordType(newJobRecordTypeId)
+       {
+
+          var inputs = document.getElementsByTagName("input");
+          for (var i = 0; i < inputs.length; i++)
+          {
+             if(inputs[i].id.indexOf("recordTypeForNewJob") >= 0)
+             {
+                 inputs[i].value = newJobRecordTypeId;
+                 break;
+            }
+          }
+       }
+      
+    </script>   
+    <apex:dynamicComponent componentValue="{!form}" id="dynamic"/>
+    
+    <apex:outputPanel id="redirectPanel" >
+            <apex:outputText rendered="{!shouldRedirect}">
+                <script type="text/javascript">
+                    window.top.location.href = '{!JSENCODE(redirectUrl)}';
+                </script>
+            </apex:outputText>
+    </apex:outputPanel>
+
+   
+
+</apex:page>

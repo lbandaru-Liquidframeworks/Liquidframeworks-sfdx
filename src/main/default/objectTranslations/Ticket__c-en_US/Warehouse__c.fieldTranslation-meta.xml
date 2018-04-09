@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the warehouse from which all inventory items are pulled for this ticket.  This value is defaulted to what is found at the job level on ticket create. --></help>
+    <label><!-- Warehouse --></label>
+    <name>Warehouse__c</name>
+    <relationshipLabel><!-- Tickets --></relationshipLabel>
+</CustomFieldTranslation>

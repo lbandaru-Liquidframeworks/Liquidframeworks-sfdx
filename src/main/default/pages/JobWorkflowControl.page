@@ -1,0 +1,29 @@
+<apex:page lightningStyleSheets="true" standardController="Job__c" extensions="WorkflowControllerExtension" id="page">
+    <apex:includeScript value="{!$Resource.jquery1102minjs}"/>
+    <style type="text/css">
+        div.apexp {
+           margin-left:-10px;
+        }
+        body {
+           margin-left:0px !important;
+        }
+        a
+        {
+            text-decoration:none;
+        }
+    </style>
+
+    <apex:PageMessages />
+
+    <apex:dynamicComponent componentValue="{!form}" id="dynamic"/>
+    <script type="text/javascript">
+       var pagePath = document.getElementsByTagName('form')[0].id;
+       var aList = document.getElementsByTagName('a');
+       if(aList.length>0) {
+          aList[0].onclick = function() { return false; };
+       }
+       $('td.labelCol.empty').remove();
+       $('td.dataCol.empty').css('width','50%');
+       $('input[type=submit]').appendTo('td.dataCol.empty');
+    </script>
+</apex:page>

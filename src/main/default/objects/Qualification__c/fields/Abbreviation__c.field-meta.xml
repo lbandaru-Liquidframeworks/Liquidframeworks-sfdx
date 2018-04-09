@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Abbreviation__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>This is the abbreviation for the qualification. Keep this as short as possible because it will affect several screens on the web site as well as the Mobile apps.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Abbreviation used to identify the qualification.</inlineHelpText>
+    <label>Abbreviation</label>
+    <length>16</length>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

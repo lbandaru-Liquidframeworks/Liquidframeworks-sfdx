@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apply_Null__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If Apply Null is true, it would allow clearing the value with override.</description>
+    <externalId>false</externalId>
+    <label>Apply Null</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

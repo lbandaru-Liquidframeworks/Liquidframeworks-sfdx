@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TicketItemWarehouseQty__c</fullName>
+    <defaultValue>'Qty__c'</defaultValue>
+    <description>The API name of quantity field for WarehouseItem inventory update</description>
+    <externalId>false</externalId>
+    <label>TicketItemWarehouseQty</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

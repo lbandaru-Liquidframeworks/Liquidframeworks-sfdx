@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Book_is_Consistent</fullName>
+    <active>true</active>
+    <description>The price book for the rule must match the price book on the price book item.</description>
+    <errorConditionFormula>Price_Book_Item__r.Price_Book__c &lt;> Price_Book_Rule__r.Price_Book__c</errorConditionFormula>
+    <errorDisplayField>Price_Book_Item__c</errorDisplayField>
+    <errorMessage>The price book item must be in the same price book as the rule.</errorMessage>
+</ValidationRule>

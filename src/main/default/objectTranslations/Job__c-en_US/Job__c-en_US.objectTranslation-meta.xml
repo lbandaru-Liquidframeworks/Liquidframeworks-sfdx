@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Job</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Jobs</value>
+    </caseValues>
+    <layouts>
+        <layout>Field Engineer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Job Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Job Directions --></label>
+            <section>Job Directions</section>
+        </sections>
+        <sections>
+            <label><!-- Scheduling --></label>
+            <section>Scheduling</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Service --></label>
+        <name>Service</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Edit_Job_Directions --></label>
+        <name>Edit_Job_Directions</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Job_Whiteboard --></label>
+        <name>Job_Whiteboard</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Map_Job_Location --></label>
+        <name>Map_Job_Location</name>
+    </webLinks>
+</CustomObjectTranslation>

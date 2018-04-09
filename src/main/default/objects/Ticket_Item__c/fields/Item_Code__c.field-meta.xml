@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Item_Code__c</fullName>
+    <description>The item code from the associated price list item and catalog item.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Catalog item code for the ticket item. The ticket item inherits this item code from the linked catalog item.</inlineHelpText>
+    <label>Item Code</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

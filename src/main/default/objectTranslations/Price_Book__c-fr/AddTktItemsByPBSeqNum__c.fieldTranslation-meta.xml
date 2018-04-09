@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, price book items, when added to a ticket, should honor the sequence number.  Otherwise they will be inserted at the end of the ticket. --></help>
+    <label>Honore Numéro de séquence</label>
+    <name>AddTktItemsByPBSeqNum__c</name>
+</CustomFieldTranslation>

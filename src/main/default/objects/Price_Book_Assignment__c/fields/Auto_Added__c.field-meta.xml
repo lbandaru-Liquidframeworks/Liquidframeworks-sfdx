@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Added__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Flag to indicate whether or not the entry is auto added by the system, for example SyncConfiguration trigger.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If selected, the price book assignment was created automatically by the system. A price book assignment gets created automatically if a user has access to a price book through a sync configuration.</inlineHelpText>
+    <label>Auto Added</label>
+    <type>Checkbox</type>
+</CustomField>

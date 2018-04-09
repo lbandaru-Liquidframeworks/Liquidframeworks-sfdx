@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Catalog_Item__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Catalog item linked to the price book item. The price book item inherits information such as unit of measurement and cost from the linked catalog item.</inlineHelpText>
+    <label>Catalog Item</label>
+    <referenceTo>Catalog_Item__c</referenceTo>
+    <relationshipLabel>Price Book Items</relationshipLabel>
+    <relationshipName>Price_Book_Items</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>true</trackHistory>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

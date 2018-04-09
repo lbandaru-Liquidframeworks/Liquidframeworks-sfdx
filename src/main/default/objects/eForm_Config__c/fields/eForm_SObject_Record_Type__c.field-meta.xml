@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>eForm_SObject_Record_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>FX Form record type for which the FX Form is available. If no record type is specified, the FX Form is available for every record type.</inlineHelpText>
+    <label>eForm SObject Record Type</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

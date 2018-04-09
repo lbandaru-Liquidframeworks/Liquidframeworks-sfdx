@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Percent__c</fullName>
+    <defaultValue>0</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Percentage discount granted on the ticket item. The ticket item inherits this discount from the linked price book item. Users can change the discount when adding a ticket if granted sufficient permissions.</inlineHelpText>
+    <label>Discount Percent</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>true</trackHistory>
+    <type>Percent</type>
+</CustomField>

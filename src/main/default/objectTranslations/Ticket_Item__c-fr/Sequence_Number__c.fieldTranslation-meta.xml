@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the order in which the ticket items should appear.  It is copied down from the price book item level on each add of an item to a ticket.  The user can override it via drag down of the items on the ticket. --></help>
+    <label><!-- Sequence Number --></label>
+    <name>Sequence_Number__c</name>
+</CustomFieldTranslation>

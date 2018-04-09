@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Price_Book_Item_Description__c</fullName>
+    <externalId>false</externalId>
+    <formula>Parent_Price_Book_Item__r.Catalog_Description__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Catalog description for the price book item's parent price book item.</inlineHelpText>
+    <label>Parent Price Book Item Description</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

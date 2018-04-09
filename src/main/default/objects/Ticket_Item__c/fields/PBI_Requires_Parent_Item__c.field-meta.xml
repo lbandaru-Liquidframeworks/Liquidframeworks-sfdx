@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PBI_Requires_Parent_Item__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When this is checked, the item cannot be added to a ticket by itself. It can only be associated as a child item of another price book item and then added to a ticket by adding the respective parent item.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If selected, the item and its parent price book item get added automatically to all new tickets.</inlineHelpText>
+    <label>PBI Requires Parent Item</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

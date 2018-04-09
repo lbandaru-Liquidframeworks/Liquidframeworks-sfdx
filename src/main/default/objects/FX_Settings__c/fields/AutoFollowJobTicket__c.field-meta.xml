@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutoFollowJobTicket__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Automatically follow the Job and its Tickets on Chatter if the user has an entry in Job subscription (SyncAssignment). When the user is removed from SyncAssignment, stop following Job/Ticket.</description>
+    <externalId>false</externalId>
+    <label>Auto Follow Job and Ticket</label>
+    <type>Checkbox</type>
+</CustomField>

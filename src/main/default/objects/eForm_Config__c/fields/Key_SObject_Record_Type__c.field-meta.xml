@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_SObject_Record_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Record type for which the FX Form is available. If no record type is specified, the FX Form is available for every record type.</inlineHelpText>
+    <label>Key SObject Record Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Field_Ticket</fullName>
+                <default>false</default>
+                <label>Field_Ticket</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

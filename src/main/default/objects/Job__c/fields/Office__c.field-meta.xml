@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Office__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Office responsible for completing the job.</inlineHelpText>
+    <label>Office</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Jobs (Office)</relationshipLabel>
+    <relationshipName>Jobs1</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

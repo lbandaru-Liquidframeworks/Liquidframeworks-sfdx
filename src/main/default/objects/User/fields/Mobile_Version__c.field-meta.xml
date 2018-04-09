@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mobile_Version__c</fullName>
+    <description>Mobile version currently in use.</description>
+    <externalId>false</externalId>
+    <label>Mobile Version</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Sync V4 Beta</fullName>
+                <default>false</default>
+                <label>Sync V4 Beta</label>
+            </value>
+            <value>
+                <fullName>Sync V4</fullName>
+                <default>false</default>
+                <label>Sync V4</label>
+            </value>
+            <value>
+                <fullName>V4 Quarterly Beta</fullName>
+                <default>false</default>
+                <label>V4 Quarterly Beta</label>
+            </value>
+            <value>
+                <fullName>V4 Quarterly</fullName>
+                <default>false</default>
+                <label>V4 Quarterly</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

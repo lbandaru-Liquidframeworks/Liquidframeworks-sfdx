@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preventative_Maintenance_Schedule__c</fullName>
+    <externalId>false</externalId>
+    <label>Preventative Maintenance Schedule</label>
+    <referenceTo>Preventative_Maintenance_Schedule__c</referenceTo>
+    <relationshipLabel>Preventative Maintenance Criteria</relationshipLabel>
+    <relationshipName>Preventative_Maintenance_Criteria</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

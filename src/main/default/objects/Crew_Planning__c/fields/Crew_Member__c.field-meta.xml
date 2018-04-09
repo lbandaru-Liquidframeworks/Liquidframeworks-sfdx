@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Crew_Member__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Employee scheduled to work on the job.</inlineHelpText>
+    <label>Crew Member</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Crew Planning</relationshipLabel>
+    <relationshipName>Crew_Planning1</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

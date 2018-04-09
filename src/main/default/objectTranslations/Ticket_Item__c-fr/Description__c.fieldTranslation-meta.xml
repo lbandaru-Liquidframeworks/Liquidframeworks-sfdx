@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field gets populated with the catalog item description of the selected price book item unless the price book item has its Catalog Description Override field populated in which case it is populated with that. --></help>
+    <label>Description</label>
+    <name>Description__c</name>
+</CustomFieldTranslation>
